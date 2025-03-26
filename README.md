@@ -1,3 +1,5 @@
+![SuperWE logo banner](https://github.com/user-attachments/assets/64479c69-faa3-4633-8fc8-3d851d00e8bc)
+
 SuperWE
 ================================================================
 An [OpenWE](https://github.com/Sicraftails/SMM-WE-OpenWE) fork
