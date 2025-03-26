@@ -31,5 +31,7 @@ Note
 As SuperWE is still in early alpha, don't expect the code to look
 fantastic. I am trying my best to improve it!
 
-> ![WARNING]
-> SuperWE and OpenWE is licensed under the GNU AGPLv3 license. The license states, that you must release the source code along with your modified version of World Engine!
+> [!WARNING]
+> SuperWE and OpenWE is licensed under the GNU AGPLv3 license. The
+> license states, that you must release the source code along with
+> your modified version of World Engine!
