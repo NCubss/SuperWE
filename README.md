@@ -1,6 +1,7 @@
 SuperWE
 ================================================================
-An OpenWE fork containing many changes and new content.
+An [OpenWE](https://github.com/Sicraftails/SMM-WE-OpenWE) fork
+containing many changes and new content.
 
 This fork has some refactors (such as how string localizing works)
 and adds new features (such as the star coin and the _World Maker,
