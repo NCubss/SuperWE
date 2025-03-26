@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_NSMBU_wall_slide",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_NSMBU_wall_slide",
+  "parent":{
+    "name":"marioU",
+    "path":"folders/Scripts/marioU.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

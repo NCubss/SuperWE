@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_NSMBU_warp",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.998458,
+  "name":"snd_NSMBU_warp",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_NSMBU_warp.ogg",
+  "type":1,
+  "volume":0.6,
+}

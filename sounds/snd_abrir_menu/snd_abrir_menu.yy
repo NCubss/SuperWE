@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_abrir_menu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.785351,
+  "name":"snd_abrir_menu",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_abrir_menu",
+  "type":1,
+  "volume":0.66,
+}

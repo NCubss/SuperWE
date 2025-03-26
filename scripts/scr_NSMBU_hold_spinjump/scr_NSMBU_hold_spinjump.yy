@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_NSMBU_hold_spinjump",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_NSMBU_hold_spinjump",
+  "parent":{
+    "name":"marioU",
+    "path":"folders/Scripts/marioU.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_course_clear",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":92.12767,
+  "name":"snd_course_clear",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_course_clear.ogg",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_musicalscale_SMB3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_musicalscale_SMB3",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Scripts/Sounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_SMB_link_getitem",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.138345,
+  "name":"snd_SMB_link_getitem",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_SMB_link_getitem",
+  "type":1,
+  "volume":1.0,
+}

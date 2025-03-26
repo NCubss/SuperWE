@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_link_arrow_walk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_link_arrow_walk",
+  "parent":{
+    "name":"Mario",
+    "path":"folders/Scripts/Mario.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

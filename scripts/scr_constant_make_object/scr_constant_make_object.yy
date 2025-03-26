@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_constant_make_object",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_constant_make_object",
+  "parent":{
+    "name":"Sprites",
+    "path":"folders/Scripts/Sprites.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

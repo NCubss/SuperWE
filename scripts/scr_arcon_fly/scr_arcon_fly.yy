@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_arcon_fly",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_arcon_fly",
+  "parent":{
+    "name":"marioU",
+    "path":"folders/Scripts/marioU.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

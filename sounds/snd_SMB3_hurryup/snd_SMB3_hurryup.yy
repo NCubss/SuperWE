@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_SMB3_hurryup",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":3.225344,
+  "name":"snd_SMB3_hurryup",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_SMB3_hurryup.wav",
+  "type":1,
+  "volume":1.0,
+}

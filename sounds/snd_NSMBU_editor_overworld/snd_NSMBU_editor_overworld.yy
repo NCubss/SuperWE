@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_NSMBU_editor_overworld",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":41.103672,
+  "name":"snd_NSMBU_editor_overworld",
+  "parent":{
+    "name":"Editor songs",
+    "path":"folders/Sounds/Editor songs.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_NSMBU_editor_overworld",
+  "type":1,
+  "volume":0.73,
+}

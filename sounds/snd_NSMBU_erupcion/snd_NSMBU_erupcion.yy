@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_NSMBU_erupcion",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":3,
+  "conversionMode":0,
+  "duration":2.282812,
+  "name":"snd_NSMBU_erupcion",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_NSMBU_erupcion.wav",
+  "type":1,
+  "volume":1.0,
+}

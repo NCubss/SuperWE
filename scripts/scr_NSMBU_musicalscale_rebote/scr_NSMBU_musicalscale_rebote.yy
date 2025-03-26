@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_NSMBU_musicalscale_rebote",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_NSMBU_musicalscale_rebote",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Scripts/Sounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

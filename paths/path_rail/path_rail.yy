@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"path_rail",
+  "closed":true,
+  "kind":0,
+  "name":"path_rail",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":1.0,"x":0.0,"y":0.0,},
+    {"speed":1.0,"x":20.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

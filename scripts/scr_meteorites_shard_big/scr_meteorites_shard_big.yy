@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_meteorites_shard_big",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_meteorites_shard_big",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+menu_btn = instance_create(0, 0, obj_menu_editor);
