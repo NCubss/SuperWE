@@ -3,17 +3,11 @@ if ((instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1) || globa
 	switch global.theme
 	{
 		case "underground":
-			color = #FEFEFE;
-			break
 		case "castle":
-			color = #FEFEFE;
-			break
 		case "underwater":
-			color = #FEFEFE;
-			break
 		case "ghost":
 			color = #FEFEFE;
-			break
+			break;
 		default:
 			if (global.night == 1)
 			{
@@ -36,6 +30,7 @@ if ((instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1) || globa
 	if (global.in_world_editor) {
 		tile_width = 48;
 		tile_height = 48;
+		color = #000000;
 	}
 	var repeat_w = ceil(room_width / tile_width);
 	var repeat_h = ceil(room_height / tile_width);
