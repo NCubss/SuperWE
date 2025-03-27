@@ -17,7 +17,7 @@ if (instance_exists(obj_bowserjr_shell) && (!audio_is_playing(scr_snd_bowserjr_s
 	audio_play_sound(scr_snd_bowserjr_shell(), 1, true)
 else if (audio_is_playing(scr_snd_bowserjr_shell()) && ((!instance_exists(obj_bowserjr_shell)) || (!instance_exists(obj_mario))))
 	audio_stop_sound(scr_snd_bowserjr_shell())
-if (global.night == 1 && editor == 0 && (global.bg_level == "ghost" || global.bg_level == "underwater"))
+if (global.night == 1 && editor == 0 && (global.theme == "ghost" || global.theme == "underwater"))
 {
 	if (!instance_exists(obj_lighting))
 		instance_create(0, 0, obj_lighting)
@@ -27,7 +27,7 @@ else if instance_exists(obj_lighting)
 	with (obj_lighting)
 		instance_destroy()
 }
-if (global.condiciones_count == 2 && (!instance_exists(obj_condiciones)) && ((global.bg_level != "forest" && global.bg_level != "beach") || (instance_exists(obj_arrow_lock) && instance_exists(obj_lava_water) && obj_lava_water.y > obj_arrow_lock.y)))
+if (global.condiciones_count == 2 && (!instance_exists(obj_condiciones)) && ((global.theme != "forest" && global.theme != "beach") || (instance_exists(obj_arrow_lock) && instance_exists(obj_lava_water) && obj_lava_water.y > obj_arrow_lock.y)))
 	global.condiciones_count = 0
 if (keyboard_check_pressed(vk_control) && obj_persistent.modo_android == 1)
 {
@@ -268,7 +268,7 @@ if (global.condiciones == 1 && editor == 0)
 				}
 				break
 			case 2:
-				if (instance_exists(obj_mario) && (global.bg_level == "forest" || global.bg_level == "beach") && obj_mario.isswim == 0)
+				if (instance_exists(obj_mario) && (global.theme == "forest" || global.theme == "beach") && obj_mario.isswim == 0)
 				{
 					global.condiciones_clear = 0
 					with (obj_alert_condicion)

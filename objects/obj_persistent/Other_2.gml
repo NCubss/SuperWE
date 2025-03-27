@@ -55,8 +55,6 @@ if file_exists((working_directory + "Settings_new.dat"))
     file_text_readln(file)
     global.audiomaster = real(file_text_read_string(file))
     file_text_readln(file)
-    global.sm4j_style = real(file_text_read_string(file))
-    file_text_readln(file)
 	global.effect_star = real(file_text_read_string(file))
     file_text_readln(file)
     global.my1 = file_text_read_string(file)
@@ -82,6 +80,7 @@ else
     global.lanzar_agarrar = 37
     global.pause = 32
     global.w_scale = 1
+	global.language = 1
 }
 alarm[5] = 1
 audio_play_sound(snd_coin, 0, false)

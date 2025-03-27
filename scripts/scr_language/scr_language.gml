@@ -1058,6 +1058,6 @@ function lang(language) {
 		case Language.CHINESE:
 			return global.languages.zh;
 		default:
-			throw(string_ext("Invalid language {0}", [string(language)]));
+			throw(string("Invalid language {0}", string(language)));
 	}
 }
