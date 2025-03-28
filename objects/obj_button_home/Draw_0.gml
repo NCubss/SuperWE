@@ -1,5 +1,4 @@
 var posy, c_color, text;
-show_debug_message(image_index);
 switch (image_index) {
 	case 0:
 		posy = 108;
