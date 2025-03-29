@@ -10,6 +10,6 @@ with (instance_create((x + 8), (y + 9), obj_ventana))
     selected_2 = 0
     selected_3 = 0
 	selected_4 = 1
-    number = 7
+    number = 11
 }
 

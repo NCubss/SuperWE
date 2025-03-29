@@ -15,6 +15,7 @@ switch transform
         break
 	case 3:
 		instance_create(x, y, obj_coin_star_res)
+		break
 }
 
 if instance_exists(obj_card_item)

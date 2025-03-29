@@ -13,6 +13,9 @@ switch transform
         global.coin10 = 1
         instance_create(x, y, obj_coin30_res)
         break
+	case 3:
+		instance_create(x, y, obj_coin_star_res)
+		break
 }
 
 if instance_exists(obj_card_item)
@@ -31,6 +34,10 @@ if instance_exists(obj_card_item)
                     obj = obj_coin30_res
                     obj_draw = 48
                     break
+				case 3:
+					obj = obj_coin_star_res
+					obj_draw = 234
+					break
             }
 
         }
