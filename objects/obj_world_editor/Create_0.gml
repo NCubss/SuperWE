@@ -1,15 +1,20 @@
 global.in_world_editor = true;
-
+// Should the user be able to place or delete tiles right now?
+can_interact = true;
+// Contains each tile object ID.
 tile_data = [[]];
 
 // fill the tile data with false
 for (var i = 64; i > 0; i--) {
 	for (var j = 64; j > 0; j--) {
-		tile_data[i, j] = false;
+		tile_data[i, j] = undefined;
 	}
 }
-
-tile_data[32, 32] = true;
+with (instance_create(32 * 48, 32 * 48, obj_world_ground)) {
+	gridx = 32;
+	gridy = 32;
+	other.tile_data[32, 32] = id;
+}
 
 camera_set_view_pos(
 	view_camera[0],

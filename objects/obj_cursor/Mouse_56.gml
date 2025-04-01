@@ -45,3 +45,8 @@ if (instance_exists(obj_water_move_limit) && obj_water_move_limit.drag == 1)
             event_user(0)
     }
 }
+with (obj_world_editor) {
+	if (room == rm_world_editor) {
+		other.i_index = 0;
+	}
+}

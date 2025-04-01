@@ -16,6 +16,7 @@ if ((!instance_exists(obj_settings_panel)) && instance_exists(obj_cursor) && obj
         with (obj_guardabot)
             can_anim = 1
     }
-
-
+	with (obj_world_editor) {
+		can_interact = true;
+	}
 }

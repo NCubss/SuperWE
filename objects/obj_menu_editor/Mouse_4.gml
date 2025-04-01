@@ -11,4 +11,7 @@ if (instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1 && obj_edi
 		obj_card_item.active = 0
 		global.select_resource = obj_resource_empty
 	}
+	with (obj_world_editor) {
+		can_interact = false;
+	}
 }

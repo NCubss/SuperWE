@@ -1,3 +1,4 @@
+/// @description	Place down currently selected item
 if (instance_exists(obj_levelmanager) && global.resource_create == 1 && mouse_y < (room_height - 2) && mouse_y > 0 && mouse_x > 0 && mouse_x < (room_width - 2) && (!instance_exists(obj_edit_menu)))
 {
     audio_stop_sound(snd_mario_add)

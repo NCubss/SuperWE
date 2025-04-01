@@ -67,3 +67,9 @@ if instance_exists(obj_ventana_mario)
             can_anim2 = 1
     }
 }
+// change to grabbing cursor if it is on a tile
+with (obj_world_editor) {
+	if (tile_data[mouse_x div 48, mouse_y div 48] ) {
+		other.i_index = 1;
+	}
+}
