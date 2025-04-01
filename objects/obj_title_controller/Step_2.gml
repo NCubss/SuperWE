@@ -15,15 +15,6 @@ if (ready == 1)
         with (obj_mario)
             disablecontrols = 1
     }
-    anim[cont] += 15
-    if (anim[cont] > 8)
-    {
-        if (cont == 13)
-        {
-            alarm[1] = 10
-            ready = 2
-        }
-        cont++
-    }
+    alarm[2] = 1;
+	ready = 0;
 }
-

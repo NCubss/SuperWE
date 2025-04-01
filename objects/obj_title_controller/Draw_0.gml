@@ -1,27 +1,15 @@
-/*
-draw_sprite(spr_letters_super, dark, (camera_get_view_x(view_get_camera(0)) + 96), ((camera_get_view_y(view_get_camera(0)) + 36) + anim[11]))
-draw_sprite(sprite, 0, (camera_get_view_x(view_get_camera(0)) + 96), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[10]))
-draw_sprite(sprite, 1, (camera_get_view_x(view_get_camera(0)) + 119), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[9]))
-draw_sprite(sprite, 2, (camera_get_view_x(view_get_camera(0)) + 138), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[8]))
-draw_sprite(sprite, 3, (camera_get_view_x(view_get_camera(0)) + 157), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[7]))
-draw_sprite(sprite, 4, (camera_get_view_x(view_get_camera(0)) + 165), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[6]))
-draw_sprite(sprite, 0, (camera_get_view_x(view_get_camera(0)) + 195), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[5]))
-draw_sprite(sprite, 1, (camera_get_view_x(view_get_camera(0)) + 218), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[4]))
-draw_sprite(sprite, 5, (camera_get_view_x(view_get_camera(0)) + 237), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[3]))
-draw_sprite(sprite, 6, (camera_get_view_x(view_get_camera(0)) + 256), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[2]))
-draw_sprite(sprite, 2, (camera_get_view_x(view_get_camera(0)) + 273), ((camera_get_view_y(view_get_camera(0)) + 57) + anim[1]))
-draw_sprite(spr_we, dark, (camera_get_view_x(view_get_camera(0)) + 214), ((camera_get_view_y(view_get_camera(0)) + 90) + anim[0]))
-*/
+// The logo is split into letters, which are split further into 3 layers
+// They are split so they look good if they are moving separately
 var logo_pos_x = camera_get_view_x(view_get_camera(0)) + 46;
 var logo_pos_y = camera_get_view_y(view_get_camera(0)) + 46;
 for (var i = 0; i < 3; i++) {
 	draw_sprite(spr_letter_super_s, i, logo_pos_x, logo_pos_y + anim[0]);
-	draw_sprite(spr_letter_super_u, i, logo_pos_x, logo_pos_y + anim[2]);
-	draw_sprite(spr_letter_super_p, i, logo_pos_x, logo_pos_y + anim[4]);
-	draw_sprite(spr_letter_super_e, i, logo_pos_x, logo_pos_y + anim[6]);
-	draw_sprite(spr_letter_super_r, i, logo_pos_x, logo_pos_y + anim[8]);
-	draw_sprite(spr_letter_we_w, i, logo_pos_x, logo_pos_y + anim[10]);
-	draw_sprite(spr_letter_we_e, i, logo_pos_x, logo_pos_y + anim[12]);
+	draw_sprite(spr_letter_super_u, i, logo_pos_x, logo_pos_y + anim[1]);
+	draw_sprite(spr_letter_super_p, i, logo_pos_x, logo_pos_y + anim[2]);
+	draw_sprite(spr_letter_super_e, i, logo_pos_x, logo_pos_y + anim[3]);
+	draw_sprite(spr_letter_super_r, i, logo_pos_x, logo_pos_y + anim[4]);
+	draw_sprite(spr_letter_we_w, i, logo_pos_x, logo_pos_y + anim[5]);
+	draw_sprite(spr_letter_we_e, i, logo_pos_x, logo_pos_y + anim[6]);
 }
 
 draw_set_font(global.font_google)

@@ -1,17 +1,18 @@
-var i;
-image_speed = 0
+ffimage_speed = 0
 image_index = 0
 ready = 0
 sprite = 0
 dark = 0
-i = 0
-repeat (13)
-{
-    anim[i] = 0
-    i++
-}
-cont = 0
 scale = 1
+anim1 = 0;
+anim2 = 0;
+anim3 = 0;
+anim4 = 0;
+anim5 = 0;
+anim6 = 0;
+anim7 = 0;
+anim = [0, 0, 0, 0, 0, 0, 0];
+anim_idx = 0;
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 108), obj_curtainin))
     fallow = 1
 
