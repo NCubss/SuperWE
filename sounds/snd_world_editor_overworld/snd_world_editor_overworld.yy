@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":10.109388,
+  "duration":10.14907,
   "name":"snd_world_editor_overworld",
   "parent":{
     "name":"World Maker songs",
