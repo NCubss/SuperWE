@@ -12,6 +12,7 @@ if (instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1 && obj_edi
 		global.select_resource = obj_resource_empty
 	}
 	with (obj_world_editor) {
+		pause = true;
 		can_interact = false;
 	}
 }

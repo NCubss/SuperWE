@@ -9,3 +9,8 @@ camera_set_view_pos(
 	camera_get_view_x(view_camera[0]) + axis_x * spd,
 	camera_get_view_y(view_camera[0]) + axis_y * spd
 );
+if (pause) {
+	audio_pause_sound(snd_world_editor_overworld);
+} else {
+	audio_resume_sound(snd_world_editor_overworld);
+}

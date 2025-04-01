@@ -1,3 +1,4 @@
+with (obj_world_editor) if (pause) exit;
 // tap sound effect
 audio_play_sound(snd_ground_bomb, 1, false);
 // spawn the ripple effect

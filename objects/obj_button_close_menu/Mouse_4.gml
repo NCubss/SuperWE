@@ -17,6 +17,7 @@ if ((!instance_exists(obj_settings_panel)) && instance_exists(obj_cursor) && obj
             can_anim = 1
     }
 	with (obj_world_editor) {
+		pause = false;
 		can_interact = true;
 	}
 }

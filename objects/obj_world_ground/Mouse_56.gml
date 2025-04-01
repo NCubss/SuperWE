@@ -1,3 +1,4 @@
+with (obj_world_editor) if (pause) exit;
 if (dragging || grabbing) {
 	audio_play_sound(snd_colocar_objectos, 1, false);
 	dragging = false;

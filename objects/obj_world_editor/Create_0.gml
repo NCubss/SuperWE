@@ -1,6 +1,10 @@
 global.in_world_editor = true;
+// play music
+audio_play_sound(snd_world_editor_overworld, 0, true);
 // Should the user be able to place or delete tiles right now?
 can_interact = true;
+// Is the main menu open?
+pause = false;
 // Contains each tile object ID.
 tile_data = [[]];
 

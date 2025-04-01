@@ -1,3 +1,4 @@
+with (obj_world_editor) if (pause) exit;
 if (grabbing) {
 	// check if mouse has gone far enough to start
 	// dragging
