@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.508027,
   "name":"snd_ground_bomb",
   "parent":{
     "name":"Sounds",

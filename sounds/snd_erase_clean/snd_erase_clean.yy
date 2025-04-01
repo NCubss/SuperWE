@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.593356,
   "name":"snd_erase_clean",
   "parent":{
     "name":"Sounds",

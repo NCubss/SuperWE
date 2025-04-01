@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.875102,
   "name":"snd_es_bocina",
   "parent":{
     "name":"Sounds",

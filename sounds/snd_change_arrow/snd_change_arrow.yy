@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.340023,
   "name":"snd_change_arrow",
   "parent":{
     "name":"Sounds",

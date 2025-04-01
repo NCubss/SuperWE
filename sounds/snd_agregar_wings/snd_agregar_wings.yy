@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.117347,
   "name":"snd_agregar_wings",
   "parent":{
     "name":"Sounds",

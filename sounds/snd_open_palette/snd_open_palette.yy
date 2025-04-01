@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.88932,
   "name":"snd_open_palette",
   "parent":{
     "name":"Sounds",

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.724014,
   "name":"snd_stomp",
   "parent":{
     "name":"Sounds",

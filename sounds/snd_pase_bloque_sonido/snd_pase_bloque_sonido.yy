@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.521361,
   "name":"snd_pase_bloque_sonido",
   "parent":{
     "name":"Sounds",

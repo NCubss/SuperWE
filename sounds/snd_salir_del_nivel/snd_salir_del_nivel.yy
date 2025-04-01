@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.3,
   "name":"snd_salir_del_nivel",
   "parent":{
     "name":"Sounds",

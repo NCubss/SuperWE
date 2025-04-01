@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":3.960454,
   "name":"snd_bowser_dead",
   "parent":{
     "name":"Sounds",

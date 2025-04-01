@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.566689,
   "name":"snd_button_pausa_move",
   "parent":{
     "name":"Sounds",
