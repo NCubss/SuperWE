@@ -222,6 +222,10 @@ draw_text_color(x_pos, ((y + offset) - yy), lang().credits.programmers, c_title,
 offset += 12;
 draw_text(x_pos, ((y + offset) - yy), "NCubs");
 offset += 24;
+draw_text_color(x_pos, ((y + offset) - yy), lang().credits.sfx, c_title, c_title, c_title, c_title, alpha);
+offset += 12;
+draw_text(x_pos, ((y + offset) - yy), "Yoshi");
+offset += 24;
 draw_text_color(x_pos, ((y + offset) - yy), lang().credits.spriters, c_title, c_title, c_title, c_title, alpha);
 offset += 12;
 draw_text(x_pos, ((y + offset) - yy), "NCubs");
