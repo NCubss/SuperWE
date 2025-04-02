@@ -14,14 +14,14 @@ for (var i = 64; i > 0; i--) {
 		tile_data[i, j] = undefined;
 	}
 }
-with (instance_create(32 * 48, 32 * 48, obj_world_ground)) {
-	gridx = 32;
-	gridy = 32;
-	other.tile_data[32, 32] = id;
+with (instance_create(16 * 48, 16 * 48, obj_world_ground)) {
+	gridx = 16;
+	gridy = 16;
+	other.tile_data[16, 16] = id;
 }
 
 camera_set_view_pos(
 	view_camera[0],
-	1536 - (camera_get_view_width(view_camera[0]) / 2),
-	1536 - (camera_get_view_height(view_camera[0]) / 2)
+	768 - (camera_get_view_width(view_camera[0]) / 2),
+	768 - (camera_get_view_height(view_camera[0]) / 2)
 );

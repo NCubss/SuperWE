@@ -7,7 +7,7 @@ randomise();
 
 global.game = {
 	name: "SuperWE",
-	version: "1.0.0"
+	version: "upcoming"
 }
 global.in_world_editor = false;
 
@@ -90,7 +90,7 @@ if (os_type == os_android) {
 }
 global.save_changes = 0;
 global.controles_tactiles = 1;
-//global.sm4j_style = 0;
+global.sm4j_style = 0;
 global.effect_star = 1;
 global.language = 0;
 global.night = 0;

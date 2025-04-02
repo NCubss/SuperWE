@@ -145,10 +145,7 @@
               },"Disabled":false,"id":"9b921c91-efab-4e83-87fe-54b99e3721c4","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange":{
-      "x":0.0,
-      "y":0.0,
-    },
+    "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
     "yorigin":9,

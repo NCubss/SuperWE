@@ -49,7 +49,9 @@ if file_exists((working_directory + "Settings_new.dat"))
     file_text_readln(file)
     global.name_users = file_text_read_string(file)
     file_text_readln(file)
-    global.language = real(file_text_read_string(file))
+	// English only works currently
+    // global.language = real(file_text_read_string(file))
+	global.language = Language.ENGLISH;
     file_text_readln(file)
     global.w_scale = real(file_text_read_string(file))
     file_text_readln(file)
