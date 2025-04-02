@@ -36,14 +36,23 @@ if ((instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1) || globa
 	var repeat_h = ceil(room_height / tile_width);
 	draw_set_color(color);
 	draw_set_alpha(0.15);
+	var offset = os_type == os_android ? 0 : 1;
 	var page_w = global.in_world_editor ? 8 : 24;
 	var page_h = global.in_world_editor ? 5 : 14;
 	// draw_line() draws a two pixel line regardless of window scale, so
 	for (var i = 0; i < repeat_w; i++) {
-		draw_line_width((i * tile_width) - 1, 0, (i * tile_width) - 1, room_height, i % page_w == 0 ? 2 : 1);
+		draw_line_width(
+			(i * tile_width) - offset, 0,
+			(i * tile_width) - offset, room_height,
+			i % page_w == 0 ? 2 : 1
+		);
 	}
 	for (var i = 0; i < repeat_h; i++) {
-		draw_line_width(0, (i * tile_height) - 1, room_width, (i * tile_height) - 1, i % page_h == 0 ? 2 : 1);
+		draw_line_width(
+			0, (i * tile_height) - offset,
+			room_width, (i * tile_height) - offset,
+			i % page_h == 0 ? 2 : 1
+		);
 	}
 	draw_set_color(color_old);
 	draw_set_alpha(alpha_old);
