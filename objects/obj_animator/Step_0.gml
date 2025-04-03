@@ -16,11 +16,11 @@ switch (acc) {
 	// access the value by obj_id.var_name[idx]
 	case Accessor.ARRAY:
 		var arr = variable_instance_get(obj_id, var_name);
-		arr[idx] = ((to - from) * animcurve_channel_evaluate(anim_curve, progress));
+		arr[idx] = from + ((to - from) * animcurve_channel_evaluate(anim_curve, progress));
 		variable_instance_set(obj_id, var_name, arr);
 		break;
 	// access the value by obj_id.var_name[$ idx]
 	case Accessor.STRUCT:
 		var str = variable_instance_get(obj_id, var_name);
-		arr[$ idx] = ((to - from) * animcurve_channel_evaluate(anim_curve, progress));
+		arr[$ idx] = from + ((to - from) * animcurve_channel_evaluate(anim_curve, progress));
 }

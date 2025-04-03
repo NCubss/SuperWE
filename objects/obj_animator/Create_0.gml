@@ -3,12 +3,8 @@
 	to care about it. You should make an animator using the animator() function,
 	instead of making the animator directly.
 */
-
-// Animation Curve ID
-anim_curve_id = 0;
-// Animation Curve Index
-anim_curve_index = 0;
-
+// Animation Curve Channel Struct
+anim_curve = undefined;
 // Length (steps)
 length = 0;
 // Object ID
@@ -28,5 +24,3 @@ idx = undefined;
 steps_in = 0;
 // Progress (steps_in/length);
 progress = 0;
-
-anim_curve = animcurve_get(anim_curve_id).channels[anim_curve_index];

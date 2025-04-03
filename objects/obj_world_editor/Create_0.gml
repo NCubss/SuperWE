@@ -7,6 +7,8 @@ can_interact = true;
 pause = false;
 // Contains each tile object ID.
 tile_data = [[]];
+// Whether the mouse is down or not.
+mouse_down = false;
 
 // fill the tile data with false
 for (var i = 64; i > 0; i--) {

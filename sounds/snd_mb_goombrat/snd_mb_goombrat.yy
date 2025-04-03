@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.766667,
   "name":"snd_mb_goombrat",
   "parent":{
     "name":"Sounds",

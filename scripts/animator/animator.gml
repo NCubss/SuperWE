@@ -20,11 +20,10 @@
 	@returns		obj_animator
 */
 											
-function animator(curve, curve_idx, target, variable, from_val, to_val, time, accessor = Accessor.INSTANCE, index) {
+function animator(curve, curve_idx, target, variable, from_val, to_val, time, accessor = Accessor.INSTANCE, index = undefined) {
 	var anim = instance_create_depth(0, 0, 0, obj_animator);
 	with (anim) {
-		anim_curve_id = curve;
-		anim_curve_index = curve_idx;
+		anim_curve = animcurve_get(curve).channels[curve_idx];
 		obj_id = target;
 		var_name = variable;
 		from = from_val;

@@ -1,0 +1,1 @@
+if (can_interact) mouse_down = true;

@@ -1,0 +1,1 @@
+delete obj_world_editor.tile_data[gridx, gridy];

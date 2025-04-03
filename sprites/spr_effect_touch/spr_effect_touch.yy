@@ -74,7 +74,7 @@
     },
     "name":"",
     "playback":1,
-    "playbackSpeed":0.5,
+    "playbackSpeed":0.9,
     "playbackSpeedType":1,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

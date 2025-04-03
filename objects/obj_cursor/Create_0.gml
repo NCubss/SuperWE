@@ -21,6 +21,7 @@ position_resource = 0
 dont_move = 0
 image_speed = 0
 image_index = 0
+depth = -10000
 item_add = 0
 item_add_temp = 0
 move = 0

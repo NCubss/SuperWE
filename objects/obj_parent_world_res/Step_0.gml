@@ -1,4 +1,4 @@
-with (obj_world_editor) if (pause) exit;
+if (obj_world_editor.pause) exit;
 if (grabbing) {
 	// check if mouse has gone far enough to start
 	// dragging
@@ -22,6 +22,10 @@ if (grabbing) {
 } else if (dragging) {
 	x = mouse_x + offsetx;
 	y = mouse_y + offsety;
+	// destroy window on dragging
+	with (obj_world_window) {
+		user_event(0);
+	}
 }
 if (grabbing || dragging) {
 	if (
