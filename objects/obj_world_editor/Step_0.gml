@@ -4,23 +4,22 @@ var axis_y = real(keyboard_check(ord("S"))) - real(keyboard_check(ord("W")));
 // camera speed
 var spd = 3;
 // increment camera position
-camera_set_view_pos(
-	view_camera[0],
-	clamp(
-		camera_get_view_x(view_camera[0]) + axis_x * spd,
-		0, room_width - camera_get_view_width(view_camera[0])
-	),
-	clamp(
-		camera_get_view_y(view_camera[0]) + axis_y * spd,
-		0, room_height - camera_get_view_height(view_camera[0])
-	)
-);
-if (pause) {
-	audio_pause_sound(snd_world_editor_overworld);
-} else {
+if (!pause) {
+	camera_set_view_pos(
+		view_camera[0],
+		clamp(
+			camera_get_view_x(view_camera[0]) + axis_x * spd,
+			0, room_width - camera_get_view_width(view_camera[0])
+		),
+		clamp(
+			camera_get_view_y(view_camera[0]) + axis_y * spd,
+			0, room_height - camera_get_view_height(view_camera[0])
+		)
+	);
 	audio_resume_sound(snd_world_editor_overworld);
+} else {
+	audio_pause_sound(snd_world_editor_overworld);
 }
-show_debug_message(can_interact);
 if (can_interact && mouse_down) {
 	var cam_x = camera_get_view_x(view_camera[0]);
 	var cam_y = camera_get_view_y(view_camera[0]);
