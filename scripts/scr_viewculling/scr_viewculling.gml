@@ -1,5 +1,4 @@
 /**
-	@function		viewcull(cull_width, cull_height, arg2, arg3)
 	@description	Unknown (related to culling)
 	@param			{real} cull_width	Unknown
 	@param			{real} cull_height	Unknown

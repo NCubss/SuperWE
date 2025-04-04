@@ -1,5 +1,4 @@
 /**
-	@function		load_b64_json(filename)
 	@description	Load a Base64-encoded JSON file
 	@param			{string} filename	File path
 	@returns		{any | real}

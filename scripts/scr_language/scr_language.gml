@@ -1,5 +1,4 @@
 /**
-	@function		scr_language(id)
 	@description	Returns the localized version of a string by ID.
 	@param			{real} id   The ID to look for
 	@returns		{string}
@@ -1036,7 +1035,6 @@ function scr_language(id) {
 }
 
 /**
-	@function		lang(language)
 	@description	Returns the language struct (which are located in
 					global.lang) for the current language or the given language,
 					if specified.

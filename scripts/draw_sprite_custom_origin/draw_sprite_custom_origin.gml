@@ -1,5 +1,4 @@
 /**
-	@function		draw_sprite_custom_origin(sprite, subimg, px, py, rot_x, rot_y, x_scale, y_scale, rot, col, alpha)
 	@description	Shorthand for drawing a sprite with a custom matrix
 	@param			{Asset.GMSprite} sprite		Sprite to draw
 	@param			{real} subimg				Subimg (frame) of sprite to draw

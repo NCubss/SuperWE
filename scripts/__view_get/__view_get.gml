@@ -1,5 +1,4 @@
 /**
-	@function		__view_get(prop, index)
 	@description	GM2 compatibility
 	@param			{real} prop		Unknown
 	@param			{real} index	Unknown

@@ -1,5 +1,4 @@
 /**
-	@function		outside_view()
 	@description	Check if the position is outside this view
 	@returns		{bool}
 */
@@ -15,7 +14,6 @@ function outside_view() {
 }
 
 /**
-	@function		outside_view_modelsizable()
 	@description	Unknown
 	@returns		{undefined}
 */

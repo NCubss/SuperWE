@@ -1,5 +1,4 @@
 /**
-	@function		key_to_string(key)
 	@description	Converts the given keycode into a string representation
 	@param			{real} key	Keycode
 	@returns		{string}

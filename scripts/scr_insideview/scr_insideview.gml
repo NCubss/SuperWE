@@ -1,5 +1,4 @@
 /**
-	@function		scr_insideview()
 	@description	Checks if the mouse is in the window area
 	@returns		{real}
 */

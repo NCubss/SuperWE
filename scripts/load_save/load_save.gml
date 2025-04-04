@@ -1,7 +1,6 @@
 // Functions related to loading and saving levels, file manipulation
 
 /**
-	@function		save_to_file(filename, string)
 	@description	Saves the given string to the given file path
 	@param			{string} filename	File path to save in
 	@param			{string} contents	Contents to save into the file

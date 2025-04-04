@@ -1,5 +1,4 @@
 /**
-	@function		init_shake(time)
 	@description    Start shaking the screen for the given amount of time
 	@param			{real} time		The length of the shaking
 	@returns		{undefined}

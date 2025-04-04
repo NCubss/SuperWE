@@ -1,5 +1,4 @@
 /**
-	@function		__background_get_internal(prop, bind, backinfo)
 	@description	Unknown
 	@param			{real} prop			Unknown
 	@param			{Array} bind		Unknown

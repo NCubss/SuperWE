@@ -1,5 +1,4 @@
 /**
-	@function		__background_set_element(bind, vis, fore, back, x, y, h_tiled, y_tiled, x_scale, y_scale, stretch, h_speed, v_speed, blend, alpha)
 	@description	Unknown
 	@param			{real} bind						Unknown
 	@param			{bool} vis						Unknown

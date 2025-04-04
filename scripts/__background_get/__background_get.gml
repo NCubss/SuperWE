@@ -1,5 +1,4 @@
 /**
-	@function		__background_get(prop, bind)
 	@description	Unknown
 	@param			{real} prop			Unknown
 	@param			{Array} bind		Unknown

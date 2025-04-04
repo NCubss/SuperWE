@@ -1,5 +1,4 @@
 /**
-	@function		__global_object_depths()
 	@description	GM2 compatibility
 	@returns		{undefined}
 */

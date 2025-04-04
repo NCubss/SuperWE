@@ -1,5 +1,4 @@
 /**
-	@function		sprite_delete(index)
 	@description	Deletes the background from memory, freeing the memory used.
 	@param			{real} index	The index of the background to be deleted.
 	@returns		{undefined}

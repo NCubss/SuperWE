@@ -1,7 +1,6 @@
 #macro dcw_noone "\\u00ad"
 
 /**
-	@function		discord_free_app()
 	@description	Unknown
 	@returns		{undefined}
 */
@@ -10,7 +9,6 @@ function discord_free_app() {
 }
 
 /**
-	@function		discord_free_dll()
 	@description	Unknown
 	@returns		{undefined}
 */
@@ -19,7 +17,6 @@ function discord_free_dll() {
 }
 
 /**
-	@function		discord_init_app()
 	@description	Unknown
 	@param			{any} arg0   Unknown
 	@returns		{any}
@@ -29,7 +26,6 @@ function discord_init_app(arg0) {
 }
 
 /**
-	@function		discord_update_presence(arg0, arg1, arg2, arg3)
 	@description	Updates the Discord presence via NekoPresence
 	@param			{any} arg0   Unknown
 	@param			{any} arg1   Unknown
@@ -42,7 +38,6 @@ function discord_update_presence(arg0, arg1, arg2, arg3) {
 }
 
 /**
-	@function		discord_webhook(url_id, url_token)
 	@description	Creates a new Discord webhook object and returns the webhook
 					object ID
 	@param			{string} url_id		Webhook ID

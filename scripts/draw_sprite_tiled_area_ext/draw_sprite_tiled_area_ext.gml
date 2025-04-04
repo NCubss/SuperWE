@@ -1,5 +1,4 @@
 /**
-	@function		draw_sprite_tiled_area_ext(sprite, subimg, x, y, x1, y1, x2, y2, color, alpha)
 	@description	Draws a repeated sprite image, tiled to fill a given region
 					and with a given offset.
 	@param			{Asset.GMSprite} sprite		Sprite to draw

@@ -1,5 +1,4 @@
 /**
-	@function		__background_set_internal(prop, bind, val, back_info)
 	@description	GM2 compatibility
 	@param			{real} prop			Unknown
 	@param			{real} bind			Unknown

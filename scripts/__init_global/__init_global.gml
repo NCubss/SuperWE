@@ -1,5 +1,4 @@
 /**
-	@function		__init_global()
 	@description	GM2 compatibility
 	@returns		{undefined}
 */

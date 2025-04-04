@@ -1,5 +1,4 @@
 /**
-	@function		object_get_depth(obj)
 	@description	Returns the depth of the specified object.
 	@param			{real} obj	The index of the object to check.
 	@returns		{real}

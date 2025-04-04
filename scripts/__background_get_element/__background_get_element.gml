@@ -1,5 +1,4 @@
 /**
-	@function		__background_get_element(bind)
 	@description	Unknown
 	@param			{any} bind	Unknown
 	@returns		{Array<any>}

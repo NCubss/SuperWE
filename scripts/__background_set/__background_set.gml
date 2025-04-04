@@ -1,5 +1,4 @@
 /**
-	@function		__background_set(prop, bind, val)
 	@description	Unknown
 	@param			{any} prop	Unknown
 	@param			{any} bind	Unknown

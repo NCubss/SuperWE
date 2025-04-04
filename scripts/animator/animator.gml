@@ -1,5 +1,4 @@
 /**
-	@function		animator(curve, curve_idx, obj, variable, from, to, time)
 	@description	Creates an animator with the specified configuration.
 					See obj_animator for more info.
 	@param			{Asset.GMAnimCurve} curve	The animation curve to use
@@ -19,7 +18,6 @@
 												(used for the accessor)
 	@returns		obj_animator
 */
-											
 function animator(curve, curve_idx, target, variable, from_val, to_val, time, accessor = Accessor.INSTANCE, index = undefined) {
 	var anim = instance_create_depth(0, 0, 0, obj_animator);
 	with (anim) {

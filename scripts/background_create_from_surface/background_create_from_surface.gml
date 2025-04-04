@@ -1,5 +1,4 @@
 /**
-	@function		background_create_from_surface(index, x, y, w, h, remove_back, smooth)
 	@description	Creates a background by copying an area from a surface.
 					Returns the resource name for the new background.
 	@param			{Id.Surface} index		The index of the surface to create from.

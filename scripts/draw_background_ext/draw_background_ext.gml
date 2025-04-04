@@ -1,5 +1,4 @@
 /**
-	@function		draw_background_ext(back, x, y, x_scale, y_scale, rot, colour, alpha)
 	@description	Draws a background at a given position, with customizable
 					scaling, rotation, blend and alpha.
 	@param			{real} back					The index of the background to

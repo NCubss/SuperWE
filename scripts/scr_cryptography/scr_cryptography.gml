@@ -1,7 +1,6 @@
 // Various functions related to cryptography and string manipulation
 
 /**
-	@function		hex_string_byte(hex_string, byte)
 	@description	Takes a byte from the given hex string and converts it into
 					a real.
 	@param			{string} hex_string		Hex string to extract from
@@ -34,7 +33,6 @@ function hex_string_byte(hex_string, byte) {
 
 
 /**
-	@function		sha1_string_utf8_hmac(key, message)
 	@description	Computes a SHA-1 HMAC for a given key and message.
 	@param			{string} key		The key to secure the hash with
 	@param			{string} message	Message to hash
@@ -78,7 +76,6 @@ function sha1_string_utf8_hmac(key, message) {
 }
 
 /**
-	@function		verify_pub(filename)
 	@description	Verifies the file with the given filename.
 					It gets the HMAC-SHA1 from the last 40 bytes of the file
 					buffer, then verifies the file by checking if the HMAC of

@@ -1,5 +1,4 @@
 /**
-	@function		init_shockwave()
 	@description	Initializes the shockwave shader used when a POW block is
 					dropped.
 	@returns		{undefined}
