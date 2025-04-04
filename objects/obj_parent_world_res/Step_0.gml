@@ -24,7 +24,7 @@ if (grabbing) {
 	y = mouse_y + offsety;
 	// destroy window on dragging
 	with (obj_world_window) {
-		user_event(0);
+		event_user(0);
 	}
 }
 if (grabbing || dragging) {
