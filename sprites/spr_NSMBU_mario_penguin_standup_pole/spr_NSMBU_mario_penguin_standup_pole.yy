@@ -40,7 +40,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -76,33 +76,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f027776c-cd51-48bb-8e08-900ae7616c45","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"caeec0f1-920c-40a1-aa55-21883f1a6f34","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2ac8804-1089-4126-8c31-26235d747d16","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cf280053-f107-40a5-93da-fd2d207f50d5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1937b74-bd03-4deb-961d-bf647beedc8e","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eb61e680-7124-438a-9ebc-530ecf3b5772","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc8c3705-70cb-4677-af15-8af34cfc9206","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"920c1791-55a3-41b5-a7a0-c08125eb557c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5f18cd4-ded6-4174-a485-a7e8753173ca","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e214e0fc-0f17-4e9e-b72f-26606ace5149","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a23cc6a0-d626-4721-a355-98f9012fb5ac","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d01c3544-5a84-494a-98d5-16157001b2d3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"93a8a2c3-002d-4dd5-a2a3-be3f0396d665","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eca205a1-39d5-433c-b4cd-ebce8c83048c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7030e69-f662-4e73-b607-dd82a669e02c","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7f06de50-e201-4956-84c4-eb82c9e6810b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99009622-0feb-4444-a59e-8a225c48d140","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4ac64966-0f92-48ec-81fb-e86e57d21800","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f027776c-cd51-48bb-8e08-900ae7616c45","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"caeec0f1-920c-40a1-aa55-21883f1a6f34","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2ac8804-1089-4126-8c31-26235d747d16","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cf280053-f107-40a5-93da-fd2d207f50d5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1937b74-bd03-4deb-961d-bf647beedc8e","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eb61e680-7124-438a-9ebc-530ecf3b5772","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc8c3705-70cb-4677-af15-8af34cfc9206","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"920c1791-55a3-41b5-a7a0-c08125eb557c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5f18cd4-ded6-4174-a485-a7e8753173ca","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e214e0fc-0f17-4e9e-b72f-26606ace5149","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a23cc6a0-d626-4721-a355-98f9012fb5ac","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d01c3544-5a84-494a-98d5-16157001b2d3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"93a8a2c3-002d-4dd5-a2a3-be3f0396d665","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eca205a1-39d5-433c-b4cd-ebce8c83048c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7030e69-f662-4e73-b607-dd82a669e02c","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7f06de50-e201-4956-84c4-eb82c9e6810b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"99009622-0feb-4444-a59e-8a225c48d140","path":"sprites/spr_NSMBU_mario_penguin_standup_pole/spr_NSMBU_mario_penguin_standup_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4ac64966-0f92-48ec-81fb-e86e57d21800","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":{

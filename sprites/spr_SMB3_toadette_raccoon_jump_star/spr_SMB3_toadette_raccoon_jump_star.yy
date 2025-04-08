@@ -39,7 +39,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -75,30 +75,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6aeb4185-d78c-4a6b-ade2-6da6ac23e78c","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"51dd3a62-d4d7-4202-bb3d-80d3312c1b43","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7defcae1-5471-420e-9cc6-d0bf6caf4888","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bf1a8dc2-6d7f-48d7-9a10-38b372b7a955","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"07af8360-16a5-4ad3-b141-a2829c3742af","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2e6afb6a-bf65-42e9-9538-068ed03b39cc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6503ce5-1e16-46b7-a2d6-b9fba5dc0a97","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c16b40cb-3a79-4c9d-be6d-1facd1f405b4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"783086f6-aeec-40db-99b1-b208640fb06e","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"594e8b27-4c2e-40c6-8a2e-e583f05e759f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"156d4e47-299c-4cde-bb3e-be6141df6882","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c904b898-4625-4bdc-9313-a6ef311f4a87","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e07ad587-ec25-4465-a8a6-7e278f8225d5","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4762747c-7300-4228-a0ae-a110589c1a71","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9fae692-cc87-4558-abae-80e12f3f659f","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d0265bf4-55c0-4236-a0d8-20b2e0afff1b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6aeb4185-d78c-4a6b-ade2-6da6ac23e78c","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"51dd3a62-d4d7-4202-bb3d-80d3312c1b43","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7defcae1-5471-420e-9cc6-d0bf6caf4888","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bf1a8dc2-6d7f-48d7-9a10-38b372b7a955","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"07af8360-16a5-4ad3-b141-a2829c3742af","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2e6afb6a-bf65-42e9-9538-068ed03b39cc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6503ce5-1e16-46b7-a2d6-b9fba5dc0a97","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c16b40cb-3a79-4c9d-be6d-1facd1f405b4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"783086f6-aeec-40db-99b1-b208640fb06e","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"594e8b27-4c2e-40c6-8a2e-e583f05e759f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"156d4e47-299c-4cde-bb3e-be6141df6882","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c904b898-4625-4bdc-9313-a6ef311f4a87","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e07ad587-ec25-4465-a8a6-7e278f8225d5","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4762747c-7300-4228-a0ae-a110589c1a71","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9fae692-cc87-4558-abae-80e12f3f659f","path":"sprites/spr_SMB3_toadette_raccoon_jump_star/spr_SMB3_toadette_raccoon_jump_star.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d0265bf4-55c0-4236-a0d8-20b2e0afff1b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":{

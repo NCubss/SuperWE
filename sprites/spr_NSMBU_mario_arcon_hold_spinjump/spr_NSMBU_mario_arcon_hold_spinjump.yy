@@ -39,7 +39,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -75,30 +75,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a264e4d-14f7-4981-a9d4-1e7d499cdba3","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"92511bbd-190a-4529-ba89-111d55ed770a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bcf0efe-0376-4cdf-95a4-08b65c4548f6","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"13f76b36-db29-43bd-8732-ad8f0be54fa6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5aeab46c-dd57-461b-a3c9-ec9004c24db4","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c3ecf442-2067-4528-9d8a-7255f37a4aeb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"378ac173-fbd2-4b16-8ce7-4f9575e0c6e0","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"38286023-d62d-494e-a869-4ac17c20c2b7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a438ca34-36aa-4a3a-9a97-bebec2ce0dd2","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f879ff47-b144-4170-8d6c-216791732d69","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"af107327-222a-40ff-9605-ddc8ce2f70a0","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9240468f-fa42-4853-bd0d-c4cfbe4d4799","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e1eb0c0-7e05-4ddc-9f26-d6ab8e4fe65b","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1ac92967-62fb-48ce-86de-c7a30e99786e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"797b5265-fe33-4f25-a867-6a8587f5e1d6","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3c10b61c-5617-4997-8e64-995771c0036d","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a264e4d-14f7-4981-a9d4-1e7d499cdba3","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"92511bbd-190a-4529-ba89-111d55ed770a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bcf0efe-0376-4cdf-95a4-08b65c4548f6","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"13f76b36-db29-43bd-8732-ad8f0be54fa6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5aeab46c-dd57-461b-a3c9-ec9004c24db4","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c3ecf442-2067-4528-9d8a-7255f37a4aeb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"378ac173-fbd2-4b16-8ce7-4f9575e0c6e0","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"38286023-d62d-494e-a869-4ac17c20c2b7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a438ca34-36aa-4a3a-9a97-bebec2ce0dd2","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f879ff47-b144-4170-8d6c-216791732d69","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"af107327-222a-40ff-9605-ddc8ce2f70a0","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9240468f-fa42-4853-bd0d-c4cfbe4d4799","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e1eb0c0-7e05-4ddc-9f26-d6ab8e4fe65b","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1ac92967-62fb-48ce-86de-c7a30e99786e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"797b5265-fe33-4f25-a867-6a8587f5e1d6","path":"sprites/spr_NSMBU_mario_arcon_hold_spinjump/spr_NSMBU_mario_arcon_hold_spinjump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3c10b61c-5617-4997-8e64-995771c0036d","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":{

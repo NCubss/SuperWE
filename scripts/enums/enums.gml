@@ -1,7 +1,4 @@
-/**
-	@enum			GameStyle
-	@description	Represents all game styles.
-*/
+/// @description	Represents all game styles.
 enum GameStyle {
 	/// Super Mario Bros.
 	SMB = 0,
@@ -13,10 +10,7 @@ enum GameStyle {
 	NSMBU = 3
 }
 
-/**
-	@enum			GameTheme
-	@description	Represents all game themes.
-*/
+/// @description	Represents all game themes.
 enum GameTheme {
 	OVERWORLD,
 	UNDERGROUND,
@@ -33,20 +27,15 @@ enum GameTheme {
 	MOUNTAIN
 }
 
-/**
-	@enum			Player
-	@description	Represents a choosable player.
-*/
+/// @description	Represents a choosable player.
 enum Player {
 	MARIO,
 	LUIGI,
 	TOAD,
 	TOADETTE
 }
-/**
-	@enum			Language
-	@description	Represents a language in the game.
-*/
+
+/// @description	Represents a language in the game.
 enum Language {
 	SPANISH = 0,
 	ENGLISH = 1,
@@ -55,10 +44,7 @@ enum Language {
 	CHINESE = 4
 }
 
-/**
-	@enum			AutoscrollSpeed
-	@description	Represents an autoscroll speed.
-*/
+/// @description	Represents an autoscroll speed.
 enum AutoscrollSpeed {
 	NONE,
 	SLOW,
@@ -66,10 +52,7 @@ enum AutoscrollSpeed {
 	FAST
 }
 
-/**
-	@enum			Powerup
-	@description	Represents the player's powerup.
-*/
+/// @description	Represents the player's powerup.
 enum Powerup {
 	SMALL,
 	SUPER,
@@ -85,4 +68,44 @@ enum Powerup {
 	WEIRD,
 	MEGA,
 	LINK
+}
+
+/// @description	Represents the path direction in a world tile.
+enum Direction {
+	UP,
+	RIGHT,
+	DOWN,
+	LEFT
+}
+
+/// @description	Represents a variant ID.
+enum Variant {
+	/// Ground tile with no decoration
+	GROUND_NONE = 0,
+	/// Ground tile with the hill decoration
+	GROUND_HILL = 1,
+	/// Ground tile with the rock pillars decoration
+	GROUND_ROCKS = 2,
+	/// Ground tile with the Super Bell tree decoration
+	GROUND_TREES = 3,
+	/// Raised ground/island tile
+	ISLAND = 4,
+	/// Bridge tile
+	BRIDGE = 5,
+	/// End of path tile
+	PATH_END = 6,
+	/// Straight path tile
+	PATH_STRAIGHT = 7,
+	/// Sharp turning path tile
+	PATH_SHARP_TURN = 8,
+	/// 3-way junction path tile
+	PATH_3WAY = 9,
+	/// Round turning path tile
+	PATH_ROUND_TURN = 10,
+	/// Pipe tile
+	PIPE = 11,
+	/// Bonus house tile
+	BONUS = 12,
+	/// Level tile
+	LEVEL = 13
 }

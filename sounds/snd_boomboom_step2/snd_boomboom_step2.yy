@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.390385,
   "name":"snd_boomboom_step2",
   "parent":{
     "name":"Sounds",

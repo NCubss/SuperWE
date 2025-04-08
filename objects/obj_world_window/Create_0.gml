@@ -1,4 +1,5 @@
 object = 0;
+destroying = false;
 obj_world_editor.can_interact = false;
 audio_play_sound(snd_open_windows, 0, false);
 

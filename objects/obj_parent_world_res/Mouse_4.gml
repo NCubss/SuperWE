@@ -1,4 +1,14 @@
-if (obj_world_editor.pause) exit;
+if (
+	obj_world_editor.pause
+	|| (
+		object_index != obj_world_start
+		&& object_index != obj_world_end
+		&& (
+			position_meeting(mouse_x, mouse_y, obj_world_start)
+			|| position_meeting(mouse_x, mouse_y, obj_world_end)
+		)
+	)
+) exit;
 // tap sound effect
 audio_play_sound(snd_ground_bomb, 1, false);
 // spawn the ripple effect

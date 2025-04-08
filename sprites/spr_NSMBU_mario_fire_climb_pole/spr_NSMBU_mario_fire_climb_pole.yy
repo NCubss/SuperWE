@@ -42,7 +42,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -78,39 +78,17 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38d064a0-39d7-4664-b008-090cbbd21e17","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5c2ca321-641a-4d02-9f02-91b2e0fe74b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1502fd13-8a56-42ba-a31c-4deb7125aee7","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"211ca665-88c4-4b4d-bfe5-ce78aa19d089","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1be22717-b70e-427b-bc96-ddfd52e40eca","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5472d966-8d24-4a86-aad7-8235f4e7667c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"930b1728-599a-4e11-ab56-8287a1b3f4a4","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"efc61da2-435a-48c2-80db-8736bb37381e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62ec63ad-5c1e-4175-a96c-16a822cabd78","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0dd88a5a-2b86-4a1d-bdc6-36f29a114bff","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c53e9a7-0601-4a99-83c1-33b1f7116f48","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bc9fd615-57e4-4280-9c50-3e226a27a8ac","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"abf276d2-95d9-4bf0-8b8a-2cb673a44354","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ab3cda7b-5a33-472f-90ec-4e53d49f9460","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a09a4db-e936-41e4-ad88-8a464da2afe4","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"146261e1-6903-475e-b127-43554a331031","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d011ed4f-3cb9-4d33-a1f6-98a53880438b","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"84f2c579-cd8b-46bc-ae80-736c9c44daed","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd7d392b-0d65-4a70-8668-29180c297397","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"de74446b-71d3-436e-b9e3-b3426ffc6030","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"634d6599-708f-4e98-9caa-2a1b565cc259","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"763b31a9-0cfd-4889-b49f-e4065a7cc2ba","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"38d064a0-39d7-4664-b008-090cbbd21e17","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5c2ca321-641a-4d02-9f02-91b2e0fe74b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1502fd13-8a56-42ba-a31c-4deb7125aee7","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"211ca665-88c4-4b4d-bfe5-ce78aa19d089","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1be22717-b70e-427b-bc96-ddfd52e40eca","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5472d966-8d24-4a86-aad7-8235f4e7667c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"930b1728-599a-4e11-ab56-8287a1b3f4a4","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"efc61da2-435a-48c2-80db-8736bb37381e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"62ec63ad-5c1e-4175-a96c-16a822cabd78","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0dd88a5a-2b86-4a1d-bdc6-36f29a114bff","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c53e9a7-0601-4a99-83c1-33b1f7116f48","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bc9fd615-57e4-4280-9c50-3e226a27a8ac","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"abf276d2-95d9-4bf0-8b8a-2cb673a44354","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ab3cda7b-5a33-472f-90ec-4e53d49f9460","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a09a4db-e936-41e4-ad88-8a464da2afe4","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"146261e1-6903-475e-b127-43554a331031","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d011ed4f-3cb9-4d33-a1f6-98a53880438b","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"84f2c579-cd8b-46bc-ae80-736c9c44daed","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd7d392b-0d65-4a70-8668-29180c297397","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"de74446b-71d3-436e-b9e3-b3426ffc6030","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"634d6599-708f-4e98-9caa-2a1b565cc259","path":"sprites/spr_NSMBU_mario_fire_climb_pole/spr_NSMBU_mario_fire_climb_pole.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"763b31a9-0cfd-4889-b49f-e4065a7cc2ba","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":{

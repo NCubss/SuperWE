@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.396009,
   "name":"snd_bumper2",
   "parent":{
     "name":"Sounds",

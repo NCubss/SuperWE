@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.516553,
   "name":"snd_es_remolino",
   "parent":{
     "name":"Sounds",

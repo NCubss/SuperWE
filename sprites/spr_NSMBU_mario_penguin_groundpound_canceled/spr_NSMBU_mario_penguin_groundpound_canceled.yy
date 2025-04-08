@@ -40,7 +40,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -76,33 +76,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6b808c2-89c0-4751-aca9-e8756a71f02b","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6da676c5-84fe-4cb5-bda3-2259781830e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7df2eccd-5523-4411-9c0a-ceb5ee168944","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fbbea429-7456-4f7a-a15e-0e5a5475f235","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6891de8b-752a-4611-b4d1-7120fcca3c0f","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9ddb7675-7303-4df9-9067-08ecf02a104c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2caa82af-cf31-4b85-a2bb-ca536236228b","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3599e237-86ef-4ee1-b59e-bc39ba8ba27d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a70f5958-43e9-474e-83d9-dbc9e3f1a7e8","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1f735ee8-eb73-4b70-bfae-8deb3f8946c5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8df3e3f9-68e4-40ca-8090-0f0fd8679485","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9cdef64f-90b9-4147-b53c-03ffe9c3fd0f","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5cd1faae-6bb3-4837-b995-6538428ef190","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35a482b8-c95c-423c-91bd-d917ef354125","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d905c81-e6f3-45dd-b57f-29cedae07a5f","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b71449cf-d0ca-42f6-9395-957db301ed83","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad8577f8-33d1-4dd2-827e-2403bcc95d55","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"817593aa-de68-497a-ac88-456d30613d8e","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6b808c2-89c0-4751-aca9-e8756a71f02b","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6da676c5-84fe-4cb5-bda3-2259781830e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7df2eccd-5523-4411-9c0a-ceb5ee168944","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fbbea429-7456-4f7a-a15e-0e5a5475f235","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6891de8b-752a-4611-b4d1-7120fcca3c0f","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9ddb7675-7303-4df9-9067-08ecf02a104c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2caa82af-cf31-4b85-a2bb-ca536236228b","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3599e237-86ef-4ee1-b59e-bc39ba8ba27d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a70f5958-43e9-474e-83d9-dbc9e3f1a7e8","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1f735ee8-eb73-4b70-bfae-8deb3f8946c5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8df3e3f9-68e4-40ca-8090-0f0fd8679485","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9cdef64f-90b9-4147-b53c-03ffe9c3fd0f","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5cd1faae-6bb3-4837-b995-6538428ef190","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"35a482b8-c95c-423c-91bd-d917ef354125","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d905c81-e6f3-45dd-b57f-29cedae07a5f","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b71449cf-d0ca-42f6-9395-957db301ed83","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad8577f8-33d1-4dd2-827e-2403bcc95d55","path":"sprites/spr_NSMBU_mario_penguin_groundpound_canceled/spr_NSMBU_mario_penguin_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"817593aa-de68-497a-ac88-456d30613d8e","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":{

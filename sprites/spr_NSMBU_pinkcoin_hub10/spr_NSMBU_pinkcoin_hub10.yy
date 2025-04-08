@@ -42,7 +42,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_NSMBU_pinkcoin_hub10",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -78,39 +78,17 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0d9e915-05ef-4b92-aa86-ea09f48bf3e6","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a0ebc8a6-083f-4c2f-a451-692fa878855e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd1551a5-b4a5-475a-bd88-d420c61d7db3","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a7ca1a3b-4e7d-4d76-a81e-0b5c32dfdf5c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c53bd765-8ae2-44bd-adf5-32687ef49436","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9a1ddd91-28ac-4f6f-b0a8-9618a6e34f6d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3af1ad1d-9c4d-4f5f-bc43-ce03df8fe977","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1668783f-06e0-486d-8fe4-e6a571756d98","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"746e6732-fddc-4c07-95f3-1b0d042c0b93","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"22ad5427-3dce-4272-aa23-e127c838f0a1","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"897ff735-d7a9-4e19-a98c-6706aa0cc4b8","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2071a907-534e-492b-9db9-ab738c31e473","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d2e6e51-0890-4d64-994a-f80c6225786c","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8b9ae3b0-c747-4ab9-9c3e-96e4214098bb","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db74da7c-45e7-452f-9490-14002af3b2dd","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"75fc4377-0d86-4c23-b7b2-0d1d2d9c417b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"57770e21-1a1e-451b-b303-aa9a67346793","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f4234106-0549-4f7e-a32e-04d6bc9b43c6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34d9dddf-9ab3-44e5-b1ba-f2832fdd8cac","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b886a759-a33e-4bca-aef9-36634c572815","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"153733e5-5f97-4e09-8662-18abbb4f0274","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8942b45d-3090-4ba8-aedf-d0dcbb695ff5","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0d9e915-05ef-4b92-aa86-ea09f48bf3e6","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a0ebc8a6-083f-4c2f-a451-692fa878855e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd1551a5-b4a5-475a-bd88-d420c61d7db3","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a7ca1a3b-4e7d-4d76-a81e-0b5c32dfdf5c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c53bd765-8ae2-44bd-adf5-32687ef49436","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9a1ddd91-28ac-4f6f-b0a8-9618a6e34f6d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3af1ad1d-9c4d-4f5f-bc43-ce03df8fe977","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1668783f-06e0-486d-8fe4-e6a571756d98","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"746e6732-fddc-4c07-95f3-1b0d042c0b93","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"22ad5427-3dce-4272-aa23-e127c838f0a1","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"897ff735-d7a9-4e19-a98c-6706aa0cc4b8","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2071a907-534e-492b-9db9-ab738c31e473","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d2e6e51-0890-4d64-994a-f80c6225786c","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8b9ae3b0-c747-4ab9-9c3e-96e4214098bb","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"db74da7c-45e7-452f-9490-14002af3b2dd","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"75fc4377-0d86-4c23-b7b2-0d1d2d9c417b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"57770e21-1a1e-451b-b303-aa9a67346793","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f4234106-0549-4f7e-a32e-04d6bc9b43c6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"34d9dddf-9ab3-44e5-b1ba-f2832fdd8cac","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b886a759-a33e-4bca-aef9-36634c572815","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"153733e5-5f97-4e09-8662-18abbb4f0274","path":"sprites/spr_NSMBU_pinkcoin_hub10/spr_NSMBU_pinkcoin_hub10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8942b45d-3090-4ba8-aedf-d0dcbb695ff5","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

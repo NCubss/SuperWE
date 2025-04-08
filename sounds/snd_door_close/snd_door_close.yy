@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.393333,
   "name":"snd_door_close",
   "parent":{
     "name":"Sounds",

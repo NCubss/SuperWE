@@ -40,7 +40,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"",
     "autoRecord":true,
     "backdropHeight":1080,
@@ -76,33 +76,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ee397e0-0747-4aec-852a-5f11738443a6","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"abb9f115-328e-46e9-8f78-c268b510226d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cbebf4f-0897-4087-9408-18b569b4da75","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ef455f57-1416-41a7-bc24-129899633770","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c939e03-5476-468e-abc8-c02c4baf8681","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"db9fc566-94ee-459f-b74b-fe66564aebcd","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2ea7cfa-b959-4a7a-b45c-da0892b74830","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"311dc9c6-a3bc-4db7-bd58-09bb7e9b7232","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f726bbf-a744-44d7-b5a9-811ea488d367","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"93ec12ed-490f-4d8a-a61c-967e549a605b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83611928-3bb7-4df7-8c75-fa9df9229e52","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d87c949b-aee2-4002-8162-1f0ae4f62169","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44971702-c756-4269-bb94-36cccbea73f4","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a4575e1f-804f-4afb-b810-1a057441c3a1","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56c84975-f03b-4999-a77e-2082aba3c4bc","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"552fa8c7-49b5-4e93-8e08-c4c76283b95f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8abce6b-903b-45fa-9c3b-1529fc22dbb9","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f6dd50ea-fef1-46de-8f19-0be1399a0459","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ee397e0-0747-4aec-852a-5f11738443a6","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"abb9f115-328e-46e9-8f78-c268b510226d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cbebf4f-0897-4087-9408-18b569b4da75","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ef455f57-1416-41a7-bc24-129899633770","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c939e03-5476-468e-abc8-c02c4baf8681","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"db9fc566-94ee-459f-b74b-fe66564aebcd","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2ea7cfa-b959-4a7a-b45c-da0892b74830","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"311dc9c6-a3bc-4db7-bd58-09bb7e9b7232","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f726bbf-a744-44d7-b5a9-811ea488d367","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"93ec12ed-490f-4d8a-a61c-967e549a605b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"83611928-3bb7-4df7-8c75-fa9df9229e52","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d87c949b-aee2-4002-8162-1f0ae4f62169","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"44971702-c756-4269-bb94-36cccbea73f4","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a4575e1f-804f-4afb-b810-1a057441c3a1","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"56c84975-f03b-4999-a77e-2082aba3c4bc","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"552fa8c7-49b5-4e93-8e08-c4c76283b95f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8abce6b-903b-45fa-9c3b-1529fc22dbb9","path":"sprites/spr_NSMBU_mario_fire_groundpound_canceled/spr_NSMBU_mario_fire_groundpound_canceled.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f6dd50ea-fef1-46de-8f19-0be1399a0459","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":{
