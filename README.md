@@ -9,8 +9,8 @@ This fork has some refactors (such as how string localizing works)
 and adds new features (such as the star coin and the _World Maker,
 coming soon....._)
 
-Currently, there are no builds available as SuperWE is in early
-alpha.
+Currently, there are only available demos to play as SuperWE is in
+early alpha.
 
 Obtaining SuperWE
 ----------------------------------------------------------------
