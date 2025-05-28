@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.0769161,
   "name":"snd_NSMBU_kick_6",
   "parent":{
     "name":"Sounds",

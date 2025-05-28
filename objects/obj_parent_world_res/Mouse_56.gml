@@ -4,20 +4,20 @@ if (dragging || grabbing) {
 	if (dragging) {
 		audio_play_sound(snd_colocar_objectos, 1, false);
 		// place object where mouse is if it is on a valid space
+		instance_deactivate_object(id);
+		var inst = instance_position(mouse_x, mouse_y, obj_parent_world_res);
+		instance_activate_object(id);
 		if (
 			(object_index == obj_world_start || object_index == obj_world_end)
 			? (
-				obj_world_editor.tile_data[mouse_x div 48, mouse_y div 48] != undefined
-				&& object_is_ancestor(
-					obj_world_editor.tile_data[mouse_x div 48, mouse_y div 48].object_index,
-					obj_parent_world_path
-				)
+				inst != noone
+				&& object_is_ancestor(inst.object_index, obj_parent_world_path)
 				&& mouse_x div 48 != obj_world_editor.start_x
 				&& mouse_y div 48 != obj_world_editor.start_y
 				&& mouse_x div 48 != obj_world_editor.end_x
 				&& mouse_y div 48 != obj_world_editor.end_y
 			)
-			: obj_world_editor.tile_data[mouse_x div 48, mouse_y div 48] == undefined
+			: inst == noone
 		) {
 			gridx = mouse_x div 48;
 			gridy = mouse_y div 48;
@@ -39,8 +39,6 @@ if (dragging || grabbing) {
 		} else if (object_index == obj_world_end) {
 			obj_world_editor.end_x = gridx;
 			obj_world_editor.end_y = gridy;
-		} else {
-			obj_world_editor.tile_data[other.gridx, other.gridy] = id;
 		}
 	}	
 	dragging = false;

@@ -198,9 +198,9 @@ if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_level
                     event_user(2)
             }
         }
-        if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
+        if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1)
         {
-            with (obj_persistent)
+            with (obj_coordinator)
             {
                 event_user(2)
                 event_user(3)
@@ -248,11 +248,11 @@ else
     alarm[5] = 10
     scr_reset_variables()
     audio_play_sound(snd_play_start_create, 0, false)
-    with (obj_persistent)
+    with (obj_coordinator)
         alarm[6] = -1
     with (obj_goalcard)
         alarm[3] = -1
-    with (obj_persistent)
+    with (obj_coordinator)
         alarm[6] = -1
     with (obj_levelmanager)
     {
@@ -303,9 +303,9 @@ else
     }
     else
         instance_create((camera_get_view_x(view_get_camera(0)) + 192) , (camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0)) / 2)), obj_mario_editor)
-    if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
+    if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1)
     {
-        with (obj_persistent)
+        with (obj_coordinator)
         {
             event_user(4)
             event_user(5)

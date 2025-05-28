@@ -72,7 +72,7 @@ else
         barrier = 1
         alarm[6] = 2
     }
-    with (obj_persistent)
+    with (obj_coordinator)
         event_user(0)
 }
 

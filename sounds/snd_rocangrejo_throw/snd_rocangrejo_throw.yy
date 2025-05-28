@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":192,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
-  "duration":0.110567,
+  "duration":0.108843535,
   "name":"snd_rocangrejo_throw",
   "parent":{
     "name":"Sounds",

@@ -12,8 +12,8 @@
   "duration":62.10719,
   "name":"snd_SMB_editor_sky",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Editor/SMB.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

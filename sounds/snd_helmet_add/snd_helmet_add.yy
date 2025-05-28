@@ -12,8 +12,8 @@
   "duration":1.06,
   "name":"snd_helmet_add",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Shared",
+    "path":"folders/Sounds/Sound Effects/Shared.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

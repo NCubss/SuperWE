@@ -1,0 +1,1 @@
+dialog = get_string_async(lang().login_new.username, "");

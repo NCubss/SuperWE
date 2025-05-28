@@ -16,7 +16,7 @@ else
 hitpoint = 0
 alarm[0] = 600
 alarm[3] = 5
-with (obj_persistent)
+with (obj_coordinator)
 {
     alarm[6] = -1
     alarm[6] = 420

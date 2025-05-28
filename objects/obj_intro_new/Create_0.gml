@@ -1,0 +1,11 @@
+alarm[0] = 30;
+alarm[6] = 60;
+letters_y = array_create(7, -128);
+letters_light = 0;
+shine_scale = 1;
+letters_i = 0;
+default_width = camera_get_view_width(view_camera[0]);
+default_height = camera_get_view_height(view_camera[0]);
+zoom = 1;
+darkness_alpha = 0;
+version_alpha = 0;

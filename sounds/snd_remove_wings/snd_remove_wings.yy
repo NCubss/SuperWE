@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.7133333,
   "name":"snd_remove_wings",
   "parent":{
     "name":"Sounds",

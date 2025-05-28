@@ -36,7 +36,7 @@ global.pink_coin10_x = 0
 global.pink_coin10_y = 0
 with (obj_levelmanager)
     switchon = 0
-with (obj_persistent)
+with (obj_coordinator)
     alarm[6] = -1
 global.ms_check = 0
 if audio_is_paused(music)

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_editor_underwater",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"SMB3",
+    "path":"folders/Sounds/Music/Editor/SMB3.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

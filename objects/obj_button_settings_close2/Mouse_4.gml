@@ -24,7 +24,7 @@ if (visible == true)
         with (obj_guardabot)
             can_anim = 1
     }
-    with (obj_persistent)
+    with (obj_coordinator)
         event_user(7)
 }
 

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":106.845695,
+  "duration":106.84569,
   "name":"snd_titlemusic_smw",
   "parent":{
     "name":"Sounds",

@@ -3,7 +3,7 @@ if (instance_exists(obj_creator_jugar_editar) && obj_creator_jugar_editar.alarm[
     instance_destroy()
     exit
 }
-    var sx = obj_persistent.s
+    var sx = obj_coordinator.s
 back = background_create_from_surface(application_surface, 0, 0, (global.gw * sx), (global.gh * sx), false, false)
 if instance_exists(obj_lighting)
 {
@@ -13,7 +13,7 @@ if instance_exists(obj_lighting)
 ready = 1
 global.instance_deactivate = 0
 instance_deactivate_all(true)
-instance_activate_object(obj_persistent)
+instance_activate_object(obj_coordinator)
 instance_activate_object(obj_mario)
 instance_activate_object(obj_cap_mario)
 instance_activate_object(obj_kuriboshoe)

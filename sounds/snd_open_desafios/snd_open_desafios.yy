@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":2.275986,
+  "duration":2.2407029,
   "name":"snd_open_desafios",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_open_desafios",
+  "soundFile":"snd_open_desafios.wav",
   "type":1,
   "volume":1.0,
 }

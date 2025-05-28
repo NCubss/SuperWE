@@ -34,7 +34,7 @@ if (room == rm_editor
             global.resource_create = 1
             event_user(1)
         }
-        else if (obj_persistent.modo_android == 1 
+        else if (obj_coordinator.modo_android == 1 
 		&& move_view == 0 
 		&& global.select_resource == obj_resource_empty 
 		&& global.select_resource != obj_ground 

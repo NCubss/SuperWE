@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.633333,
+  "duration":0.50573695,
   "name":"snd_select_sounds",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_select_sounds",
+  "soundFile":"snd_select_sounds.wav",
   "type":1,
   "volume":1.0,
 }

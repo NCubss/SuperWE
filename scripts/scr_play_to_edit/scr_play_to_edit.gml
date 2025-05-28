@@ -1,4 +1,10 @@
 function scr_play_to_edit() {
+	if (instance_exists(obj_burnet_box)) {
+		with (obj_burnet_box) {
+			instance_destroy();
+		}
+		instance_activate_object(obj_burnet_box_res);
+	}
 	if instance_exists(obj_flagpole)
 	{
 	    with (obj_flagpole)

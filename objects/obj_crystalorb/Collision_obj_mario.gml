@@ -10,9 +10,9 @@ if ((global.condiciones == 0) || ((global.condiciones == 1) && ((global.condicio
     alarm[0] = 270
     if (room != rm_editor)
     {
-        if ((obj_persistent.modo_android == 1) && (global.controles_tactiles == 1))
+        if ((obj_coordinator.modo_android == 1) && (global.controles_tactiles == 1))
         {
-            with (obj_persistent)
+            with (obj_coordinator)
             {
                 event_user(4)
                 event_user(5)

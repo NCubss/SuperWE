@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.428027,
+  "duration":0.31006804,
   "name":"snd_play_start_create",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_play_start_create",
+  "soundFile":"snd_play_start_create.wav",
   "type":1,
   "volume":1.0,
 }

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.202031,
+  "duration":1.2020408,
   "name":"snd_NSMBU_count",
   "parent":{
     "name":"Sounds",

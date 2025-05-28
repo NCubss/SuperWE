@@ -1,6 +1,6 @@
 audio_stop_sound(snd_aceptar)
 audio_play_sound(snd_aceptar, 0, false)
-if instance_exists(obj_persistent)
+if instance_exists(obj_coordinator)
 {
     if (global.showfps == 0)
         global.showfps = 1

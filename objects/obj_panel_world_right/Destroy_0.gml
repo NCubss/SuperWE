@@ -1,1 +1,1 @@
-instance_destroy(menu_btn);
+instance_destroy(inst_menu_btn);

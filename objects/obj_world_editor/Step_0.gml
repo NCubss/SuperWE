@@ -5,15 +5,30 @@ var axis_y = real(keyboard_check(ord("S"))) - real(keyboard_check(ord("W")));
 var spd = 3;
 // increment camera position
 if (!pause) {
+	// mobile camera movement
+	if (mouse_button == mb_left && os_type == os_android) {
+		if (point_in_rectangle(mouse_x, mouse_y, camera_left + 35, camera_top + 36, camera_left + 70, camera_bottom)) {
+			axis_x = -1;
+		}
+		if (point_in_rectangle(mouse_x, mouse_y, camera_right - 70, camera_top + 36, camera_right - 35, camera_bottom)) {
+			axis_x = 1;
+		}
+		if (point_in_rectangle(mouse_x, mouse_y, camera_left + 35, camera_top + 36, camera_right - 35, camera_top + 70)) {
+			axis_y = -1;
+		}
+		if (point_in_rectangle(mouse_x, mouse_y, camera_left + 35, camera_bottom - 35, camera_right - 35, camera_bottom)) {
+			axis_y = 1;
+		}
+	}
 	camera_set_view_pos(
 		view_camera[0],
 		clamp(
-			camera_get_view_x(view_camera[0]) + axis_x * spd,
-			0, room_width - camera_get_view_width(view_camera[0])
+			camera_x + axis_x * spd,
+			0, room_width - camera_width
 		),
 		clamp(
-			camera_get_view_y(view_camera[0]) + axis_y * spd,
-			0, room_height - camera_get_view_height(view_camera[0])
+			camera_y + axis_y * spd,
+			0, room_height - camera_height
 		)
 	);
 	audio_resume_sound(snd_world_editor_overworld);
@@ -21,15 +36,12 @@ if (!pause) {
 	audio_pause_sound(snd_world_editor_overworld);
 }
 if (can_interact && mouse_down) {
-	var cam_x = camera_get_view_x(view_camera[0]);
-	var cam_y = camera_get_view_y(view_camera[0]);
 	if (
-		point_in_rectangle(mouse_x, mouse_y, cam_x + 36, cam_y + 36, cam_x + 350, cam_y + 216)
-		&& tile_data[mouse_x div 48, mouse_y div 48] == undefined
+		point_in_rectangle(mouse_x, mouse_y, camera_x + 36, camera_y + 36, camera_x + 350, camera_y + 216)
+		&& !position_meeting(mouse_x, mouse_y, obj_parent_world_res)
+		&& selected_variant != -1
 	) {
-		with (spawn_variant(mouse_x div 48, mouse_y div 48, selected_variant)) {
-			audio_play_sound(snd_mario_add, 0, false);
-			obj_world_editor.tile_data[gridx, gridy] = id;
-		}
+		spawn_variant(mouse_x div 48, mouse_y div 48, selected_variant);
+		audio_play_sound(snd_mario_add, 0, false);
 	}
 }

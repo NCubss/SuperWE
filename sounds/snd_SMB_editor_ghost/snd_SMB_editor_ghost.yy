@@ -12,8 +12,8 @@
   "duration":85.303925,
   "name":"snd_SMB_editor_ghost",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Editor/SMB.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

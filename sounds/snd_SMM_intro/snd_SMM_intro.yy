@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":4.143311,
+  "duration":4.1433105,
   "name":"snd_SMM_intro",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_SMM_intro",
+  "soundFile":"snd_SMM_intro.wav",
   "type":1,
-  "volume":0.92,
+  "volume":1.0,
 }

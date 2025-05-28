@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.60226756,
   "name":"snd_NSMBU_bowser_paso2",
   "parent":{
     "name":"Sounds",

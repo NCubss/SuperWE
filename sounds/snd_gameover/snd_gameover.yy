@@ -12,8 +12,8 @@
   "duration":5.02,
   "name":"snd_gameover",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Fanfares",
+    "path":"folders/Sounds/Music/Fanfares.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

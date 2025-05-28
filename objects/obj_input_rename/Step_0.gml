@@ -1,5 +1,5 @@
 var buff;
-if (obj_persistent.modo_android == 0)
+if (obj_coordinator.modo_android == 0)
 {
     if (can_write == 1 && instance_exists(obj_window_alert))
     {

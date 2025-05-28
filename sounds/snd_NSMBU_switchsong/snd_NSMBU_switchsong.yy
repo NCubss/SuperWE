@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":12.594898,
+  "duration":12.591995,
   "name":"snd_NSMBU_switchsong",
   "parent":{
     "name":"Sounds",

@@ -59,7 +59,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 145), (camera_get
     obj = obj_ground
     image_index = 58
     mask_index = spr_circle_mask_6
-    disabled = 1
+    disabled = 0
     value = 5
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 131), (camera_get_view_y(view_get_camera(0)) + 108), obj_card_circle))

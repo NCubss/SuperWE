@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.2386848,
   "name":"snd_step_enemy_1up",
   "parent":{
     "name":"Sounds",

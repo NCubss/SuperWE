@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":106.71746,
+  "duration":118.993,
   "name":"snd_titlemusic_modern",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_titlemusic_modern",
+  "soundFile":"snd_titlemusic_modern.mp3",
   "type":1,
   "volume":1.0,
 }

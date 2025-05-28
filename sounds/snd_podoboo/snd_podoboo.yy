@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.2493424,
   "name":"snd_podoboo",
   "parent":{
     "name":"Sounds",

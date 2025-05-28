@@ -12,8 +12,8 @@
   "duration":179.719,
   "name":"snd_music_volcano",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

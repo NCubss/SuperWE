@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.72126985,
   "name":"snd_NSMBU_helice_planear",
   "parent":{
     "name":"Sounds",

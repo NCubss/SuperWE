@@ -12,8 +12,8 @@
   "duration":0.806667,
   "name":"snd_mb_muncher",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Note Block",
+    "path":"folders/Sounds/Sound Effects/Note Block.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

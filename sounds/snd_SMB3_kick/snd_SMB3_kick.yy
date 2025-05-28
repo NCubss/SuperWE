@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.41070294,
   "name":"snd_SMB3_kick",
   "parent":{
     "name":"Sounds",

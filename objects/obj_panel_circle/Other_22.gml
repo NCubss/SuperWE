@@ -32,7 +32,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get
     obj = obj_ground
     image_index = 171
     mask_index = spr_circle_mask7_3
-    disabled = 1
+    disabled = 0
     value = 2
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
@@ -58,7 +58,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get
         image_index = 40
     mask_index = spr_circle_mask7_6
     value = 5
-	disabled = 1
+	disabled = 0
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
 {
@@ -66,5 +66,5 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get
     image_index = 173
     mask_index = spr_circle_mask7_7
     value = 6
-	disabled = 1
+	disabled = 0
 }

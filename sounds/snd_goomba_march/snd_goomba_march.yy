@@ -12,14 +12,14 @@
   "duration":6.19483,
   "name":"snd_goomba_march",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/Unused.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_goomba_march.ogg",
+  "soundFile":"snd_goomba_march.wav",
   "type":1,
   "volume":1.0,
 }

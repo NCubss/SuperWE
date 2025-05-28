@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.3,
+  "duration":1.060771,
   "name":"snd_salir_del_nivel",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_salir_del_nivel",
+  "soundFile":"snd_salir_del_nivel.wav",
   "type":1,
   "volume":1.0,
 }

@@ -12,8 +12,8 @@
   "duration":109.71429,
   "name":"snd_music_snow_night",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

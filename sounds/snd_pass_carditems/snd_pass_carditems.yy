@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.433356,
+  "duration":0.43335602,
   "name":"snd_pass_carditems",
   "parent":{
     "name":"Sounds",

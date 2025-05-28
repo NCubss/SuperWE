@@ -10,13 +10,13 @@ if instance_exists(obj_rainmaker)
     }
 }
 music = obj_levelmanager.levelmusic
-var sx = obj_persistent.s
+var sx = obj_coordinator.s
 back = background_create_from_surface(application_surface, 0, 0, (global.gw * sx), (global.gh * sx), false, false)
 instance_deactivate_all(true)
 /*
 audio_bus_main.effects[0] = undefined;
 /**/
-instance_activate_object(obj_persistent)
+instance_activate_object(obj_coordinator)
 if audio_is_playing(music)
     audio_pause_sound(music)
 if audio_is_playing(scr_snd_starman())
@@ -100,9 +100,9 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 352), (camera_get
 }
 if global.dsm = 1
 	instance_create_depth(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)),0, obj_skip_control)
-if instance_exists(obj_persistent)
+if instance_exists(obj_coordinator)
 {
-    if (obj_persistent.modo_android == 0)
+    if (obj_coordinator.modo_android == 0)
         instance_create((x + 100), (y + 100), obj_cursor)
     else
     {

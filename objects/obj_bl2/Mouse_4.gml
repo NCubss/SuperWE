@@ -6,7 +6,7 @@ if (instance_exists(obj_iname) && obj_iname.new_texto != "" && obj_iname.new_tex
     press = 1
     mensaje = ""
     codigo = ""
-    with (obj_persistent)
+    with (obj_coordinator)
         event_user(7)
     room_goto(rm_title)
 }

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.63335603,
   "name":"snd_shell_drybones_down",
   "parent":{
     "name":"Sounds",

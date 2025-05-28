@@ -1,5 +1,6 @@
 if (
 	obj_world_editor.pause
+	|| !obj_worldmanager.edit
 	|| (
 		object_index != obj_world_start
 		&& object_index != obj_world_end

@@ -1,6 +1,6 @@
 var buff;
 image_index = write
-if (obj_persistent.modo_android == 0)
+if (obj_coordinator.modo_android == 0)
 {
     if (write == 1)
     {

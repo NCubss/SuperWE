@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":23.86,
   "name":"snd_starman",
   "parent":{
     "name":"Sounds",

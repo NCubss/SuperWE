@@ -46,9 +46,9 @@ if (global.mariostart == 0 && room != rm_editor && room != rm_title)
 if (room == rm_guardabot_play || room == rm_title)
 {
     event_user(5)
-    if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
+    if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1)
     {
-        with (obj_persistent)
+        with (obj_coordinator)
         {
             event_user(2)
             event_user(3)

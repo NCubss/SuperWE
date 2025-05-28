@@ -106,6 +106,6 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get
     image_index = 37
     mask_index = spr_circle_mask7_7
     if (instance_number(obj_checkpoint_res) > 0)
-        disabled = 1
+        disabled = 0
     value = 6
 }

@@ -8,7 +8,7 @@ ready = 1
 alpha = 0
 yy = 0
 index = 0
-scr_init_globals()
+init_globals()
 global.timer = 0
 global.powerup = 0
 global.style = 2

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":52.806667,
   "name":"snd_NSMBU_music_ghost",
   "parent":{
     "name":"Sounds",

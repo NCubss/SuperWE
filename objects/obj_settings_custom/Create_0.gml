@@ -3,7 +3,7 @@ image_index = 0
 anim = 0
 effect_hover = 0
 text = scr_language(29)
-if (obj_persistent.modo_android == 0) and (room != rm_guardabot_play)
+if (obj_coordinator.modo_android == 0) and (room != rm_guardabot_play)
 	disabled = 0
 else
 	disabled = 1

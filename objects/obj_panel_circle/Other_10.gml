@@ -18,7 +18,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 217), (camera_get
     image_index = obj_panel_expand.img_pendiente1
     mask_index = spr_circle_mask_2
     value = 1
-    disabled = 1
+    disabled = 0
 	other.image_selected = obj_panel_expand.img_pendiente1
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 231), (camera_get_view_y(view_get_camera(0)) + 108), obj_card_circle))
@@ -49,7 +49,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 217), (camera_get
     mask_index = spr_circle_mask_4
     value = 3
     if (instance_number(obj_tuberia_res) > 10)
-        disabled = 1
+        disabled = 0
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 156), obj_card_circle))
 {

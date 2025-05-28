@@ -15,7 +15,7 @@ if (drag == 1)
         audio_play_sound(snd_drag, 0, false)
         play_sound = 1
     }
-    if (obj_persistent.modo_android == 1 && obj_cursor.move_view == 0)
+    if (obj_coordinator.modo_android == 1 && obj_cursor.move_view == 0)
     {
         obj_cursor.move_view = 1
         obj_editormanager.expand_open = 2
@@ -60,7 +60,7 @@ else
     move_snap(16, 16)
     drop_lock = 0
     ventana = 0
-    if (obj_persistent.modo_android == 1)
+    if (obj_coordinator.modo_android == 1)
     {
         obj_cursor.move_view = 0
         obj_editormanager.speed = 0

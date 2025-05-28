@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.852018,
+  "duration":0.8520181,
   "name":"snd_select_tile",
   "parent":{
     "name":"Sounds",

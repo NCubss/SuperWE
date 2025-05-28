@@ -31,7 +31,7 @@ switch global.style
 image_speed = 0.6
 if (global.effect_star == 1)
 {
-    with (obj_persistent)
+    with (obj_coordinator)
     {
         var_mouse_pos_x = (((other.x + 88) * 2) - (camera_get_view_x(view_get_camera(0)) * 2))
         var_mouse_pos_y = (((other.y + 88) * 2) - (camera_get_view_y(view_get_camera(0)) * 2))

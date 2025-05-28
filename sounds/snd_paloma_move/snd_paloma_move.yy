@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.59068,
+  "duration":0.5906576,
   "name":"snd_paloma_move",
   "parent":{
     "name":"Sounds",

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_world_overworld",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":10.135374,
+  "name":"snd_world_overworld",
+  "parent":{
+    "name":"World",
+    "path":"folders/Sounds/Music/World.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_world_overworld.wav",
+  "type":1,
+  "volume":1.0,
+}

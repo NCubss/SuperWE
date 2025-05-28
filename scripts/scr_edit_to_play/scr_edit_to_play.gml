@@ -1,5 +1,13 @@
 function edit_to_play() {
 	var plant;
+	if (instance_exists(obj_burnet_box_res)) {
+		with (obj_burnet_box_res) {
+			visible = false;
+			with (instance_create_depth(x, y, 0, obj_burnet_box)) {
+				fire_rotation = other.fire_rotation;
+			}
+		}
+	}
 	if instance_exists(obj_ground) {
 		with (obj_ground) {
 			visible = false;
@@ -883,10 +891,10 @@ function edit_to_play() {
 	    }
 	}
 	if (global.theme == "mountain") && (global.night == 1) && (global.meteoritos == 1) && (!instance_exists(obj_meteorites_maker))
-		instance_create(obj_persistent.x + 5, obj_persistent.y - 5, obj_meteorites_maker)
+		instance_create(obj_coordinator.x + 5, obj_coordinator.y - 5, obj_meteorites_maker)
 	/*
 	if (global.theme == "underground") and (global.style > 1) and (!instance_exists(obj_audio_control))
-		instance_create(obj_persistent.x + 10, obj_persistent.y - 10, obj_audio_control)
+		instance_create(obj_coordinator.x + 10, obj_coordinator.y - 10, obj_audio_control)
 	/**/
 	if instance_exists(obj_foo_res)
 	{

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.286667,
+  "duration":1.2866666,
   "name":"snd_volver_a_empezar",
   "parent":{
     "name":"Sounds",

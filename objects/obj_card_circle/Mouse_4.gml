@@ -131,7 +131,7 @@ if (obj_levelmanager.editor == 1 && disabled == 0)
                 cont_panel_top = 2
             cont_panel_creator = 2
         }
-        if (obj_persistent.modo_android == 1)
+        if (obj_coordinator.modo_android == 1)
             obj_creator_jugar_editar.visible = true
         obj_expand.visible = true
         with (obj_panel_expand)

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":2.006667,
+  "duration":2.0066667,
   "name":"snd_seleccion_entorno1",
   "parent":{
     "name":"Sounds",

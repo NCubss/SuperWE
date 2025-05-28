@@ -12,8 +12,8 @@
   "duration":62.642696,
   "name":"snd_music_mario_land",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

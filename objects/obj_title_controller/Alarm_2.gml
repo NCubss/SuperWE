@@ -3,6 +3,6 @@ if (anim_idx > 6) {
 	room_goto(rm_editor);
 	exit;
 }
-animator(ac_logo, 0, id, "anim", 0, 216, 15, Accessor.ARRAY, anim_idx);
+animator(ac_logo_drop, 0, id, "anim", 0, 216, 15, Accessor.ARRAY, anim_idx);
 alarm[2] = anim_idx == 6 ? 30 : 7;
 anim_idx++;

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.2893198,
   "name":"snd_remove_hongo_enemigos",
   "parent":{
     "name":"Sounds",

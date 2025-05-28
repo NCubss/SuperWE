@@ -1,7 +1,7 @@
 instance_create((camera_get_view_x(view_get_camera(0)) + 232), (camera_get_view_y(view_get_camera(0)) + 150), obj_st_slider)
 instance_create((camera_get_view_x(view_get_camera(0)) + 8), (camera_get_view_y(view_get_camera(0)) + 51), obj_settings_custom)
 instance_create((camera_get_view_x(view_get_camera(0)) + 8), (camera_get_view_y(view_get_camera(0)) + 101), obj_button_settings_idioma)
-if (obj_persistent.modo_android == 0)
+if (obj_coordinator.modo_android == 0)
     instance_create((camera_get_view_x(view_get_camera(0)) + 8), (camera_get_view_y(view_get_camera(0)) + 142), obj_button_settings_estrella)
 else
     instance_create((camera_get_view_x(view_get_camera(0)) + 8), (camera_get_view_y(view_get_camera(0)) + 142), obj_button_settings_sm4j)
@@ -38,7 +38,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 347), (camera_get
     image_draw = 4
     active = 2
 }
-if (obj_persistent.modo_android == 0)
+if (obj_coordinator.modo_android == 0)
 {
     with (instance_create((camera_get_view_x(view_get_camera(0)) + 231), (camera_get_view_y(view_get_camera(0)) + 101), obj_window_select))
     {

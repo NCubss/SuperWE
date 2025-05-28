@@ -12,8 +12,8 @@
   "duration":89.7998,
   "name":"snd_music_airship",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":2.375692,
+  "duration":2.3756917,
   "name":"snd_soplete",
   "parent":{
     "name":"Sounds",

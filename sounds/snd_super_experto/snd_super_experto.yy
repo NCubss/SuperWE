@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":100.62474,
+  "duration":100.60898,
   "name":"snd_super_experto",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_super_experto",
+  "soundFile":"snd_super_experto.mp3",
   "type":1,
   "volume":1.0,
 }

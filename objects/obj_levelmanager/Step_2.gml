@@ -29,7 +29,7 @@ else if instance_exists(obj_lighting)
 }
 if (global.condiciones_count == 2 && (!instance_exists(obj_condiciones)) && ((global.theme != "forest" && global.theme != "beach") || (instance_exists(obj_arrow_lock) && instance_exists(obj_lava_water) && obj_lava_water.y > obj_arrow_lock.y)))
 	global.condiciones_count = 0
-if (keyboard_check_pressed(vk_control) && obj_persistent.modo_android == 1)
+if (keyboard_check_pressed(vk_control) && obj_coordinator.modo_android == 1)
 {
 	if (global.key_br == 0)
 		global.key_br = 1

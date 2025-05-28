@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB_editor_forest",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Editor/SMB.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

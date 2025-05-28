@@ -182,8 +182,10 @@ if (global.levelguardabot != "") {
 		for (var i = 0; i < array_length(_list4); i++) {
 			var _map4 = _list4[i];
 			var o_objecto = instance_create(0, 0, obj_tuberia_res);
-			o_objecto.x_draw = o_objecto.x = _map4.x_pos;
-			o_objecto.y_draw = o_objecto.y = _map4.y_pos;
+			o_objecto.x = _map4.x_pos;
+			o_objecto.y = _map4.y_pos;
+			o_objecto.x_draw = _map4.x_pos;
+			o_objecto.y_draw = _map4.y_pos;
 			o_objecto.size = _map4.size;
 			o_objecto.rotacion = _map4.rotacion;
 			o_objecto.direct_t = _map4.direct_t;
@@ -221,8 +223,10 @@ if (global.levelguardabot != "") {
 			var _map6 = _list6[i];
 			var object = asset_get_index(_map6.object);
 			var o_objecto = instance_create(0, 0, object);
-			o_objecto.x_draw = o_objecto.x = _map6.x_pos;
-			o_objecto.y_draw = o_objecto.y = _map6.y_pos;
+			o_objecto.x = _map6.x_pos
+			o_objecto.y = _map6.y_pos;
+			o_objecto.x_draw = _map6.x_pos;
+			o_objecto.y_draw = _map6.y_pos;
 			o_objecto.direct = _map6.direct;
 			o_objecto.d = _map6.down;
 			o_objecto.u = _map6.up;
@@ -234,8 +238,10 @@ if (global.levelguardabot != "") {
 			var _map7 = _list7[i];
 			var object = asset_get_index(_map7.object);
 			var o_objecto = instance_create(0, 0, object)
-			o_objecto.x_draw = o_objecto.x = _map7.x_pos;
-			o_objecto.y_draw = o_objecto.y = _map7.y_pos;
+			o_objecto.x = _map7.x_pos;
+			o_objecto.y = _map7.y_pos;
+			o_objecto.x_draw = _map7.x_pos;
+			o_objecto.y_draw = _map7.y_pos;
 			o_objecto.size_x = _map7.width;
 			o_objecto.size_y = _map7.height;
 			o_objecto.sprite_index = asset_get_index(_map7.sprite);
@@ -254,8 +260,10 @@ if (global.levelguardabot != "") {
 				|| (object == obj_door_lock_res && limit_door_3 < 4)
 			) {
 				var o_objecto = instance_create(0, 0, object);
-				o_objecto.x_draw = o_objecto.x = _map8.x_pos;
-				o_objecto.y_draw = o_objecto.y = _map8.y_pos;
+				o_objecto.x = _map8.x_pos;
+				o_objecto.y = _map8.y_pos;
+				o_objecto.x_draw = _map8.x_pos;
+				o_objecto.y_draw = _map8.y_pos;
 				o_objecto.door_x = _map8.door_x;
 				o_objecto.door_y = _map8.door_y;
 				if (object == obj_door_res) {

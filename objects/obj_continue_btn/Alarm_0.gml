@@ -1,4 +1,4 @@
-with (obj_persistent)
+with (obj_coordinator)
 {
     cronometro = 0
     cronometro_play = 1

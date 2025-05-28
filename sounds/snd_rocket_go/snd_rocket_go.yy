@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.273424,
   "name":"snd_rocket_go",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_rocket_go",
+  "soundFile":"snd_rocket_go.wav",
   "type":1,
   "volume":1.0,
 }

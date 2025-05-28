@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.454671,
+  "duration":0.0,
   "name":"snd_SMB3_coin10",
   "parent":{
     "name":"Sounds",

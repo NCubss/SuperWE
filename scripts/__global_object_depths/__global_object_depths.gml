@@ -379,7 +379,7 @@ function __global_object_depths() {
 	global.__objectDepths[368] = -19; // obj_button_creditos
 	global.__objectDepths[369] = -19; // obj_selecting_fps
 	global.__objectDepths[370] = -19; // obj_st_slider
-	global.__objectDepths[371] = -99; // obj_persistent
+	global.__objectDepths[371] = -99; // obj_coordinator
 	global.__objectDepths[372] = 10; // obj_arrow_big
 	global.__objectDepths[373] = -10; // obj_alert_message
 	global.__objectDepths[374] = -16; // obj_alert_button
@@ -1175,7 +1175,7 @@ function __global_object_depths() {
 	global.__objectNames[368] = "obj_button_creditos";
 	global.__objectNames[369] = "obj_selecting_fps";
 	global.__objectNames[370] = "obj_st_slider";
-	global.__objectNames[371] = "obj_persistent";
+	global.__objectNames[371] = "obj_coordinator";
 	global.__objectNames[372] = "obj_arrow_big";
 	global.__objectNames[373] = "obj_alert_message";
 	global.__objectNames[374] = "obj_alert_button";

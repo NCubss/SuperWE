@@ -70,9 +70,9 @@ cp_cont = 0
 color[0] = make_colour_rgb(255, 255, 72)
 color[1] = make_colour_rgb(254, 138, 139)
 color[2] = make_colour_rgb(102, 245, 157)
-if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
+if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1)
 {
-    with (obj_persistent)
+    with (obj_coordinator)
     {
         event_user(4)
         event_user(5)

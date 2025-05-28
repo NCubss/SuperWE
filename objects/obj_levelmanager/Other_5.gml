@@ -25,9 +25,9 @@ global.condiciones = 0
 global.condiciones_type = 0
 global.condiciones_object = 0
 global.condiciones_count = 0
-if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1 && room == rm_title)
+if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1 && room == rm_title)
 {
-    with (obj_persistent)
+    with (obj_coordinator)
     {
         event_user(4)
         event_user(5)

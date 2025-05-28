@@ -22,8 +22,8 @@
   "name":"obj_cursor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controllers",
-    "path":"folders/Objects/Main/Controllers.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

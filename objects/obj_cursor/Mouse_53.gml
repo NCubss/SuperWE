@@ -36,7 +36,7 @@ or obj_levelmanager.editor_sonidos == 1))
             event_user(1)
         }
         else if (obj_levelmanager.editor_sonidos == 1) {
-            if (obj_persistent.modo_android == 1 and move_view == 0 
+            if (obj_coordinator.modo_android == 1 and move_view == 0 
 			and global.select_resource == obj_resource_empty 
 			and ((!(collision_rectangle((floor((mouse_x / 16)) * 16), (floor((mouse_y / 16)) * 16), ((floor((mouse_x / 16)) * 16) + 15), ((floor((mouse_y / 16)) * 16) + 15), obj_parent_resource, 1, 1))) 
 			or collision_rectangle((floor((mouse_x / 16)) * 16), (floor((mouse_y / 16)) * 16), ((floor((mouse_x / 16)) * 16) + 15), ((floor((mouse_y / 16)) * 16) + 15), obj_ground, 1, 1)) 
@@ -69,7 +69,7 @@ if instance_exists(obj_ventana_mario)
 }
 // change to grabbing cursor if it is on a tile
 with (obj_world_editor) {
-	if (tile_data[mouse_x div 48, mouse_y div 48] && !pause) {
+	if (position_meeting(mouse_x, mouse_y, obj_parent_world_res) && !pause) {
 		other.i_index = 1;
 	}
 }

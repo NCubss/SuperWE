@@ -8,7 +8,7 @@ anim_curve = undefined;
 // Length (steps)
 length = 0;
 // Object ID
-obj_id = 0;
+obj_id = noone;
 // Instance Variable Name
 var_name = "";
 // From Value

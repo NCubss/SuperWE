@@ -24,7 +24,7 @@ if (obj_levelmanager.editor == 1 && obj_levelmanager.editor_sonidos == 0 && glob
 if (move_bar == 1)
     color = point_direction(x, y, mouse_x, mouse_y)
 var exopen = obj_editormanager.expand_open
-if ((exopen == 0 || (exopen != 0 && obj_persistent.modo_android == 1)) && move_bar == 1)
+if ((exopen == 0 || (exopen != 0 && obj_coordinator.modo_android == 1)) && move_bar == 1)
 {
     if (color < 45 || color > 315)
     {
@@ -85,7 +85,7 @@ if (mouse_check_button_released(mb_left) && obj_levelmanager.editor == 1 && draw
     draw_p = 0
     obj_cursor.move_tuberia = 0
     move_bar = 0
-    if ((!instance_exists(obj_ventana_mario)) && obj_persistent.modo_android == 1)
+    if ((!instance_exists(obj_ventana_mario)) && obj_coordinator.modo_android == 1)
         obj_editormanager.expand_open = 0
     audio_play_sound(snd_colocar_objectos, 0, false)
 }

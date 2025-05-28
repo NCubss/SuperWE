@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":192,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
   "duration":0.0,
   "name":"snd_SMB_link_charge2",

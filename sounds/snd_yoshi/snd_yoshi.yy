@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.61734694,
   "name":"snd_yoshi",
   "parent":{
     "name":"Sounds",

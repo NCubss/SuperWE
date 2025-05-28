@@ -12,8 +12,8 @@
   "duration":218.46204,
   "name":"snd_credits",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Credits",
+    "path":"folders/Sounds/Music/Credits.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -1,7 +1,7 @@
 if (global.lives > 0 || global.dsm == 0){
 global.keys = 0
 global.ms_check = 0
-scr_init_globals()
+init_globals()
 audio_stop_sound(scr_snd_clown_damage())
 audio_stop_sound(music)
 audio_stop_sound(scr_snd_starman())

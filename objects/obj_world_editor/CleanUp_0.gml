@@ -1,3 +1,5 @@
-global.in_world_editor = false;
+with (obj_worldmanager) {
+	edit = false;
+}
 // stop sound
-audio_stop_sound(snd_world_editor_overworld);
+audio_stop_sound(music);

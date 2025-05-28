@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.9559864,
   "name":"snd_remove_hongo",
   "parent":{
     "name":"Sounds",

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.635986,
+  "duration":1.270907,
   "name":"snd_select_guardabot",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_select_guardabot",
+  "soundFile":"snd_select_guardabot.wav",
   "type":1,
   "volume":1.0,
 }

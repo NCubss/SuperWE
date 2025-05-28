@@ -48,7 +48,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 229), (camera_get
     mask_index = spr_circle_mask10_3
     value = 2
     if (instance_number(obj_pink_coin_res) > 4)
-        disabled = 1
+        disabled = 0
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 229), (camera_get_view_y(view_get_camera(0)) + 123), obj_card_circle))
 {

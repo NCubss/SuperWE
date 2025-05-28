@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":23.898912,
+  "duration":23.89601,
   "name":"snd_switchsong",
   "parent":{
     "name":"Sounds",

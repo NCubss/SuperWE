@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":192,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
-  "duration":0.164853,
+  "duration":0.1648526,
   "name":"snd_SMB_kick",
   "parent":{
     "name":"Sounds",

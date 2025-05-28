@@ -7,7 +7,7 @@ with (obj_thwomp_intro)
     instance_destroy()
 with (obj_goomba_intro)
     instance_destroy()
-with (obj_persistent)
+with (obj_coordinator)
     alarm[4] = 1
 instance_destroy()
 

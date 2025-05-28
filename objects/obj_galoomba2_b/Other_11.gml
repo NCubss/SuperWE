@@ -39,16 +39,14 @@ if (global.style == 2)
 else if (global.style != 2)
 {
     with (instance_create_depth(x -32, y - 32, -2, obj_smoke_goomba)) {
-	if (global.style != 3)
-	{
-	direct = direct*2
-	image_xscale = 2;
-	image_yscale = 2;
-	}
-	else{
-	direct = direct*2
-	image_xscale = 2;
-	image_yscale = 2;
+	if (global.style != 3) {
+		direct = direct*2
+		image_xscale = 2;
+		image_yscale = 2;
+	} else {
+		direct = direct*2
+		image_xscale = 2;
+		image_yscale = 2;
 	}
 	}
 	audio_stop_sound(goomba_stomped);

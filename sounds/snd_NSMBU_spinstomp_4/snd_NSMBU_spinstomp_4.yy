@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.5906576,
   "name":"snd_NSMBU_spinstomp_4",
   "parent":{
     "name":"Sounds",

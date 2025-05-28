@@ -12,8 +12,8 @@
   "duration":71.968414,
   "name":"snd_guardabot",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Coursebot",
+    "path":"folders/Sounds/Music/Coursebot.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

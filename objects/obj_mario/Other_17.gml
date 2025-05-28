@@ -8,5 +8,5 @@ image_index = 0
 
 //Finish kicking animation
 if (global.style != 3)
-    alarm[6] = 16
+	alarm[6] = 16
 

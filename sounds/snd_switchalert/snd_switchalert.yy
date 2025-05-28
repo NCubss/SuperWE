@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.908005,
+  "duration":0.93024945,
   "name":"snd_switchalert",
   "parent":{
     "name":"Sounds",

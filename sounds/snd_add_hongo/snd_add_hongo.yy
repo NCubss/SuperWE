@@ -12,8 +12,8 @@
   "duration":1.26,
   "name":"snd_add_hongo",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Object Options",
+    "path":"folders/Sounds/Sound Effects/Editor/Object Options.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

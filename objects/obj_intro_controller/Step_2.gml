@@ -1,6 +1,6 @@
 if (ready == 1)
 {
-    if (y >= camera_get_view_y(view_get_camera(0)))
+    if (y >= camera_get_view_y(view_camera[0]))
     {
         gravity = 0
         if (vspeed > 0)
@@ -14,8 +14,8 @@ if (ready == 1)
             else
             {
                 vspeed = 0
-                y = camera_get_view_y(view_get_camera(0))
-                with (obj_persistent)
+                y = camera_get_view_y(view_camera[0])
+                with (obj_coordinator)
                     alarm[4] = 220
                 audio_play_sound(snd_SMM_intro, 0, false)
                 ready = 2

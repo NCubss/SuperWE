@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":192,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
   "duration":1.46,
   "name":"snd_scatter",

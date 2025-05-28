@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_editor_castle",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"NSMBU",
+    "path":"folders/Sounds/Music/Editor/NSMBU.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

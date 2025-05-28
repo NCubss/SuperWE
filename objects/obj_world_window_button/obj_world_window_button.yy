@@ -12,8 +12,8 @@
   "name":"obj_world_window_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"World Maker",
+    "path":"folders/Objects/UI/World Maker.yy",
   },
   "parentObjectId":null,
   "persistent":false,

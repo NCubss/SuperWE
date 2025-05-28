@@ -1,0 +1,1 @@
+audio_play_sound(snd_super_experto, 0, true);

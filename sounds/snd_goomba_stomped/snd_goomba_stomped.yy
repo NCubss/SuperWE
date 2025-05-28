@@ -12,8 +12,8 @@
   "duration":0.92,
   "name":"snd_goomba_stomped",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Shared",
+    "path":"folders/Sounds/Sound Effects/Shared.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

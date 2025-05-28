@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.732018,
+  "duration":0.7320181,
   "name":"snd_warp",
   "parent":{
     "name":"Sounds",

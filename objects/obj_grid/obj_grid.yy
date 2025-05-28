@@ -9,8 +9,8 @@
   "name":"obj_grid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controllers",
-    "path":"folders/Objects/Main/Controllers.yy",
+    "name":"Editor",
+    "path":"folders/Objects/UI/Editor.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_music_underwater",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

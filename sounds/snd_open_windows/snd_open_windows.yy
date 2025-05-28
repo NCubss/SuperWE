@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.862653,
+  "duration":0.886712,
   "name":"snd_open_windows",
   "parent":{
     "name":"Sounds",

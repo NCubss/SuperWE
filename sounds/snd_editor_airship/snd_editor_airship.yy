@@ -12,8 +12,8 @@
   "duration":89.81141,
   "name":"snd_editor_airship",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/Editor/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

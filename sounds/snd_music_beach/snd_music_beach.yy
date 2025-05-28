@@ -12,8 +12,8 @@
   "duration":61.094604,
   "name":"snd_music_beach",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/SMW.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

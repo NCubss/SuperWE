@@ -16,7 +16,7 @@ if (obj_levelmanager.editor == 1 && obj_editormanager.expand_open == 0 && obj_le
             cont_panel_top = 1
         cont_panel_creator = 1
     }
-    if (obj_persistent.modo_android == 1)
+    if (obj_coordinator.modo_android == 1)
         obj_creator_jugar_editar.visible = false
     if instance_exists(obj_bg_selection)
     {

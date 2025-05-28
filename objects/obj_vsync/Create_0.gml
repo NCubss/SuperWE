@@ -1,5 +1,5 @@
 image_speed = 0
-if instance_exists(obj_persistent)
+if instance_exists(obj_coordinator)
     image_index = global.vsync
 value = 0
 image_draw = 0

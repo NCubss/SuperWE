@@ -12,8 +12,8 @@
   "duration":40.112087,
   "name":"snd_SMB_editor_castle",
   "parent":{
-    "name":"Editor songs",
-    "path":"folders/Sounds/Editor songs.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Editor/SMB.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

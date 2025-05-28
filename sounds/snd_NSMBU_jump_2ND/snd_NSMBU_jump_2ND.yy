@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.258322,
+  "duration":0.0,
   "name":"snd_NSMBU_jump_2ND",
   "parent":{
     "name":"Sounds",

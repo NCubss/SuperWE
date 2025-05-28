@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.529705,
+  "duration":0.5297052,
   "name":"snd_panel_close",
   "parent":{
     "name":"Sounds",

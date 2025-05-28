@@ -1,4 +1,9 @@
 event_inherited();
 
-variants = [0, 1, 2, 3];
+variants = [
+	Variant.GROUND_NONE,
+	Variant.GROUND_HILL,
+	Variant.GROUND_ROCKS,
+	Variant.GROUND_TREES
+];
 variant_id = Variant.GROUND_NONE;

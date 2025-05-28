@@ -1,0 +1,1 @@
+move(Direction.UP);

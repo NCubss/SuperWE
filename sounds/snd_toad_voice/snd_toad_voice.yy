@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.092018,
+  "duration":1.0920181,
   "name":"snd_toad_voice",
   "parent":{
     "name":"Sounds",

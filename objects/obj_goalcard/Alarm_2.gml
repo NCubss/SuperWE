@@ -5,7 +5,7 @@ if (instance_exists(obj_editormanager) && obj_levelmanager.editor == 0)
 }
 else if (global.level_g == 1)
 {
-    scr_init_globals()
+    init_globals()
     room_goto(rm_guardabot)
 }
 else if (room == rm_title)

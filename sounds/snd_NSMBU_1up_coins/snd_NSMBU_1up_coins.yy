@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.2146939,
   "name":"snd_NSMBU_1up_coins",
   "parent":{
     "name":"Sounds",

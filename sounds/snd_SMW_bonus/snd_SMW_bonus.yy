@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":30.187391,
+  "duration":30.187393,
   "name":"snd_SMW_bonus",
   "parent":{
     "name":"Sounds",

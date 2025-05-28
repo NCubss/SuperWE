@@ -8,7 +8,7 @@ if (disabled == 0 && (os_type != os_android) && active != 2)
             active = 0
     }
     active = 1
-    with (obj_persistent)
+    with (obj_coordinator)
     {
         global.w_scale = (other.value + 1)
         filter = (other.value + 1)

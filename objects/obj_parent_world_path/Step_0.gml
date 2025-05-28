@@ -1,6 +1,6 @@
 event_inherited();
 if (holds_start || holds_end) {
-	var obj = holds_start ? obj_world_start : (holds_end ? obj_world_end : undefined);
+	var obj = holds_start ? obj_world_start.id : (holds_end ? obj_world_end.id : noone);
 	if (dragging || grabbing) {
 		obj.depth = grabbed_depth - 1;
 	}

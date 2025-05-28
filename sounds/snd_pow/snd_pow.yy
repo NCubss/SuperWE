@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.27600908,
   "name":"snd_pow",
   "parent":{
     "name":"Sounds",

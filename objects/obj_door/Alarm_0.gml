@@ -39,7 +39,7 @@ if instance_exists(obj_doormario)
     }
     with (obj_doormario)
         instance_destroy()
-    with (obj_persistent)
+    with (obj_coordinator)
         event_user(0)
     alarm[1] = 15
 }

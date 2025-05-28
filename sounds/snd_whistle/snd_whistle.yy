@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.801088,
+  "duration":0.7894785,
   "name":"snd_whistle",
   "parent":{
     "name":"Sounds",

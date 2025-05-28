@@ -8,9 +8,9 @@ if (canpause == 1 && (!instance_exists(obj_player_goal_parent)))
 		}
 		else if global.dsm = 0
 			instance_create((camera_get_view_x(view_get_camera(0)) + 239), camera_get_view_y(view_get_camera(0)), obj_menu_pausa)
-        if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
+        if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1)
         {
-            with (obj_persistent)
+            with (obj_coordinator)
             {
                 event_user(4)
                 event_user(5)

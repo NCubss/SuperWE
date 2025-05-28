@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.3338776,
   "name":"snd_rocket_count",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_rocket_count",
+  "soundFile":"snd_rocket_count.wav",
   "type":1,
   "volume":1.0,
 }

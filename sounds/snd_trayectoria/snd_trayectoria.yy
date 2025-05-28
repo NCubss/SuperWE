@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.638685,
+  "duration":0.6386848,
   "name":"snd_trayectoria",
   "parent":{
     "name":"Sounds",

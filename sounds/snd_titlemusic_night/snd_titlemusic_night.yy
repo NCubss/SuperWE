@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":42.435986,
+  "duration":119.11299,
   "name":"snd_titlemusic_night",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_titlemusic_night",
+  "soundFile":"snd_titlemusic_night.mp3",
   "type":1,
-  "volume":0.73,
+  "volume":1.0,
 }

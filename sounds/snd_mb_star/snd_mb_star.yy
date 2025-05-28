@@ -12,8 +12,8 @@
   "duration":0.44932,
   "name":"snd_mb_star",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Note Block",
+    "path":"folders/Sounds/Sound Effects/Note Block.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

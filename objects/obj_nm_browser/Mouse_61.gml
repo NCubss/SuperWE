@@ -1,0 +1,1 @@
+scroll = clamp(scroll + 20, 0, max_scroll);

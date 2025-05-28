@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.758685,
+  "duration":0.7586848,
   "name":"snd_volver_posicion",
   "parent":{
     "name":"Sounds",

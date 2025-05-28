@@ -3,7 +3,10 @@ steps_in++;
 // progress (0 - 1)
 progress = steps_in / length;
 // if we are finished, destroy the animator
-if (progress > 1) instance_destroy();
+if (
+	progress > 1
+	|| !instance_exists(obj_id)
+) instance_destroy();
 // finally, set the user object's instance variable to the evaluated between value
 switch (acc) {
 	// access the value by obj_id.var_name

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.588005,
+  "duration":0.5877551,
   "name":"snd_page_enemies",
   "parent":{
     "name":"Sounds",

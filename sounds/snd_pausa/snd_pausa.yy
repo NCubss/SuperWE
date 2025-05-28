@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":1.084014,
+  "duration":1.0840136,
   "name":"snd_pausa",
   "parent":{
     "name":"Sounds",
