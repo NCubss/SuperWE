@@ -176,8 +176,8 @@ application_surface_draw_enable(false);
 global.nm = {
 	api_url: "http://103.195.100.145:35566",
 	api_key: "ponkis16122",
-	username: "NCubs",
-	password: "krists16",
+	username: "",
+	password: "",
 	session: "",
 	discord_id: ""
 }

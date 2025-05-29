@@ -50,4 +50,4 @@ active = 0;
 image_speed = 0.15;
 starcoin_idx = global.starcoins;
 global.starcoins++;
-global.starcoin[starcoin_idx] = false
+global.starcoin[starcoin_idx] = false;
