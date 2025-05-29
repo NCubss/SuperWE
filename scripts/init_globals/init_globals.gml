@@ -1,4 +1,9 @@
+/**
+	@description	Initializes some of the global variables that are used throughout the game.
+	@returns		{undefined}
+*/
 function init_globals() {
+	
 	#region // World-related
 	global.in_world_editor = false;
 	global.world_data = [[]];
@@ -7,6 +12,10 @@ function init_globals() {
 	global.world_mario_x = 0;
 	global.world_mario_y = 0;
 	#endregion
+	
+	// Used for animating the hover effect in some scenarios
+	global.anim = 0;
+	
 	global.ms = 0
 	global.cull_previous_x = x
 	global.cull_previous_y = y

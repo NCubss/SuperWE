@@ -52,6 +52,7 @@
     {"name":"Backgrounds","order":1,"path":"folders/Scripts/Backgrounds.yy",},
     {"name":"scr_bg_init","order":15,"path":"folders/Scripts/Backgrounds/scr_bg_init.yy",},
     {"name":"compatibility","order":2,"path":"folders/Scripts/compatibility.yy",},
+    {"name":"Drawing","order":65,"path":"folders/Scripts/Drawing.yy",},
     {"name":"Editor","order":3,"path":"folders/Scripts/Editor.yy",},
     {"name":"Mario","order":4,"path":"folders/Scripts/Mario.yy",},
     {"name":"marioU","order":5,"path":"folders/Scripts/marioU.yy",},

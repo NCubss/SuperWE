@@ -1,6 +1,5 @@
 draw_self();
 if (hover) {
-    anim += 0.3;
-    scr_anim_hover(x, y, anim, 2);
+    draw_hover_anim(x, y, sprite_width - 1, sprite_height - 2);
 }
 

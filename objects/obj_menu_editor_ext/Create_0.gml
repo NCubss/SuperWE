@@ -3,7 +3,6 @@ can_press = false;
 alarm[0] = 30;
 
 hover = false;
-anim = 0;
 
 image_index = 1;
 // HD
