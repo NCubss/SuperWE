@@ -32,13 +32,14 @@ function move(direction) {
 	}
 	moving_direction = direction;
 	var obj = instance_position(x + xoffset, y + yoffset, obj_parent_world_path);
+	var current = instance_position(x, y, obj_parent_world_path);
 	if (
 		x + xoffset < 0
 		|| x + xoffset > room_width
 		|| y + yoffset < 0
 		|| y + yoffset > room_height
 		|| obj == noone
-		|| !world_can_move_here(obj, moving_direction)
+		|| !world_can_move_here(current, obj, moving_direction)
 	) {
 		image_xscale = 1;
 		moving_direction = -1;

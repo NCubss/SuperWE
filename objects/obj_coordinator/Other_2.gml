@@ -59,8 +59,8 @@ if file_exists((working_directory + "Settings_new.dat"))
     file_text_readln(file)
 	global.effect_star = real(file_text_read_string(file))
     file_text_readln(file)
-    //global.my1 = file_text_read_string(file)
-	global.my1 = "NCubs"
+    global.my1 = file_text_read_string(file)
+	//global.my1 = "NCubs"
     file_text_readln(file)
     global.hd = real(file_text_read_string(file))
 	file_text_readln(file)

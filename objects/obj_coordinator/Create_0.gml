@@ -23,6 +23,8 @@ window_set_caption(global.game.name);
 
 // Master volume
 global.audiomaster = 0.25;
+
+mobile_keys = [];
 //airship = 0;
 port_y = 0;
 prev_hspeeds = 0;
