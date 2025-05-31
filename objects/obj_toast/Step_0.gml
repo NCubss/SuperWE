@@ -1,7 +1,7 @@
 if (instance_exists(obj_levelmanager) && obj_levelmanager.editor == 0)
     instance_destroy()
-x = ((camera_get_view_x(view_get_camera(0)) + xx))
-y = (((camera_get_view_y(view_get_camera(0)) + yy) - anim))
+x = ((camera_x + xx))
+y = (((camera_y + yy) - anim))
 if (ready == 0)
 {
     if (anim < 36)

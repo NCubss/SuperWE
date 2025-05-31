@@ -1,5 +1,5 @@
-x = (camera_get_view_x(view_get_camera(0)) + x_pos)
-y = (camera_get_view_y(view_get_camera(0)) - obj_cursor.anim_top)
+x = (camera_x + x_pos)
+y = (camera_y - obj_cursor.anim_top)
 if (instance_exists(obj_card_block_sounds) && obj_card_block_sounds.modo_sonidos == 1)
 {
     sprite_card = spr_cards_sounds

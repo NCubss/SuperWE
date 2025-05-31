@@ -1,9 +1,9 @@
 var worlds, _wrapper, _list, _map;
-instance_create((camera_get_view_x(view_get_camera(0)) + 184), (camera_get_view_y(view_get_camera(0)) + 105), obj_bt_gb_play)
-instance_create((camera_get_view_x(view_get_camera(0)) + 184), (camera_get_view_y(view_get_camera(0)) + 82), obj_bt_gb_edit)
-instance_create((camera_get_view_x(view_get_camera(0)) + 297), (camera_get_view_y(view_get_camera(0)) + 138), obj_bt_gb_delete)
-instance_create((camera_get_view_x(view_get_camera(0)) + 330), (camera_get_view_y(view_get_camera(0)) + 54), obj_bt_gb_close)
-instance_create_depth((camera_get_view_x(view_get_camera(0)) + 184), (camera_get_view_y(view_get_camera(0)) + 151),-7, obj_bt_rename)
+instance_create((camera_x + 184), (camera_y + 105), obj_bt_gb_play)
+instance_create((camera_x + 184), (camera_y + 82), obj_bt_gb_edit)
+instance_create((camera_x + 297), (camera_y + 138), obj_bt_gb_delete)
+instance_create((camera_x + 330), (camera_y + 54), obj_bt_gb_close)
+instance_create_depth((camera_x + 184), (camera_y + 151),-7, obj_bt_rename)
 c_etiquetas = make_colour_rgb(110, 119, 126)
 user = 0
 fecha = 0

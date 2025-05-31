@@ -5,7 +5,7 @@ else
     cont = ds_list_size(my_list)
 for (i = 0; i < cont; i++)
 {
-    item = instance_create((camera_get_view_x(view_get_camera(0)) + pos_x), (camera_get_view_y(view_get_camera(0)) + pos_y), obj_gb_button)
+    item = instance_create((camera_x + pos_x), (camera_y + pos_y), obj_gb_button)
     item.texto = ds_list_find_value(my_list, i)
     if (list_post == 2)
     {

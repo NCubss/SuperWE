@@ -2,7 +2,7 @@ if (instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1 && obj_edi
 	|| global.in_world_editor
 {
     audio_play_sound(snd_abrir_menu, 0, false)
-    instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_edit_menu)
+    instance_create(camera_x, camera_y, obj_edit_menu)
 	if (instance_exists(obj_levelmanager)) { // for now
 		obj_erase.active = 0
 	    obj_cursor.image_index = 0

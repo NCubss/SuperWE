@@ -18,10 +18,10 @@ function outside_view() {
 	@returns		{undefined}
 */
 function outside_view_modelsizable() {
-	var view_left = camera_get_view_x(view_camera[0]);
-	var view_right = view_left + camera_get_view_width(view_camera[0]);
-	var view_top = camera_get_view_y(view_camera[0]);
-	var view_bottom = view_top + camera_get_view_height(view_camera[0]);
+	var view_left = camera_x;
+	var view_right = view_left + camera_width;
+	var view_top = camera_y;
+	var view_bottom = view_top + camera_height;
 	// Iterate through all instances of the object
 	with (obj_modelsizable) {
 		var bbox_Left = x - sprite_width / 2 + sprite_xoffset;

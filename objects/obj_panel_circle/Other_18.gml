@@ -4,7 +4,7 @@ image_index = 2
 obj_panel_expand.header = 2
 obj_header.page = 8
 posicion = 8
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 58), obj_card_circle))
+with (instance_create((camera_x + 181), (camera_y + 58), obj_card_circle))
 {
     obj = obj_ground
     image_index = 188
@@ -13,7 +13,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get
     disabled = 0
     other.image_selected = 188
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 218), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+with (instance_create((camera_x + 218), (camera_y + 74), obj_card_circle))
 {
     obj = obj_ground
     image_index = 189
@@ -21,7 +21,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 218), (camera_get
     value = 1
     disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get_view_y(view_get_camera(0)) + 111), obj_card_circle))
+with (instance_create((camera_x + 233), (camera_y + 111), obj_card_circle))
 {
     obj = obj_ground
     image_index = 194
@@ -29,7 +29,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get
     value = 2
     disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
+with (instance_create((camera_x + 205), (camera_y + 150), obj_card_circle))
 {
     obj = obj_ground
     image_index = 190
@@ -37,7 +37,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get
     value = 3
     disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
+with (instance_create((camera_x + 156), (camera_y + 150), obj_card_circle))
 {
     obj = obj_ground
     image_index = 193
@@ -45,7 +45,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get
     value = 4
     disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get_view_y(view_get_camera(0)) + 111), obj_card_circle))
+with (instance_create((camera_x + 129), (camera_y + 111), obj_card_circle))
 {
     obj = obj_ground
     image_index = 192
@@ -53,7 +53,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get
     value = 5
     disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+with (instance_create((camera_x + 144), (camera_y + 74), obj_card_circle))
 {
     obj = obj_ground
     image_index = 191

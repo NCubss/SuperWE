@@ -5,5 +5,5 @@ draw_sprite(spr_st_slider, index, (x + (sprite_width * value_)), (y + 1))
 draw_set_font(global.font_google)
 draw_set_color(c_letters)
 porcentaje = round((value_ * 100))
-draw_text((camera_get_view_x(view_get_camera(0)) + 324), (camera_get_view_y(view_get_camera(0)) + 140), string_hash_to_newline((string(porcentaje) + "%")))
+draw_text((camera_x + 324), (camera_y + 140), string_hash_to_newline((string(porcentaje) + "%")))
 

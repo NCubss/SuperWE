@@ -35,7 +35,7 @@ editor = 0
 editor_water = 0
 editor_sonidos = 0
 camlock = 1
-cam_top = camera_get_view_y(view_camera[0]);
+cam_top = camera_y;
 s_pink_coins = spr_pinkcoin_hub1
 pwarning = 0
 s_timehud = spr_timehud
@@ -49,7 +49,7 @@ levelmusic_original = snd_music_sky
 levelmusic_temp = snd_music_mario_land
 mchange = 0
 alarm[0] = 2
-camera_set_view_target(view_get_camera(0), obj_levelmanager)
+camera_set_view_target(view_camera[0], obj_levelmanager)
 musicdisabled = 0
 anim = 0
 alarm[5] = 7

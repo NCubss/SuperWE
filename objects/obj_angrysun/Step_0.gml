@@ -1,8 +1,8 @@
 if (ready == 0)
 {
     speed = 4
-    move_towards_point((camera_get_view_x(view_get_camera(0)) + 64), (camera_get_view_y(view_get_camera(0)) + 48), speed)
-    if (x > (camera_get_view_x(view_get_camera(0)) + 56) && x < (camera_get_view_x(view_get_camera(0)) + 72) && y > (camera_get_view_y(view_get_camera(0)) + 40) && y < (camera_get_view_y(view_get_camera(0)) + 56))
+    move_towards_point((camera_x + 64), (camera_y + 48), speed)
+    if (x > (camera_x + 56) && x < (camera_x + 72) && y > (camera_y + 40) && y < (camera_y + 56))
     {
         speed = 0
         ready = 1
@@ -10,8 +10,8 @@ if (ready == 0)
 }
 else if (ready == 1)
 {
-    x = (camera_get_view_x(view_get_camera(0)) + 64)
-    y = (camera_get_view_y(view_get_camera(0)) + 48)
+    x = (camera_x + 64)
+    y = (camera_y + 48)
     if instance_exists(obj_mario)
     {
         if (global.style == 2 && global.night == 0)
@@ -23,12 +23,12 @@ else if (ready == 1)
 }
 else if instance_exists(movement)
 {
-    x = (camera_get_view_x(view_get_camera(0)) + movement.x)
-    y = (camera_get_view_y(view_get_camera(0)) + movement.y)
+    x = (camera_x + movement.x)
+    y = (camera_y + movement.y)
 }
 else
 {
-    x = (camera_get_view_x(view_get_camera(0)) + 64)
-    y = (camera_get_view_y(view_get_camera(0)) + 48)
+    x = (camera_x + 64)
+    y = (camera_y + 48)
 }
 

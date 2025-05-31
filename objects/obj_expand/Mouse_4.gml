@@ -4,7 +4,7 @@ if (obj_levelmanager.editor == 1 && obj_editormanager.expand_open == 0 && obj_le
     obj_editormanager.hspeed = 0
     obj_editormanager.vspeed = 0
     obj_editormanager.expand_open = 2
-    instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_panel_expand)
+    instance_create(camera_x, camera_y, obj_panel_expand)
     with (obj_cursor)
     {
         item_add = 0

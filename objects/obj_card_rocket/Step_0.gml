@@ -1,5 +1,5 @@
-x = (((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 26) + obj_cursor.anim_right)
-y = (camera_get_view_y(view_get_camera(0)) + 184)
+x = (((camera_x + camera_width) - 26) + obj_cursor.anim_right)
+y = (camera_y + 184)
 if (counter_draw == 1)
     counter_anim += 0.15
 if (mouse_check_button(mb_left) && obj_levelmanager.editor == 1 && obj_editormanager.expand_open == 0)

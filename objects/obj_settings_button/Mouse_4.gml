@@ -4,7 +4,7 @@
     {
         audio_stop_sound(snd_niveles_mundiales)
         audio_play_sound(snd_niveles_mundiales, 0, false)
-        instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_settings_panel)
+        instance_create(camera_x, camera_y, obj_settings_panel)
         if instance_exists(obj_edit_menu)
         {
             with (obj_edit_menu)

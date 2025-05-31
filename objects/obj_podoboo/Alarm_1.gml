@@ -1,4 +1,4 @@
-if (x > (camera_get_view_x(view_get_camera(0)) - 32) && x < ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) + 32))
+if (x > (camera_x - 32) && x < ((camera_x + camera_width) + 32))
 {
     if instance_exists(obj_lava_water)
     {

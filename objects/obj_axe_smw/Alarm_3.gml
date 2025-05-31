@@ -10,7 +10,7 @@ if ((!audio_is_playing(snd_SMB_course_clear_castle)) && (!audio_is_playing(snd_S
     else if (global.level_g == 1)
         room_goto(rm_guardabot)
     else
-        instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_superado_bg)
+        instance_create(camera_x, camera_y, obj_superado_bg)
 }
 else
     alarm[3] = 10

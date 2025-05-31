@@ -4,7 +4,7 @@ image_index = 2
 obj_panel_expand.header = 2
 obj_header.page = 3
 posicion = 3
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 58), obj_card_circle))
+with (instance_create((camera_x + 181), (camera_y + 58), obj_card_circle))
 {
     if (global.goomba == 0)
     {
@@ -21,7 +21,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get
     value = 0
     other.image_selected = image_index
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 218), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+with (instance_create((camera_x + 218), (camera_y + 74), obj_card_circle))
 {
     if (global.koopa == 0)
     {
@@ -36,7 +36,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 218), (camera_get
     mask_index = spr_circle_mask7_2
     value = 1
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get_view_y(view_get_camera(0)) + 111), obj_card_circle))
+with (instance_create((camera_x + 233), (camera_y + 111), obj_card_circle))
 {
     if (global.buzzy == 0)
     {
@@ -51,7 +51,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get
     mask_index = spr_circle_mask7_3
     value = 2
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
+with (instance_create((camera_x + 205), (camera_y + 150), obj_card_circle))
 {
     obj = obj_ground
     image_index = 125
@@ -59,7 +59,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get
     value = 3
     disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
+with (instance_create((camera_x + 156), (camera_y + 150), obj_card_circle))
 {
     if (global.spiny == 0)
     {
@@ -74,14 +74,14 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get
     mask_index = spr_circle_mask7_5
     value = 4
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get_view_y(view_get_camera(0)) + 111), obj_card_circle))
+with (instance_create((camera_x + 129), (camera_y + 111), obj_card_circle))
 {
     obj = obj_blooper_res
     image_index = 23
     mask_index = spr_circle_mask7_6
     value = 5
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+with (instance_create((camera_x + 144), (camera_y + 74), obj_card_circle))
 {
     if (global.cheepcheep == 0)
     {

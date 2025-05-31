@@ -9,7 +9,7 @@ if (obj_levelmanager.editor == 1 && obj_editormanager.expand_open != 2 && (!inst
     else if (!instance_exists(obj_panel_save_load))
     {
         audio_play_sound(snd_open_guardabot, 0, false)
-        instance_create((camera_get_view_x(view_get_camera(0)) + 198), camera_get_view_y(view_get_camera(0)), obj_panel_save_load)
+        instance_create((camera_x + 198), camera_y, obj_panel_save_load)
         obj_editormanager.expand_open = 1
         active = 1
         if instance_exists(obj_time)

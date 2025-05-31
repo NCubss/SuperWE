@@ -2,8 +2,8 @@ if instance_exists(obj_editormanager)
     visible = obj_editormanager.visible
 else
     visible = false
-x = ((camera_get_view_x(view_get_camera(0)) + 29) - obj_cursor.anim_left)
-y = (camera_get_view_y(view_get_camera(0)) + 65)
+x = ((camera_x + 29) - obj_cursor.anim_left)
+y = (camera_y + 65)
 if (effect_hover == 1)
 {
     switch global.theme

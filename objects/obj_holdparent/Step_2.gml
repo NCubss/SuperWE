@@ -60,8 +60,8 @@ if (held == 1)
             if (keyboard_check(global.abajo) && obj_mario.vspeed == 0 && obj_mario.gravity == 0 && global.style == 2)
                 y = (obj_mario.y + 16)
         }
-        if ((obj_mario.y + 4) < (camera_get_view_y(view_get_camera(0)) - 20))
-            y = (camera_get_view_y(view_get_camera(0)) - 20)
+        if ((obj_mario.y + 4) < (camera_y - 20))
+            y = (camera_y - 20)
         else if (global.powerup == 0)
         {
             if (global.style == 3)

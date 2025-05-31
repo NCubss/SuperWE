@@ -20,32 +20,32 @@ draw_set_colour(c_white)
 draw_set_alpha(1)
 if global.dsm = 0
 {
-    draw_sprite_ext(spr_coinhud, global.style, (camera_get_view_x(view_get_camera(0)) + 15), (camera_get_view_y(view_get_camera(0)) + 11), 1, 1, 0, c_white, 1)
-    draw_text((camera_get_view_x(view_get_camera(0)) + 32), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(global.coins, 2)))
+    draw_sprite_ext(spr_coinhud, global.style, (camera_x + 15), (camera_y + 11), 1, 1, 0, c_white, 1)
+    draw_text((camera_x + 32), (camera_y + 11), string_hash_to_newline(string_add_zeros(global.coins, 2)))
     if (global.style == GameStyle.SMB3)
-        draw_sprite(spr_pmeter, pmeter, (camera_get_view_x(view_get_camera(0)) + 15), (camera_get_view_y(view_get_camera(0)) + 26))
+        draw_sprite(spr_pmeter, pmeter, (camera_x + 15), (camera_y + 26))
 }
 else
 {
     
-    draw_text((camera_get_view_x(view_get_camera(0)) + 36), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(global.lives, 2)))
-    draw_sprite_ext(scr_cont_lives(), global.liveleves, (camera_get_view_x(view_get_camera(0)) + 53), (camera_get_view_y(view_get_camera(0)) + 4), 1, 1, 0, c_white, 1)
+    draw_text((camera_x + 36), (camera_y + 11), string_hash_to_newline(string_add_zeros(global.lives, 2)))
+    draw_sprite_ext(scr_cont_lives(), global.liveleves, (camera_x + 53), (camera_y + 4), 1, 1, 0, c_white, 1)
    
-    draw_text((camera_get_view_x(view_get_camera(0)) + 36), (camera_get_view_y(view_get_camera(0)) + 25), string_hash_to_newline(string_add_zeros(global.coins, 2)))
+    draw_text((camera_x + 36), (camera_y + 25), string_hash_to_newline(string_add_zeros(global.coins, 2)))
     if (global.style == GameStyle.SMB3)
-        draw_sprite(spr_pmeter, pmeter, (camera_get_view_x(view_get_camera(0)) + 15), (camera_get_view_y(view_get_camera(0)) + 40))
+        draw_sprite(spr_pmeter, pmeter, (camera_x + 15), (camera_y + 40))
 }
 if (global.condiciones == 1 && editor == 0){
 	if global.dsm = 0
-		draw_sprite(spr_cond_hud, global.condiciones_count, (camera_get_view_x(view_get_camera(0)) + 58), (camera_get_view_y(view_get_camera(0)) + 6))
+		draw_sprite(spr_cond_hud, global.condiciones_count, (camera_x + 58), (camera_y + 6))
 	else
-		draw_sprite(spr_cond_hud, global.condiciones_count, (camera_get_view_x(view_get_camera(0)) + 108), (camera_get_view_y(view_get_camera(0)) + 6))
+		draw_sprite(spr_cond_hud, global.condiciones_count, (camera_x + 108), (camera_y + 6))
 }
-draw_text((camera_get_view_x(view_get_camera(0)) + 257), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(score, 9)))
-draw_sprite_ext(spr_timehud, global.style, (camera_get_view_x(view_get_camera(0)) + 337), (camera_get_view_y(view_get_camera(0)) + 11), 1, 1, 0, c_white, 1)
-draw_text((camera_get_view_x(view_get_camera(0)) + 346), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(global.timer, 3)))
+draw_text((camera_x + 257), (camera_y + 11), string_hash_to_newline(string_add_zeros(score, 9)))
+draw_sprite_ext(spr_timehud, global.style, (camera_x + 337), (camera_y + 11), 1, 1, 0, c_white, 1)
+draw_text((camera_x + 346), (camera_y + 11), string_hash_to_newline(string_add_zeros(global.timer, 3)))
 if (global.pink_coins_total != 0 && pink_coins_draw == 1)
-    draw_sprite_ext(s_pink_coins, global.pink_coins, (camera_get_view_x(view_get_camera(0)) + 235), (camera_get_view_y(view_get_camera(0)) + 22), 1, 1, 0, c_white, 1)
+    draw_sprite_ext(s_pink_coins, global.pink_coins, (camera_x + 235), (camera_y + 22), 1, 1, 0, c_white, 1)
 draw_set_alpha(1)
 
 if (global.starcoins > 0) {
@@ -61,8 +61,8 @@ if (global.starcoins > 0) {
 	for (var i = 0; i < global.starcoins; i++) {
 		draw_sprite(
 			spr, real(global.starcoin[i]),
-			camera_get_view_x(view_get_camera(0)) + 16 + (15 * i),
-			camera_get_view_y(view_get_camera(0)) + (global.style != GameStyle.SMB3 ? 24 : 37)
+			camera_x + 16 + (15 * i),
+			camera_y + (global.style != GameStyle.SMB3 ? 24 : 37)
 		);
 	}
 }

@@ -4,7 +4,7 @@ image_index = 3
 obj_panel_expand.header = 3
 obj_header.page = 9
 posicion = 9
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 58), obj_card_circle))
+with (instance_create((camera_x + 181), (camera_y + 58), obj_card_circle))
 {
     obj = obj_soplete_res
     if (global.soplete == 0)
@@ -15,7 +15,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get
     value = 0
     other.image_selected = 166
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 218), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+with (instance_create((camera_x + 218), (camera_y + 74), obj_card_circle))
 {
     if (global.bulletbill_base == 0)
     {
@@ -30,7 +30,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 218), (camera_get
     mask_index = spr_circle_mask7_2
     value = 1
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get_view_y(view_get_camera(0)) + 111), obj_card_circle))
+with (instance_create((camera_x + 233), (camera_y + 111), obj_card_circle))
 {
     if (global.billbanzai == 0)
     {
@@ -45,7 +45,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 233), (camera_get
     mask_index = spr_circle_mask7_3
     value = 2
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
+with (instance_create((camera_x + 205), (camera_y + 150), obj_card_circle))
 {
     if (global.cannon == 0)
     {
@@ -60,7 +60,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 205), (camera_get
     mask_index = spr_circle_mask7_4
     value = 3
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get_view_y(view_get_camera(0)) + 150), obj_card_circle))
+with (instance_create((camera_x + 156), (camera_y + 150), obj_card_circle))
 {
     switch global.estalactita
     {
@@ -85,7 +85,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get
     mask_index = spr_circle_mask7_5
     value = 4
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get_view_y(view_get_camera(0)) + 111), obj_card_circle))
+with (instance_create((camera_x + 129), (camera_y + 111), obj_card_circle))
 {
     if (global.foo == 0)
     {
@@ -100,7 +100,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get
     mask_index = spr_circle_mask7_6
     value = 5
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+with (instance_create((camera_x + 144), (camera_y + 74), obj_card_circle))
 {
     obj = obj_checkpoint_res
     image_index = 37

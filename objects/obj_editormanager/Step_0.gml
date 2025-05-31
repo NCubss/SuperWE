@@ -1,6 +1,6 @@
 if (obj_levelmanager.editor == 1 && instance_exists(obj_mario_editor))
 {
-	camera_set_view_target(view_get_camera(0), id)
+	camera_set_view_target(view_camera[0], id)
 	if instance_exists(obj_levelmanager)
 	{
 		with (obj_levelmanager)
@@ -13,15 +13,15 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_mario_editor))
 	}
 	if (obj_cursor.move_view == 1)
 	{
-		if (mouse_x > ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 80))
+		if (mouse_x > ((camera_x + camera_width) - 80))
 			hspeed = 4
-		else if (mouse_x < (camera_get_view_x(view_get_camera(0)) + 80))
+		else if (mouse_x < (camera_x + 80))
 			hspeed = -4
 		else
 			hspeed = 0
-		if (mouse_y < (camera_get_view_y(view_get_camera(0)) + 48))
+		if (mouse_y < (camera_y + 48))
 			vspeed = -4
-		else if (mouse_y > ((camera_get_view_y(view_get_camera(0)) + camera_get_view_height(view_get_camera(0))) - 48))
+		else if (mouse_y > ((camera_y + camera_height) - 48))
 			vspeed = 4
 		else
 			vspeed = 0
@@ -32,9 +32,9 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_mario_editor))
 			move_velocity = 8
 		else
 			move_velocity = 0
-		if (keyboard_check(global.arriba) && (!keyboard_check(global.abajo)) && obj_mario_editor.y < (camera_get_view_y(view_get_camera(0)) + 48))
+		if (keyboard_check(global.arriba) && (!keyboard_check(global.abajo)) && obj_mario_editor.y < (camera_y + 48))
 			vspeed = (-4 - move_velocity)
-		else if (keyboard_check(global.abajo) && (!keyboard_check(global.arriba)) && obj_mario_editor.y > ((camera_get_view_y(view_get_camera(0)) + camera_get_view_height(view_get_camera(0))) - 48))
+		else if (keyboard_check(global.abajo) && (!keyboard_check(global.arriba)) && obj_mario_editor.y > ((camera_y + camera_height) - 48))
 			vspeed = (4 + move_velocity)
 		else
 		{
@@ -42,9 +42,9 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_mario_editor))
 			with (obj_mario_editor)
 				vspeed = 0
 		}
-		if (keyboard_check(global.derecha) && (!keyboard_check(global.izquierda)) && obj_mario_editor.x > (camera_get_view_x(view_get_camera(0)) + 80))
+		if (keyboard_check(global.derecha) && (!keyboard_check(global.izquierda)) && obj_mario_editor.x > (camera_x + 80))
 			hspeed = (4 + move_velocity)
-		else if (keyboard_check(global.izquierda) && (!keyboard_check(global.derecha)) && obj_mario_editor.x < ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 80))
+		else if (keyboard_check(global.izquierda) && (!keyboard_check(global.derecha)) && obj_mario_editor.x < ((camera_x + camera_width) - 80))
 			hspeed = (-4 - move_velocity)
 		else
 		{
@@ -55,7 +55,7 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_mario_editor))
 	}
 }
 else
-	camera_set_view_target(view_get_camera(0), obj_levelmanager)
+	camera_set_view_target(view_camera[0], obj_levelmanager)
 if (keyboard_check_pressed(vk_space) && obj_coordinator.modo_android == 0 && obj_levelmanager.editor_water == 0 && obj_levelmanager.editor == 1 && obj_editormanager.expand_open == 0 && (!instance_exists(obj_panelparent)) && (!instance_exists(obj_ventana)) && room_width >= 768 && (!place_meeting(mouse_x, mouse_y, obj_dog)) && (!place_meeting(mouse_x, mouse_y, obj_creator_jugar_editar)))
 {
 	if (zoom == 0)

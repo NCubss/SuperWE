@@ -55,7 +55,7 @@ if (!instance_exists(obj_deadmario))
         }
         if (instance_exists(obj_lava_water) && y <= (obj_lava_water.y + 16) && obj_lava_water.vspeed > 0 && (modo_lava == 1 || swimming == 1))
             y = (obj_lava_water.y + 16)
-        if (y > (camera_get_view_y(view_get_camera(0)) + 248) || (vspeed > 0 && instance_exists(obj_lava_water) && y > (obj_lava_water.y + 32) && (global.theme == "castle" || (global.theme == "forest" && global.night == 1))))
+        if (y > (camera_y + 248) || (vspeed > 0 && instance_exists(obj_lava_water) && y > (obj_lava_water.y + 32) && (global.theme == "castle" || (global.theme == "forest" && global.night == 1))))
             instance_destroy()
     }
     else if (swimming == 1 || modo_lava == 1)

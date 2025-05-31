@@ -3,10 +3,10 @@ transitioning = true;
 mouse_in = false;
 audio_stop_sound(snd_modo_historia);
 audio_play_sound(snd_modo_historia, 0, false);
-with (instance_create_layer((bool(type) ? -1 : 1) * camera_get_view_width(view_camera[0]), 0, "Browser", obj_nm_browser)) {
+with (instance_create_layer((bool(type) ? -1 : 1) * camera_width, 0, "Browser", obj_nm_browser)) {
 	official = other.type;
 }
-animator(ac_nm_page_move, 0, obj_nm_main, "camx", 0, (bool(type) ? -1 : 1) * camera_get_view_width(view_camera[0]), 90);
+animator(ac_nm_page_move, 0, obj_nm_main, "camx", 0, (bool(type) ? -1 : 1) * camera_width, 90);
 // color transition (you can't directly animate #000000 to #ffffff for example because it acts like one number)
 if (bool(type)) {
 	animator(ac_nm_page_move, 1, obj_nm_main, "c1r", obj_nm_main.c1r, 0x20, 90);

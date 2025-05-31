@@ -7,7 +7,7 @@ global.modojuego = 0
 global.level_g = 1
 c_cont = make_colour_rgb(255, 215, 91)
 active = 1
-instance_create((camera_get_view_x(view_get_camera(0)) + 361), camera_get_view_y(view_get_camera(0)) + 4, obj_menu_editor_ext)
+instance_create((camera_x + 361), camera_y + 4, obj_menu_editor_ext)
 instance_create(376, 58, obj_scrollbar2)
 can_anim = 1
 anim = 0

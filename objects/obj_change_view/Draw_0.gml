@@ -1,2 +1,2 @@
-draw_sprite(spr_change_view, global.language, (camera_get_view_x(view_get_camera(0)) + 554), camera_get_view_y(view_get_camera(0)))
+draw_sprite(spr_change_view, global.language, (camera_x + 554), camera_y)
 

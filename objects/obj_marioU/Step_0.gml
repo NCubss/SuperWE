@@ -343,8 +343,8 @@ switch global.theme
     case "underwater":
         if (instance_exists(obj_levelmanager) && obj_levelmanager.camlock == 1)
         {
-            if (y < (camera_get_view_y(view_get_camera(0)) - 16))
-                y = (camera_get_view_y(view_get_camera(0)) - 16)
+            if (y < (camera_y - 16))
+                y = (camera_y - 16)
         }
         else if (y < -16)
             y = -16
@@ -352,8 +352,8 @@ switch global.theme
     case "castle":
         if (global.night == 1 && instance_exists(obj_levelmanager) && obj_levelmanager.camlock == 1)
         {
-            if (y < (camera_get_view_y(view_get_camera(0)) - 16))
-                y = (camera_get_view_y(view_get_camera(0)) - 16)
+            if (y < (camera_y - 16))
+                y = (camera_y - 16)
         }
         else if (y < -16)
             y = -16
@@ -361,8 +361,8 @@ switch global.theme
     default:
         if (instance_exists(obj_mario_pballon) && instance_exists(obj_levelmanager) && obj_levelmanager.camlock == 1)
         {
-            if (obj_mario_pballon.y < camera_get_view_y(view_get_camera(0)))
-                obj_mario_pballon.y = camera_get_view_y(view_get_camera(0))
+            if (obj_mario_pballon.y < camera_y)
+                obj_mario_pballon.y = camera_y
             break
         }
 }

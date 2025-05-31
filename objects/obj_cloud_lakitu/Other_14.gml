@@ -48,7 +48,7 @@ if (vspeed < 0)
 }
 if (instance_exists(obj_levelmanager) && obj_levelmanager.camlock == 1)
 {
-    if (y < (camera_get_view_y(view_get_camera(0)) + 8))
-        y = (camera_get_view_y(view_get_camera(0)) + 8)
+    if (y < (camera_y + 8))
+        y = (camera_y + 8)
 }
 

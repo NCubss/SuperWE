@@ -11,5 +11,5 @@ else if (global.level_g == 1)
 else if (room == rm_title)
     scr_restart()
 else if ((!instance_exists(obj_editormanager)) && obj_levelmanager.editor == 0)
-    instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_superado_bg)
+    instance_create(camera_x, camera_y, obj_superado_bg)
 

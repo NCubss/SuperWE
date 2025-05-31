@@ -13,7 +13,7 @@ if (obj_levelmanager.editor == 1 && obj_editormanager.expand_open != 2 && ps == 
     }
     else if (!instance_exists(obj_bg_selection))
     {
-        instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_bg_selection)
+        instance_create(camera_x, camera_y, obj_bg_selection)
         audio_play_sound(snd_panel_open, 0, false)
         obj_editormanager.expand_open = 1
         active = 1

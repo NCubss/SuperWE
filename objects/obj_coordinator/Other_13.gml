@@ -2,7 +2,7 @@ s = (filter + 1)
 if (global.sm4j_style == 1)
 {
 	/*
-	instance_create_depth(camera_get_view_x(view_get_camera(0))+320,camera_get_view_y(view_get_camera(0))+158,0,obj_sm4j_jump)
+	instance_create_depth(camera_x+320,camera_y+158,0,obj_sm4j_jump)
 	/**/
     mobile_keys[4] = virtual_key_add((320 * s), (158 * s), (64 * s), (64 * s), global.saltar)
     mobile_keys[5] = virtual_key_add((320 * s), (30 * s), (64 * s), (64 * s), global.saltar_spin)

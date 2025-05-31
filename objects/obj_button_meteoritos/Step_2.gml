@@ -3,5 +3,5 @@ if (global.theme == "mountain")
 	image_index = global.meteoritos
 else
 	image_index = 2
-x = ((camera_get_view_x(view_get_camera(0)) + 29) - obj_cursor.anim_left)
-y = (camera_get_view_y(view_get_camera(0)) + 87)
+x = ((camera_x + 29) - obj_cursor.anim_left)
+y = (camera_y + 87)

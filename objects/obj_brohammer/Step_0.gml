@@ -25,7 +25,7 @@ if (modo_lava == 1)
 }
 else if (vspeed > 4)
     vspeed = 4
-if (x < (camera_get_view_x(view_get_camera(0)) - 32) || x > ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) + 32) || y > ((camera_get_view_y(view_get_camera(0)) + camera_get_view_height(view_get_camera(0))) + 32))
+if (x < (camera_x - 32) || x > ((camera_x + camera_width) + 32) || y > ((camera_y + camera_height) + 32))
     instance_destroy()
 if (instance_exists(obj_lava_water) && (bbox_bottom - 8) > (obj_lava_water.y - 12) && global.theme == "castle" && modo_lava == 0)
 {

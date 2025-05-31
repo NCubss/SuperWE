@@ -17,14 +17,14 @@ else if (global.cursor == 2 && fast_clean == 0)
     i_index = 0
 if instance_exists(obj_levelmanager)
 {
-    if (obj_levelmanager.editor == 1 && x > (camera_get_view_x(view_get_camera(0)) + 349) && y > (camera_get_view_y(view_get_camera(0)) + 32) && move == 1 && anim_right <= 33 && cont_panel_right == 0)
+    if (obj_levelmanager.editor == 1 && x > (camera_x + 349) && y > (camera_y + 32) && move == 1 && anim_right <= 33 && cont_panel_right == 0)
     {
         if (anim_right < 33)
             anim_right += 5.5
         else
             anim_right = 33
     }
-    else if (obj_levelmanager.editor == 1 && x < (camera_get_view_x(view_get_camera(0)) + 349) && cont_panel_right == 0 && anim_right > 0)
+    else if (obj_levelmanager.editor == 1 && x < (camera_x + 349) && cont_panel_right == 0 && anim_right > 0)
     {
         if (anim_right > 0)
             anim_right -= 5.5
@@ -57,14 +57,14 @@ if (cont_panel_right == 2 && anim_right >= 0)
 }
 if instance_exists(obj_levelmanager)
 {
-    if ((obj_levelmanager.editor == 1 && x < (camera_get_view_x(view_get_camera(0)) + 54) && y > (camera_get_view_y(view_get_camera(0)) + 32) && move == 1 && anim_left <= 54 && cont_panel_left == 0) || (obj_levelmanager.editor == 1 && x < (camera_get_view_x(view_get_camera(0)) + 54) && y > (camera_get_view_y(view_get_camera(0)) + 32) && obj_erase.active == 1 && anim_left <= 54 && cont_panel_left == 0))
+    if ((obj_levelmanager.editor == 1 && x < (camera_x + 54) && y > (camera_y + 32) && move == 1 && anim_left <= 54 && cont_panel_left == 0) || (obj_levelmanager.editor == 1 && x < (camera_x + 54) && y > (camera_y + 32) && obj_erase.active == 1 && anim_left <= 54 && cont_panel_left == 0))
     {
         if (anim_left < 54)
             anim_left += 9
         else
             anim_left = 54
     }
-    else if (obj_levelmanager.editor == 1 && x > (camera_get_view_x(view_get_camera(0)) + 54) && cont_panel_left == 0 && anim_left > 0)
+    else if (obj_levelmanager.editor == 1 && x > (camera_x + 54) && cont_panel_left == 0 && anim_left > 0)
     {
         if (anim_left > 0)
             anim_left -= 9
@@ -94,14 +94,14 @@ if (cont_panel_left == 2 && anim_left >= -2)
 }
 if instance_exists(obj_levelmanager)
 {
-    if ((obj_levelmanager.editor == 1 && y < (camera_get_view_y(view_get_camera(0)) + 36) && move == 1 && anim_top <= 34 && cont_panel_top == 0) || (obj_levelmanager.editor == 1 && y < (camera_get_view_y(view_get_camera(0)) + 36) && obj_erase.active == 1 && anim_top <= 34 && cont_panel_top == 0))
+    if ((obj_levelmanager.editor == 1 && y < (camera_y + 36) && move == 1 && anim_top <= 34 && cont_panel_top == 0) || (obj_levelmanager.editor == 1 && y < (camera_y + 36) && obj_erase.active == 1 && anim_top <= 34 && cont_panel_top == 0))
     {
         if (anim_top < 34)
             anim_top += 6.8
         else
             anim_top = 34
     }
-    else if (obj_levelmanager.editor == 1 && y > (camera_get_view_y(view_get_camera(0)) + 36) && cont_panel_top == 0 && anim_top > 0)
+    else if (obj_levelmanager.editor == 1 && y > (camera_y + 36) && cont_panel_top == 0 && anim_top > 0)
     {
         if (anim_top > 0)
             anim_top -= 6.8
@@ -131,14 +131,14 @@ if (cont_panel_top == 2 && anim_top >= 0)
 }
 if instance_exists(obj_levelmanager)
 {
-    if ((obj_levelmanager.editor == 1 && x < (camera_get_view_x(view_get_camera(0)) + 44) && y > (camera_get_view_y(view_get_camera(0)) + 180) && move == 1 && anim_creator <= 59 && cont_panel_creator == 0) || (obj_levelmanager.editor == 1 && x < (camera_get_view_x(view_get_camera(0)) + 44) && y > (camera_get_view_y(view_get_camera(0)) + 180) && obj_erase.active == 1 && anim_creator <= 84 && cont_panel_creator == 0))
+    if ((obj_levelmanager.editor == 1 && x < (camera_x + 44) && y > (camera_y + 180) && move == 1 && anim_creator <= 59 && cont_panel_creator == 0) || (obj_levelmanager.editor == 1 && x < (camera_x + 44) && y > (camera_y + 180) && obj_erase.active == 1 && anim_creator <= 84 && cont_panel_creator == 0))
     {
         if (anim_creator < 84)
             anim_creator += 12
         else
             anim_creator = 84
     }
-    else if (obj_levelmanager.editor == 1 && x > (camera_get_view_x(view_get_camera(0)) + 61) && cont_panel_creator == 0 && anim_creator > 0)
+    else if (obj_levelmanager.editor == 1 && x > (camera_x + 61) && cont_panel_creator == 0 && anim_creator > 0)
     {
         if (anim_creator > 0)
             anim_creator -= 12
@@ -168,14 +168,14 @@ if (cont_panel_creator == 2 && anim_creator >= 0)
 }
 if instance_exists(obj_levelmanager)
 {
-    if ((obj_levelmanager.editor == 1 && x > (camera_get_view_x(view_get_camera(0)) + 312) && x < (camera_get_view_x(view_get_camera(0)) + 344) && y > (camera_get_view_y(view_get_camera(0)) + 192) && move == 1 && anim_bottom <= 24 && cont_panel_bottom == 0) || (obj_levelmanager.editor == 1 && x > (camera_get_view_x(view_get_camera(0)) + 312) && x < (camera_get_view_x(view_get_camera(0)) + 344) && y > (camera_get_view_y(view_get_camera(0)) + 192) && obj_erase.active == 1 && anim_bottom <= 24 && cont_panel_bottom == 0))
+    if ((obj_levelmanager.editor == 1 && x > (camera_x + 312) && x < (camera_x + 344) && y > (camera_y + 192) && move == 1 && anim_bottom <= 24 && cont_panel_bottom == 0) || (obj_levelmanager.editor == 1 && x > (camera_x + 312) && x < (camera_x + 344) && y > (camera_y + 192) && obj_erase.active == 1 && anim_bottom <= 24 && cont_panel_bottom == 0))
     {
         if (anim_bottom < 24)
             anim_bottom += 6
         else
             anim_bottom = 24
     }
-    else if (obj_levelmanager.editor == 1 && (x > (camera_get_view_x(view_get_camera(0)) + 312) || x < (camera_get_view_x(view_get_camera(0)) + 344) || y > (camera_get_view_y(view_get_camera(0)) + 192)) && cont_panel_bottom == 0 && anim_bottom > 0)
+    else if (obj_levelmanager.editor == 1 && (x > (camera_x + 312) || x < (camera_x + 344) || y > (camera_y + 192)) && cont_panel_bottom == 0 && anim_bottom > 0)
     {
         if (anim_bottom > 0)
             anim_bottom -= 6

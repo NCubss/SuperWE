@@ -1,4 +1,4 @@
-if (image_speed == 0 && image_index == 3 && mouse_x > (camera_get_view_x(view_get_camera(0)) + 326) && mouse_x < (camera_get_view_x(view_get_camera(0)) + 337) && mouse_y > (camera_get_view_y(view_get_camera(0)) + 40) && mouse_y < (camera_get_view_y(view_get_camera(0)) + 50))
+if (image_speed == 0 && image_index == 3 && mouse_x > (camera_x + 326) && mouse_x < (camera_x + 337) && mouse_y > (camera_y + 40) && mouse_y < (camera_y + 50))
 {
     audio_play_sound(snd_panel_close, 0, false)
     event_user(0)

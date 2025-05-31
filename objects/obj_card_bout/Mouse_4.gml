@@ -3,7 +3,7 @@ if ((obj_levelmanager.editor == 1) && (((global.theme == "forest") || ((global.t
     audio_play_sound(snd_panel_open, 0, false)
     obj_editormanager.expand_open = 2
     obj_levelmanager.editor_water = 1
-    instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_water_level_control)
+    instance_create(camera_x, camera_y, obj_water_level_control)
     with (obj_cursor)
     {
         item_add = 0

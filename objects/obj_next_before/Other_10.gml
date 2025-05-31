@@ -22,7 +22,7 @@ if (obj_levelmanager.editor == 1)
 			with obj_btn_header_parent { alarm[0] = 1}
             with (obj_panel_circle)
                 instance_destroy()
-            with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 125), obj_panel_circle))
+            with (instance_create((camera_x + 192), (camera_y + 125), obj_panel_circle))
             {
                 event_user((obj_panel_expand.value - 1))
                 ready = 1
@@ -51,7 +51,7 @@ if (obj_levelmanager.editor == 1)
 			with obj_btn_header_parent { alarm[0] = 1}
             with (obj_panel_circle)
                 instance_destroy()
-            with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 125), obj_panel_circle))
+            with (instance_create((camera_x + 192), (camera_y + 125), obj_panel_circle))
             {
                 event_user((obj_panel_expand.value - 1))
                 ready = 1
@@ -83,7 +83,7 @@ if (obj_levelmanager.editor == 1)
 //			obj_header.page--
 //            with (obj_panel_circle)
 //                instance_destroy()
-//            with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 125), obj_panel_circle))
+//            with (instance_create((camera_x + 192), (camera_y + 125), obj_panel_circle))
 //            {
 //                event_user((obj_panel_expand.value - 1))
 //                ready = 1
@@ -110,7 +110,7 @@ if (obj_levelmanager.editor == 1)
 //			obj_header.page++
 //            with (obj_panel_circle)
 //                instance_destroy()
-//            with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 125), obj_panel_circle))
+//            with (instance_create((camera_x + 192), (camera_y + 125), obj_panel_circle))
 //            {
 //                event_user((obj_panel_expand.value - 1))
 //                ready = 1

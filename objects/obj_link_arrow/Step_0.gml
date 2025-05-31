@@ -32,7 +32,7 @@ if (ready == 1)
 }
 if ((instance_exists(obj_lava_water) && y > obj_lava_water.y && global.theme == "castle") || (instance_exists(obj_lava_water) && y > obj_lava_water.y && global.theme == "forest" && global.night == 1))
     instance_destroy()
-if (x < (camera_get_view_x(view_get_camera(0)) - 128) || (x > ((camera_get_view_x(view_get_camera(0))) + camera_get_view_width(view_get_camera(0)) + 128) && y < (camera_get_view_y(view_get_camera(0))) || y > ((camera_get_view_y(view_get_camera(0))) + camera_get_view_y(view_get_camera(0))) + 128))
+if (x < (camera_x - 128) || (x > ((camera_x) + camera_width + 128) && y < (camera_y) || y > ((camera_y) + camera_y) + 128))
     instance_destroy()
 
 

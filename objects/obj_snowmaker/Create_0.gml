@@ -63,6 +63,6 @@ part_type_direction(snow, 255, 285, 0.05, 0.1)
 part_type_colour1(snow, 16777215)
 emitter = part_emitter_create(snow_sys)
 part_emitter_stream(snow_sys, emitter, snow, 1)
-part_emitter_region(snow_sys, emitter, (camera_get_view_x(view_get_camera(0)) - 600), ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) + 600), camera_get_view_y(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), 3, 0)
+part_emitter_region(snow_sys, emitter, (camera_x - 600), ((camera_x + camera_width) + 600), camera_y, camera_y, 3, 0)
 part_system_update(snow_sys)
 

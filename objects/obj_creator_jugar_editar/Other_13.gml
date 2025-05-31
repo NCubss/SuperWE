@@ -37,15 +37,15 @@ if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_level
         switch global.autoscroll
         {
             case 1:
-                with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (room_height - (camera_get_view_height(view_get_camera(0)) / 2)), obj_autoscroll))
+                with (instance_create((camera_x + 192), (room_height - (camera_height / 2)), obj_autoscroll))
                     velocidad = 0.6
                 break
             case 2:
-                with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (room_height - (camera_get_view_height(view_get_camera(0)) / 2)), obj_autoscroll))
+                with (instance_create((camera_x + 192), (room_height - (camera_height / 2)), obj_autoscroll))
                     velocidad = 1
                 break
             case 3:
-                with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (room_height - (camera_get_view_height(view_get_camera(0)) / 2)), obj_autoscroll))
+                with (instance_create((camera_x + 192), (room_height - (camera_height / 2)), obj_autoscroll))
                     velocidad = 1.5
                 break
         }
@@ -53,7 +53,7 @@ if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_level
         if (global.condiciones == 1 && global.condiciones_type == 0)
         {
             global.condiciones_clear = 1
-            with (instance_create((camera_get_view_x(view_get_camera(0)) + 54), (camera_get_view_y(view_get_camera(0)) + 43), obj_alert_condicion))
+            with (instance_create((camera_x + 54), (camera_y + 43), obj_alert_condicion))
                 start = 1
         }
         if (global.player_trail != 0)
@@ -302,7 +302,7 @@ else
             instance_destroy()
     }
     else
-        instance_create((camera_get_view_x(view_get_camera(0)) + 192) , (camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0)) / 2)), obj_mario_editor)
+        instance_create((camera_x + 192) , (camera_y + (camera_height / 2)), obj_mario_editor)
     if (obj_coordinator.modo_android == 1 && global.controles_tactiles == 1)
     {
         with (obj_coordinator)

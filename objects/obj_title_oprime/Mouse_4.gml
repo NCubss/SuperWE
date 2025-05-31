@@ -5,8 +5,8 @@ if (sprite_index == spr_back_button_white)
     {
         with (obj_button_home)
             instance_destroy()
-        instance_create((camera_get_view_x(view_get_camera(0)) + 135), (camera_get_view_y(view_get_camera(0)) + 130), obj_editor_screen)
-        instance_create((camera_get_view_x(view_get_camera(0)) + 197), (camera_get_view_y(view_get_camera(0)) + 130), obj_play_screen)
+        instance_create((camera_x + 135), (camera_y + 130), obj_editor_screen)
+        instance_create((camera_x + 197), (camera_y + 130), obj_play_screen)
     }
     else
     {
@@ -33,7 +33,7 @@ else
     image_index = 0
     alarm[0] = -1
     alarm[1] = -1
-    instance_create((camera_get_view_x(view_get_camera(0)) + 135), (camera_get_view_y(view_get_camera(0)) + 130), obj_editor_screen)
-    instance_create((camera_get_view_x(view_get_camera(0)) + 197), (camera_get_view_y(view_get_camera(0)) + 130), obj_play_screen)
+    instance_create((camera_x + 135), (camera_y + 130), obj_editor_screen)
+    instance_create((camera_x + 197), (camera_y + 130), obj_play_screen)
 }
 

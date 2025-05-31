@@ -68,7 +68,7 @@ if (groundpount_cont > 0)
 }
 if (instance_exists(obj_mario) && groundpount == 1)
 {
-    if ((obj_mario.x > (x - 16) && obj_mario.x < (x + 16) && y < (y_start - 64)) || y < (y_start - 160) || (hspeed > 2 && x > (obj_mario.x + 144)) || (hspeed < -2 && x < (obj_mario.x - 144)) || y < (camera_get_view_y(view_get_camera(0)) - 32) || down_groundpount == 1)
+    if ((obj_mario.x > (x - 16) && obj_mario.x < (x + 16) && y < (y_start - 64)) || y < (y_start - 160) || (hspeed > 2 && x > (obj_mario.x + 144)) || (hspeed < -2 && x < (obj_mario.x - 144)) || y < (camera_y - 32) || down_groundpount == 1)
     {
         sprite_index = spr_SMB3_bowser_attack
         image_speed = 0

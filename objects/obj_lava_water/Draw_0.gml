@@ -1,6 +1,6 @@
 var pos;
-if (camera_get_view_y(view_get_camera(0)) >= (y + 16))
-    pos = camera_get_view_y(view_get_camera(0))
+if (camera_y >= (y + 16))
+    pos = camera_y
 else
     pos = (y + 4)
 if (global.style == 3 && global.theme == "forest" && global.night == 1)
@@ -17,7 +17,7 @@ if (global.style == 3 && global.theme == "forest" && global.night == 1)
     }
 }
 else
-		draw_sprite_ext(img_sprite, global.style, camera_get_view_x(view_get_camera(0)), pos, ((camera_get_view_width(view_get_camera(0)) + 16) / 16), ((camera_get_view_height(view_get_camera(0)) + 16) / 16), 0, c_white, image_alpha)
+		draw_sprite_ext(img_sprite, global.style, camera_x, pos, ((camera_width + 16) / 16), ((camera_height + 16) / 16), 0, c_white, image_alpha)
 if ((global.theme == "forest" && global.night == 0) || global.theme == "beach")
 {
     if (global.style > 1)

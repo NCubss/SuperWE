@@ -1,6 +1,6 @@
 if (active == 0)
-    x = (camera_get_view_x(view_get_camera(0)) + 356)
+    x = (camera_x + 356)
 else
-    x = camera_get_view_x(view_get_camera(0))
-y = (camera_get_view_y(view_get_camera(0)) - obj_cursor.anim_top)
+    x = camera_x
+y = (camera_y - obj_cursor.anim_top)
 

@@ -1,4 +1,4 @@
 gpu_set_blendmode(bm_subtract)
-draw_surface(surf, camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)))
+draw_surface(surf, camera_x, camera_y)
 gpu_set_blendmode(bm_normal)
 

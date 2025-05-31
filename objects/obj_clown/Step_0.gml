@@ -11,15 +11,15 @@ if (inmario == 1)
     depth = -12
     if (sprite_index != s_clown_damage && sprite_index != s_clown_evil && sprite_index != s_clown_eyes && sprite_index != s_clown_link)
         sprite_index = s_clown
-    if (x < (camera_get_view_x(view_get_camera(0)) + 16))
+    if (x < (camera_x + 16))
     {
-        x = (camera_get_view_x(view_get_camera(0)) + 16)
+        x = (camera_x + 16)
         if (hspeed < 0)
             hspeed = 0
     }
-    else if (x > ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0)) - 16)))
+    else if (x > ((camera_x + camera_width - 16)))
     {
-        x = ((camera_get_view_x(view_get_camera(0)) +camera_get_view_width(view_get_camera(0)) - 16))
+        x = ((camera_x +camera_width - 16))
         if (hspeed > 0)
             hspeed = 0
     }
@@ -143,8 +143,8 @@ if (inmario == 1)
     }
     if (instance_exists(obj_levelmanager) && obj_levelmanager.camlock == 1)
     {
-        if (y < (camera_get_view_y(view_get_camera(0)) + 22))
-            y = (camera_get_view_y(view_get_camera(0)) + 22)
+        if (y < (camera_y + 22))
+            y = (camera_y + 22)
     }
 }
 else if (inenemy == 1)

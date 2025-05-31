@@ -286,7 +286,7 @@ if (global.theme == "castle")
         with (obj_lava_water)
             instance_destroy()
     }
-    with (instance_create(camera_get_view_x(view_get_camera(0)), (pos_y + 12), obj_lava_water))
+    with (instance_create(camera_x, (pos_y + 12), obj_lava_water))
     {
         switch global.style
         {
@@ -318,7 +318,7 @@ else if (global.theme == "forest" && global.night == 1)
         with (obj_lava_water)
             instance_destroy()
     }
-    with (instance_create(camera_get_view_x(view_get_camera(0)), (pos_y + 12), obj_lava_water))
+    with (instance_create(camera_x, (pos_y + 12), obj_lava_water))
     {
         switch global.style
         {
@@ -350,7 +350,7 @@ else if ((global.theme == "forest" && global.night == 0) || global.theme == "bea
         with (obj_lava_water)
             instance_destroy()
     }
-    with (instance_create(camera_get_view_x(view_get_camera(0)), (pos_y + 12), obj_lava_water))
+    with (instance_create(camera_x, (pos_y + 12), obj_lava_water))
     {
         switch global.style
         {
@@ -385,7 +385,7 @@ else if !instance_exists(obj_lava_water) && ((global.theme == "mountain") && (gl
         with (obj_lava_water)
             instance_destroy()
     }
-    with (instance_create(camera_get_view_x(view_get_camera(0)), (room_height - 4), obj_lava_water))
+    with (instance_create(camera_x, (room_height - 4), obj_lava_water))
     {
         switch global.style
         {

@@ -1,5 +1,5 @@
 var check, check_solid, check_oneway, check_bullet, hurtsolid2, solidphy;
-x = camera_get_view_x(view_get_camera(0))
+x = camera_x
 if instance_exists(obj_water_move)
     y = (obj_water_move.y + 12)
 if (instance_exists(obj_card_bout) && obj_levelmanager.editor == 1)
@@ -76,7 +76,7 @@ if instance_exists(obj_player_goal_parent)
     bajar = 1
 if (mytopid != obj_lighting && instance_exists(mytopid) && instance_exists(obj_mario))
 {
-    mytopid.x = camera_get_view_x(view_get_camera(0))
+    mytopid.x = camera_x
     mytopid.y = y
     if instance_exists(obj_kuribo_drybones)
     {

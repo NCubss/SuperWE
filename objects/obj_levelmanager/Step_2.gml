@@ -163,12 +163,12 @@ if (global.instance_deactivate == 1)
 		{
 			instance_deactivate_object(obj_ground2)
 			instance_deactivate_object(obj_solidtop)
-			instance_activate_region((camera_get_view_x(view_get_camera(0)) - 128), -96, ((camera_get_view_width(view_get_camera(0)) + 128) + 128), (room_height + 192), true)
+			instance_activate_region((camera_x - 128), -96, ((camera_width + 128) + 128), (room_height + 192), true)
 			instance_deactivate_object(obj_deactivation)
-			instance_activate_region((camera_get_view_x(view_get_camera(0)) - 128), -96, ((camera_get_view_width(view_get_camera(0)) + 128) + 128), (room_height + 192), true)
+			instance_activate_region((camera_x - 128), -96, ((camera_width + 128) + 128), (room_height + 192), true)
 			instance_deactivate_object(obj_modelbgo)
 			instance_deactivate_object(obj_parent_sound_o)
-			instance_activate_region((camera_get_view_x(view_get_camera(0)) - 32), (camera_get_view_y(view_get_camera(0)) - 32), ((camera_get_view_width(view_get_camera(0)) + 32) + 32), ((camera_get_view_height(view_get_camera(0)) + 32) + 32), true)
+			instance_activate_region((camera_x - 32), (camera_y - 32), ((camera_width + 32) + 32), ((camera_height + 32) + 32), true)
 			loop_m = 2
 		}
 		loop_m--
@@ -185,34 +185,34 @@ else
 }
 if (barrier == 0 && instance_exists(obj_mario))
 {
-	if (obj_mario.x < (camera_get_view_x(view_get_camera(0)) + 5))
+	if (obj_mario.x < (camera_x + 5))
 	{
-		obj_mario.x = (camera_get_view_x(view_get_camera(0)) + 5)
+		obj_mario.x = (camera_x + 5)
 		if (obj_mario.hspeed < 0)
 			obj_mario.hspeed = 0
 		if instance_exists(obj_slider)
-			obj_slider.x = (camera_get_view_x(view_get_camera(0)) + 5)
+			obj_slider.x = (camera_x + 5)
 	}
-	else if (obj_mario.x > ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 5))
+	else if (obj_mario.x > ((camera_x + camera_width) - 5))
 	{
-		obj_mario.x = ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 5)
+		obj_mario.x = ((camera_x + camera_width) - 5)
 		if (obj_mario.hspeed > 0)
 			obj_mario.hspeed = 0
 		if instance_exists(obj_slider)
-			obj_slider.x = ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 5)
+			obj_slider.x = ((camera_x + camera_width) - 5)
 	}
 }
 if (barrier == 0 && instance_exists(obj_mario_pballon))
 {
-	if (obj_mario_pballon.x < (camera_get_view_x(view_get_camera(0)) + 5))
+	if (obj_mario_pballon.x < (camera_x + 5))
 	{
-		obj_mario_pballon.x = (camera_get_view_x(view_get_camera(0)) + 5)
+		obj_mario_pballon.x = (camera_x + 5)
 		if (obj_mario_pballon.hspeed < 0)
 			obj_mario_pballon.hspeed = 0
 	}
-	else if (obj_mario_pballon.x > ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 5))
+	else if (obj_mario_pballon.x > ((camera_x + camera_width) - 5))
 	{
-		obj_mario_pballon.x = ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 5)
+		obj_mario_pballon.x = ((camera_x + camera_width) - 5)
 		if (obj_mario_pballon.hspeed > 0)
 			obj_mario_pballon.hspeed = 0
 	}
@@ -250,7 +250,7 @@ if (global.condiciones == 1 && editor == 0)
 						global.condiciones_clear = 0
 						with (obj_alert_condicion)
 							instance_destroy()
-						with (instance_create((camera_get_view_x(view_get_camera(0)) + 54), (camera_get_view_y(view_get_camera(0)) + 98), obj_alert_condicion))
+						with (instance_create((camera_x + 54), (camera_y + 98), obj_alert_condicion))
 							lose = 1
 					}
 				}
@@ -263,7 +263,7 @@ if (global.condiciones == 1 && editor == 0)
 					global.condiciones_clear = 0
 					with (obj_alert_condicion)
 						instance_destroy()
-					with (instance_create((camera_get_view_x(view_get_camera(0)) + 54), (camera_get_view_y(view_get_camera(0)) + 98), obj_alert_condicion))
+					with (instance_create((camera_x + 54), (camera_y + 98), obj_alert_condicion))
 						lose = 1
 				}
 				break
@@ -273,7 +273,7 @@ if (global.condiciones == 1 && editor == 0)
 					global.condiciones_clear = 0
 					with (obj_alert_condicion)
 						instance_destroy()
-					with (instance_create((camera_get_view_x(view_get_camera(0)) + 54), (camera_get_view_y(view_get_camera(0)) + 98), obj_alert_condicion))
+					with (instance_create((camera_x + 54), (camera_y + 98), obj_alert_condicion))
 						lose = 1
 				}
 				break
@@ -283,7 +283,7 @@ if (global.condiciones == 1 && editor == 0)
 					global.condiciones_clear = 0
 					with (obj_alert_condicion)
 						instance_destroy()
-					with (instance_create((camera_get_view_x(view_get_camera(0)) + 54), (camera_get_view_y(view_get_camera(0)) + 98), obj_alert_condicion))
+					with (instance_create((camera_x + 54), (camera_y + 98), obj_alert_condicion))
 						lose = 1
 				}
 				break

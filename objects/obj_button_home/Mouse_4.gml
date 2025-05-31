@@ -31,7 +31,7 @@ if (disabled == 0 && press == 1 && (!instance_exists(obj_settings_panel)) && spr
                 if instance_exists(obj_cursor)
                     obj_cursor.active_menu = 0
                 press = 1
-                instance_create((camera_get_view_x(view_get_camera(0)) + 112), (camera_get_view_y(view_get_camera(0)) + 12), obj_iname_control2)
+                instance_create((camera_x + 112), (camera_y + 12), obj_iname_control2)
             }
             else
             {
@@ -43,7 +43,7 @@ if (disabled == 0 && press == 1 && (!instance_exists(obj_settings_panel)) && spr
                 if instance_exists(obj_cursor)
                     obj_cursor.active_menu = 0
                 press = 1
-                instance_create((camera_get_view_x(view_get_camera(0)) + 112), (camera_get_view_y(view_get_camera(0)) + 12), obj_iname_control2)
+                instance_create((camera_x + 112), (camera_y + 12), obj_iname_control2)
             }
             else
             {

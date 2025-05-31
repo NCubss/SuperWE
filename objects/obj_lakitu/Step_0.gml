@@ -13,7 +13,7 @@ if (activated == 1)
 {
     if instance_exists(obj_mario)
     {
-        if (x >= (camera_get_view_x(view_get_camera(0)) + ((camera_get_view_width(view_get_camera(0)) / 2) + lurerange)))
+        if (x >= (camera_x + ((camera_width / 2) + lurerange)))
             dir = 1
         else if (x <= ((camera_get_view_x(view_current) + (camera_get_view_width(view_current) / 2)) - lurerange))
             dir = -1

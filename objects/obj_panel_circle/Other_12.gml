@@ -4,7 +4,7 @@ image_index = 1
 obj_panel_expand.header = 1
 obj_header.page = 2
 posicion = 2
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 53), obj_card_circle))
+with (instance_create((camera_x + 181), (camera_y + 53), obj_card_circle))
 {
     if (global.icecoin == 1)
     {
@@ -20,7 +20,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get
     value = 0
     other.image_selected = image_index
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 209), (camera_get_view_y(view_get_camera(0)) + 63), obj_card_circle))
+with (instance_create((camera_x + 209), (camera_y + 63), obj_card_circle))
 {
     switch global.coin10
     {
@@ -41,7 +41,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 209), (camera_get
     mask_index = spr_circle_mask10_2
     value = 1
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 229), (camera_get_view_y(view_get_camera(0)) + 91), obj_card_circle))
+with (instance_create((camera_x + 229), (camera_y + 91), obj_card_circle))
 {
     obj = obj_pink_coin_res
     image_index = 148
@@ -50,28 +50,28 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 229), (camera_get
     if (instance_number(obj_pink_coin_res) > 4)
         disabled = 0
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 229), (camera_get_view_y(view_get_camera(0)) + 123), obj_card_circle))
+with (instance_create((camera_x + 229), (camera_y + 123), obj_card_circle))
 {
         obj = obj_mushroom_res
         image_index = 96
     mask_index = spr_circle_mask10_4
     value = 3
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 209), (camera_get_view_y(view_get_camera(0)) + 151), obj_card_circle))
+with (instance_create((camera_x + 209), (camera_y + 151), obj_card_circle))
 {
     obj = obj_fireflower_res
     image_index = 61
     mask_index = spr_circle_mask10_5
     value = 4
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 161), obj_card_circle))
+with (instance_create((camera_x + 181), (camera_y + 161), obj_card_circle))
 {
     obj = obj_cap_res
     image_index = obj_panel_expand.img_cap
     mask_index = spr_circle_mask10_6
     value = 5
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 153), (camera_get_view_y(view_get_camera(0)) + 151), obj_card_circle))
+with (instance_create((camera_x + 153), (camera_y + 151), obj_card_circle))
 {
     if (global.hen_mushroom == 1)
     {
@@ -86,21 +86,21 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 153), (camera_get
     mask_index = spr_circle_mask10_7
     value = 6
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 133), (camera_get_view_y(view_get_camera(0)) + 123), obj_card_circle))
+with (instance_create((camera_x + 133), (camera_y + 123), obj_card_circle))
 {
     obj = obj_star_res
     image_index = 130
     mask_index = spr_circle_mask10_8
     value = 7
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 133), (camera_get_view_y(view_get_camera(0)) + 91), obj_card_circle))
+with (instance_create((camera_x + 133), (camera_y + 91), obj_card_circle))
 {
     obj = obj_1up_res
     image_index = obj_panel_expand.img_1up
     mask_index = spr_circle_mask10_9
     value = 8
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 153), (camera_get_view_y(view_get_camera(0)) + 63), obj_card_circle))
+with (instance_create((camera_x + 153), (camera_y + 63), obj_card_circle))
 {
     if (global.yoshi_egg == 0)
     {

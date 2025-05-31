@@ -33,14 +33,14 @@ if (sprite_index == spr_buttons_plays) {
 if (room == rm_title) {
 	draw_sprite(
 		sprite_index, image_index,
-		camera_get_view_x(view_get_camera(0)) + 112,
-		camera_get_view_y(view_get_camera(0)) + 141
+		camera_x + 112,
+		camera_y + 141
 	);
 	if (effect_hover == 1) {
 		anim += 0.3;
 		scr_anim_hover(
-			camera_get_view_x(view_get_camera(0)) + 112,
-			camera_get_view_y(view_get_camera(0)) + 141,
+			camera_x + 112,
+			camera_y + 141,
 			anim, 2
 		);
 	}
@@ -48,8 +48,8 @@ if (room == rm_title) {
 	draw_set_color(c_color);
 	draw_set_halign(fa_center);
 	draw_text(
-		camera_get_view_x(view_get_camera(0)) + 112 + 81,
-		camera_get_view_y(view_get_camera(0)) + 141 + 7.75, text
+		camera_x + 112 + 81,
+		camera_y + 141 + 7.75, text
 	);
 } else {
 	draw_self();

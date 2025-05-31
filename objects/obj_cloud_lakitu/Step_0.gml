@@ -9,15 +9,15 @@ if (inmario == 1)
             inclown = 0
     }
     depth = -11
-    if (x < (camera_get_view_x(view_get_camera(0)) + 16))
+    if (x < (camera_x + 16))
     {
-        x = (camera_get_view_x(view_get_camera(0)) + 16)
+        x = (camera_x + 16)
         if (hspeed < 0)
             hspeed = 0
     }
-    else if (x > ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 16))
+    else if (x > ((camera_x + camera_width) - 16))
     {
-        x = ((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 16)
+        x = ((camera_x + camera_width) - 16)
         if (hspeed > 0)
             hspeed = 0
     }

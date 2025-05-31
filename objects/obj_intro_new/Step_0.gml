@@ -1,5 +1,5 @@
 //zoom += 0.005;
-//show_debug_message("{0}, {1}", camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]))
+//show_debug_message("{0}, {1}", camera_width, camera_height)
 camera_set_view_size(
 	view_camera[0],
 	default_width / zoom,

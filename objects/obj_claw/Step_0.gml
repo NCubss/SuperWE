@@ -209,7 +209,7 @@ if (hold == 2 && instance_exists(obj_mario))
     }
     if (instance_exists(obj_autoscroll) && instance_exists(obj_levelmanager) && obj_levelmanager.barrier == 0)
     {
-        if (obj_mario.x <= (camera_get_view_x(view_get_camera(0)) + 8) && obj_mario.inclown != 0)
+        if (obj_mario.x <= (camera_x + 8) && obj_mario.inclown != 0)
         {
             event_user(1)
             ready = 1

@@ -9,7 +9,7 @@ and obj_input_desc.new_texto != "" {
             scr_toast(1, scr_language(93))
         else
         {
-            with (instance_create((camera_get_view_x(view_get_camera(0)) + 357), (camera_get_view_y(view_get_camera(0)) + 192), obj_load_image))
+            with (instance_create((camera_x + 357), (camera_y + 192), obj_load_image))
                 pos = 1
             global.instance_deactivate = 0
             alarm[0] = 12

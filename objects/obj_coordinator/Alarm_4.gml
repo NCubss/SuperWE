@@ -40,6 +40,6 @@ else
         link = url_tw
     }
     instance_create(0, 0, obj_cursor)
-    instance_create((camera_get_view_x(view_get_camera(0)) + 16), (camera_get_view_y(view_get_camera(0)) + 189), obj_version)
+    instance_create((camera_x + 16), (camera_y + 189), obj_version)
 	}
 

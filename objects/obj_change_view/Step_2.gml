@@ -1,3 +1,3 @@
-x = (camera_get_view_x(view_get_camera(0)) + 554)
-y = camera_get_view_y(view_get_camera(0))
+x = (camera_x + 554)
+y = camera_y
 

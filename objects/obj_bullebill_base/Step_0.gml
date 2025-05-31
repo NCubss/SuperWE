@@ -34,7 +34,7 @@ if (gravity == 0)
 coli_red = collision_rectangle(bbox_left, (bbox_top + 4), bbox_right, (bbox_bottom - 1), obj_onoffplatform, 0, 0)
 coli_blue = collision_rectangle(bbox_left, (bbox_top + 4), bbox_right, (bbox_bottom - 1), obj_onoffplatform_blue, 0, 0)
 coli_flip = collision_rectangle(bbox_left, (bbox_top + 4), bbox_right, (bbox_bottom - 1), obj_flipblock, 0, 0)
-if ((coli_red && coli_red.image_index == 1 && obj_levelmanager.editor == 0 && x > camera_get_view_x(view_get_camera(0)) && x < (camera_get_view_x(view_get_camera(0)) + 384) && y > camera_get_view_y(view_get_camera(0)) && y < (camera_get_view_x(view_get_camera(0)) + 216)) || (coli_blue && coli_blue.image_index == 1 && obj_levelmanager.editor == 0 && x > camera_get_view_x(view_get_camera(0)) && x < (camera_get_view_x(view_get_camera(0)) + 384)))
+if ((coli_red && coli_red.image_index == 1 && obj_levelmanager.editor == 0 && x > camera_x && x < (camera_x + 384) && y > camera_y && y < (camera_x + 216)) || (coli_blue && coli_blue.image_index == 1 && obj_levelmanager.editor == 0 && x > camera_x && x < (camera_x + 384)))
     event_user(0)
 if (instance_exists(obj_lava_water) && (y + 8) >= (obj_lava_water.y - 12) && ((global.theme == "forest" && global.night == 0) || global.theme == "beach") && modo_lava == 0)
 {

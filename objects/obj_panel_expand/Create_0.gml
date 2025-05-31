@@ -210,21 +210,21 @@ else if (value == 4 || value == 5 || value == 6 || value == 7 || value == 8 or v
     header = 2
 else
     header = 3
-instance_create((camera_get_view_x(view_get_camera(0)) + 350), (camera_get_view_y(view_get_camera(0)) + 17), obj_button_close)
-instance_create((camera_get_view_x(view_get_camera(0)) + 133), (camera_get_view_y(view_get_camera(0)) + 13), obj_header)
+instance_create((camera_x + 350), (camera_y + 17), obj_button_close)
+instance_create((camera_x + 133), (camera_y + 13), obj_header)
 if !instance_exists(obj_btn_header_1)
-	instance_create((camera_get_view_x(view_get_camera(0))+scr_header(1)), (camera_get_view_y(view_get_camera(0)) + 13), obj_btn_header_1)
+	instance_create((camera_x+scr_header(1)), (camera_y + 13), obj_btn_header_1)
 if !instance_exists(obj_btn_header_2)
-	instance_create((camera_get_view_x(view_get_camera(0))+scr_header(2)), (camera_get_view_y(view_get_camera(0)) + 13), obj_btn_header_2)
+	instance_create((camera_x+scr_header(2)), (camera_y + 13), obj_btn_header_2)
 if !instance_exists(obj_btn_header_3)
-	instance_create((camera_get_view_x(view_get_camera(0))+scr_header(3)), (camera_get_view_y(view_get_camera(0)) + 13), obj_btn_header_3)
+	instance_create((camera_x+scr_header(3)), (camera_y + 13), obj_btn_header_3)
 if !instance_exists(obj_btn_header_4)
-	instance_create((camera_get_view_x(view_get_camera(0))+scr_header(4)), (camera_get_view_y(view_get_camera(0)) + 13), obj_btn_header_4)
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 51), (camera_get_view_y(view_get_camera(0)) + 111), obj_next_before))
+	instance_create((camera_x+scr_header(4)), (camera_y + 13), obj_btn_header_4)
+with (instance_create((camera_x + 51), (camera_y + 111), obj_next_before))
     image_index = 0
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 304), (camera_get_view_y(view_get_camera(0)) + 111), obj_next_before))
+with (instance_create((camera_x + 304), (camera_y + 111), obj_next_before))
     image_index = 1
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 125), obj_panel_circle))
+with (instance_create((camera_x + 192), (camera_y + 125), obj_panel_circle))
 {
     can_anim = 1
     anim = 0.6
@@ -434,16 +434,16 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get
 //if (global.night == 1 && global.theme == "ground")
 //    img_1up = 123
 //value = (obj_editormanager.panel_circle + 1)
-//instance_create((camera_get_view_x(view_get_camera(0)) + 350), (camera_get_view_y(view_get_camera(0)) + 19), obj_button_close)
+//instance_create((camera_x + 350), (camera_y + 19), obj_button_close)
 //if (room == rm_editor)
 //{
-//instance_create((camera_get_view_x(view_get_camera(0)) + 133), (camera_get_view_y(view_get_camera(0)) + 13), obj_header)
+//instance_create((camera_x + 133), (camera_y + 13), obj_header)
 //}
-//with (instance_create((camera_get_view_x(view_get_camera(0)) + 51), (camera_get_view_y(view_get_camera(0)) + 111), obj_next_before))
+//with (instance_create((camera_x + 51), (camera_y + 111), obj_next_before))
 //    image_index = 0
-//with (instance_create((camera_get_view_x(view_get_camera(0)) + 304), (camera_get_view_y(view_get_camera(0)) + 111), obj_next_before))
+//with (instance_create((camera_x + 304), (camera_y + 111), obj_next_before))
 //    image_index = 1
-//with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 125), obj_panel_circle))
+//with (instance_create((camera_x + 192), (camera_y + 125), obj_panel_circle))
 //{
 //    can_anim = 1
 //    anim = 0.6

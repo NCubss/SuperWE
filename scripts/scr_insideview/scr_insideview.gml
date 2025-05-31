@@ -3,10 +3,10 @@
 	@returns		{real}
 */
 function scr_insideview() {
-	var cam_x = camera_get_view_x(view_camera[0]);
-	var cam_y = camera_get_view_y(view_camera[0]);
-	var cam_w = camera_get_view_width(view_camera[0]);
-	var cam_h = camera_get_view_height(view_camera[0]);
+	var cam_x = camera_x;
+	var cam_y = camera_y;
+	var cam_w = camera_width;
+	var cam_h = camera_height;
 	return real(
 		mouse_y > cam_y
 		&& mouse_y < ((cam_y + cam_h) - 1)

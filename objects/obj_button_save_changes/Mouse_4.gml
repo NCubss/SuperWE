@@ -7,7 +7,7 @@ if (image_index == 1 && global.save_changes != 0 && press == 1 && instance_exist
             canpress = 1
     }
     file_delete(global.save_changes)
-    instance_create((camera_get_view_x(view_get_camera(0)) + 338), (camera_get_view_y(view_get_camera(0)) + 198), obj_load_image)
+    instance_create((camera_x + 338), (camera_y + 198), obj_load_image)
     global.instance_deactivate = 0
     press = 0
     alarm[0] = 12

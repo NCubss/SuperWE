@@ -4,7 +4,7 @@ if (modo_sonidos == 0)
     sprite_index = spr_card_block_sounds
     image_speed = 0.15
     obj_levelmanager.editor_sonidos = 1
-    instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_modo_sonidos_control)
+    instance_create(camera_x, camera_y, obj_modo_sonidos_control)
     event_user(0)
 }
 else

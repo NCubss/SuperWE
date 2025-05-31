@@ -13,7 +13,7 @@ anim6 = 0;
 anim7 = 0;
 anim = [0, 0, 0, 0, 0, 0, 0];
 anim_idx = 0;
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (camera_get_view_y(view_get_camera(0)) + 108), obj_curtainin))
+with (instance_create((camera_x + 192), (camera_y + 108), obj_curtainin))
     fallow = 1
 
 

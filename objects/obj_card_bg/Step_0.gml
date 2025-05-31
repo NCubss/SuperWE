@@ -1,5 +1,5 @@
-x = ((camera_get_view_x(view_get_camera(0)) + 7) - obj_cursor.anim_left)
-y = (camera_get_view_y(view_get_camera(0)) + 66)
+x = ((camera_x + 7) - obj_cursor.anim_left)
+y = (camera_y + 66)
 switch global.theme
 {
     case "ground":

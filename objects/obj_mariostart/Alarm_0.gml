@@ -7,6 +7,6 @@ if (global.style == 3)
     var posyy = 124
 else
     var posyy = 100
-instance_create((camera_get_view_x(view_get_camera(0)) + pos), (camera_get_view_y(view_get_camera(0)) + posyy), obj_mariostart_m)
+instance_create((camera_x + pos), (camera_y + posyy), obj_mariostart_m)
 
 

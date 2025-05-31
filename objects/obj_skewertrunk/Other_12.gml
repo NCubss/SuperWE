@@ -46,7 +46,7 @@ if (x > xstart && ((solidtop && solidtop.object_index != obj_flipblock) || (soli
     alarm[2] = 60
     ready = 4
 }
-else if ((x < (camera_get_view_x(view_get_camera(0))) + 16) && x <= xstart)
+else if ((x < (camera_x) + 16) && x <= xstart)
 {
     if (global.style == 3)
     {

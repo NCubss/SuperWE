@@ -1,7 +1,7 @@
 if (fallow == obj_lighting)
 {
-    x = (camera_get_view_x(view_get_camera(0)) + (camera_get_view_width(view_get_camera(0)) / 2))
-    y = (camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0)) / 2))
+    x = (camera_x + (camera_width / 2))
+    y = (camera_y + (camera_height / 2))
 }
 if (listo == 1)
     scale += 6

@@ -1,5 +1,5 @@
-x = (camera_get_view_x(view_get_camera(0)) + 192)
-y = (camera_get_view_y(view_get_camera(0)) + 108)
+x = (camera_x + 192)
+y = (camera_y + 108)
 if (scale_x > 0.2 && scale_y > 0.2)
 {
     scale_x -= 0.012

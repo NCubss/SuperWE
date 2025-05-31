@@ -8,7 +8,7 @@ if (sprite_index == spr_button_save)
         obj_robot.active = 0
     }
     obj_editormanager.expand_open = 2
-    instance_create(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)), obj_window_alert)
+    instance_create(camera_x, camera_y, obj_window_alert)
 }
 else if (sprite_index == spr_button_load)
 {
@@ -19,6 +19,6 @@ else if (sprite_index == spr_button_load)
         obj_robot.active = 0
     }
     obj_editormanager.expand_open = 2
-    instance_create((camera_get_view_x(view_get_camera(0)) + 84), (camera_get_view_y(view_get_camera(0)) + 55), obj_alert_load)
+    instance_create((camera_x + 84), (camera_y + 55), obj_alert_load)
 }
 

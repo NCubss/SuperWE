@@ -1,5 +1,5 @@
-x = (((camera_get_view_x(view_get_camera(0)) + camera_get_view_width(view_get_camera(0))) - 26) + obj_cursor.anim_right)
-y = (camera_get_view_y(view_get_camera(0)) + 129)
+x = (((camera_x + camera_width) - 26) + obj_cursor.anim_right)
+y = (camera_y + 129)
 if (active == 1)
 {
     sprite_index = spr_clean_selected

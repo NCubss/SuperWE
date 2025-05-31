@@ -18,7 +18,7 @@ if (obj_levelmanager.editor == 1)
             with (obj_lava_water)
                 instance_destroy()
         }
-        with (instance_create(camera_get_view_x(view_get_camera(0)), (room_height - 4), obj_lava_water))
+        with (instance_create(camera_x, (room_height - 4), obj_lava_water))
         {
             switch global.style
             {
@@ -45,7 +45,7 @@ if (obj_levelmanager.editor == 1)
             with (obj_lava_water)
                 instance_destroy()
         }
-        with (instance_create(camera_get_view_x(view_get_camera(0)), (room_height - 4), obj_lava_water))
+        with (instance_create(camera_x, (room_height - 4), obj_lava_water))
         {
             switch global.style
             {
@@ -72,7 +72,7 @@ if (obj_levelmanager.editor == 1)
             with (obj_lava_water)
                 instance_destroy()
         }
-        with (instance_create(camera_get_view_x(view_get_camera(0)), (room_height - 4), obj_lava_water))
+        with (instance_create(camera_x, (room_height - 4), obj_lava_water))
         {
             switch global.style
             {
@@ -102,7 +102,7 @@ if (obj_levelmanager.editor == 1)
             with (obj_lava_water)
                 instance_destroy()
         }
-        with (instance_create(camera_get_view_x(view_get_camera(0)), (room_height - 4), obj_lava_water))
+        with (instance_create(camera_x, (room_height - 4), obj_lava_water))
         {
             switch global.style
             {

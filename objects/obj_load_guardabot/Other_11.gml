@@ -369,17 +369,17 @@ if (global.levelguardabot != "") {
 			} else {
 				switch (global.autoscroll) {
 					case AutoscrollSpeed.SLOW:
-						with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (room_height - 108), obj_autoscroll)) {
+						with (instance_create((camera_x + 192), (room_height - 108), obj_autoscroll)) {
 							velocidad = 0.5;
 						}
 						break;
 					case AutoscrollSpeed.NORMAL:
-						with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (room_height - 108), obj_autoscroll)) {
+						with (instance_create((camera_x + 192), (room_height - 108), obj_autoscroll)) {
 							velocidad = 1;
 						}
 						break;
 					case AutoscrollSpeed.FAST:
-						with (instance_create((camera_get_view_x(view_get_camera(0)) + 192), (room_height - 108), obj_autoscroll)) {
+						with (instance_create((camera_x + 192), (room_height - 108), obj_autoscroll)) {
 							velocidad = 1.5;
 						}
 						break;
@@ -408,8 +408,8 @@ if (global.levelguardabot != "") {
 				}
 				with (
 					instance_create(
-						(camera_get_view_x(view_get_camera(0)) + 54),
-						(camera_get_view_y(view_get_camera(0)) + 43),
+						(camera_x + 54),
+						(camera_y + 43),
 						obj_alert_condicion
 					)
 				) {

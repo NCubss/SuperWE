@@ -67,14 +67,14 @@ audio_play_sound(snd_pausa, 0, false)
 
 if (global.postnivel == 0)
 {
-    instance_create((camera_get_view_x(view_get_camera(0)) + 255), (camera_get_view_y(view_get_camera(0)) + 81), obj_pausa_button)
-    with (instance_create((camera_get_view_x(view_get_camera(0)) + 255), (camera_get_view_y(view_get_camera(0)) + 107), obj_pausa_button))
+    instance_create((camera_x + 255), (camera_y + 81), obj_pausa_button)
+    with (instance_create((camera_x + 255), (camera_y + 107), obj_pausa_button))
     {
         type = 1
 		text = scr_language(150)
         sprite_index = spr_bt_parent
     }
-    with (instance_create((camera_get_view_x(view_get_camera(0)) + 255), (camera_get_view_y(view_get_camera(0)) + 133), obj_pausa_button))
+    with (instance_create((camera_x + 255), (camera_y + 133), obj_pausa_button))
     {
         type = 2
 		text = scr_language(161)
@@ -83,23 +83,23 @@ if (global.postnivel == 0)
 }
 else
 {
-    instance_create((camera_get_view_x(view_get_camera(0)) + 255), (camera_get_view_y(view_get_camera(0)) + 94), obj_pausa_button)
-    with (instance_create((camera_get_view_x(view_get_camera(0)) + 255), (camera_get_view_y(view_get_camera(0)) + 120), obj_pausa_button))
+    instance_create((camera_x + 255), (camera_y + 94), obj_pausa_button)
+    with (instance_create((camera_x + 255), (camera_y + 120), obj_pausa_button))
     {
         type = 2
 		text = scr_language(161)
         sprite_index = spr_bt_parent
     }
 }
-with (instance_create((camera_get_view_x(view_get_camera(0)) + 352), (camera_get_view_y(view_get_camera(0)) + 183), obj_settings_button))
+with (instance_create((camera_x + 352), (camera_y + 183), obj_settings_button))
 {
     image_index = 2
-    x = (camera_get_view_x(view_get_camera(0)) + 352)
-    y = (camera_get_view_y(view_get_camera(0)) + 183)
+    x = (camera_x + 352)
+    y = (camera_y + 183)
     depth = -17
 }
 if global.dsm = 1
-	instance_create_depth(camera_get_view_x(view_get_camera(0)), camera_get_view_y(view_get_camera(0)),0, obj_skip_control)
+	instance_create_depth(camera_x, camera_y,0, obj_skip_control)
 if instance_exists(obj_coordinator)
 {
     if (obj_coordinator.modo_android == 0)

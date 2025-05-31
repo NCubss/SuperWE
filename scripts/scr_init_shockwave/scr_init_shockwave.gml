@@ -11,8 +11,8 @@ function init_shockwave() {
 	var_mouse_pos_x = mouse_x
 	var_mouse_pos_y = mouse_y
 	uni_resolution = shader_get_uniform(shd_shockwave, "resolution")
-	var_resolution_x = camera_get_view_width(view_get_camera(0))
-	var_resolution_y = camera_get_view_height(view_get_camera(0))
+	var_resolution_x = camera_width
+	var_resolution_y = camera_height
 	uni_shock_amplitude = shader_get_uniform(shd_shockwave, "shock_amplitude")
 	var_shock_amplitude = 5
 	uni_shock_refraction = shader_get_uniform(shd_shockwave, "shock_refraction")

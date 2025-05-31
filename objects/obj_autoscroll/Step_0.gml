@@ -8,7 +8,7 @@ if (instance_exists(obj_mario) && instance_exists(obj_levelmanager) && obj_level
         wallright = 1
     else
         wallright = 0
-    if (obj_mario.x <= (camera_get_view_x(view_get_camera(0)) + 8))
+    if (obj_mario.x <= (camera_x + 8))
     {
         if (wallright && candie == 1)
         {
@@ -19,12 +19,12 @@ if (instance_exists(obj_mario) && instance_exists(obj_levelmanager) && obj_level
         }
         else
         {
-            obj_mario.x = (camera_get_view_x(view_get_camera(0)) + 8)
+            obj_mario.x = (camera_x + 8)
             if (obj_mario.hspeed < 0)
                 obj_mario.hspeed = 0
         }
     }
-    if (obj_mario.x >= ((camera_get_view_x(view_get_camera(0))) + camera_get_view_width(view_get_camera(0)) - 8))
+    if (obj_mario.x >= ((camera_x) + camera_width - 8))
     {
         if (wallleft && candie == 1)
         {
@@ -35,12 +35,12 @@ if (instance_exists(obj_mario) && instance_exists(obj_levelmanager) && obj_level
         }
         else
         {
-            obj_mario.x = ((camera_get_view_x(view_get_camera(0))) + camera_get_view_width(view_get_camera(0)) - 8)
+            obj_mario.x = ((camera_x) + camera_width - 8)
             if (obj_mario.hspeed > 0)
                 obj_mario.hspeed = 0
         }
     }
-    if (obj_mario.y > (camera_get_view_y(view_get_camera(0)) + 248) && candie == 1)
+    if (obj_mario.y > (camera_y + 248) && candie == 1)
     {
         instance_create(obj_mario.x, obj_mario.y, obj_deadmario)
         with (obj_mario)
