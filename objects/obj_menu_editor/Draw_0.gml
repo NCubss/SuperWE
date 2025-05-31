@@ -1,5 +1,4 @@
-draw_sprite_ext(sprite_index, image_index, (((camera_right) - 26) + obj_cursor.anim_right), (camera_y + 43), 1, 1, 0, c_white, 1)
-if (effect_hover == 1) {
-    draw_hover_anim(x, y, sprite_width - 1, sprite_height - 2);
+draw_sprite_ext(sprite_index, image_index, camera_right - 26 + obj_cursor.anim_right, camera_y + 43, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+if (mouse_in) {
+    draw_hover_anim(camera_right - 26 + obj_cursor.anim_right, camera_y + 43, sprite_width - 1, sprite_height - 2);
 }
-
