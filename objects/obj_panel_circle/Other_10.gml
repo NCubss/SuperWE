@@ -18,7 +18,7 @@ with (instance_create((camera_x + 217), (camera_y + 72), obj_card_circle))
     image_index = obj_panel_expand.img_pendiente1
     mask_index = spr_circle_mask_2
     value = 1
-    disabled = 0
+    disabled = 1
 	other.image_selected = obj_panel_expand.img_pendiente1
 }
 with (instance_create((camera_x + 231), (camera_y + 108), obj_card_circle))

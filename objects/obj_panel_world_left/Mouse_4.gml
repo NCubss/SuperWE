@@ -1,3 +1,6 @@
+if (global.cursor == 2) {
+	exit;
+}
 var xx = camera_left + 31;
 var yy = camera_top + 96;
 var w = 6;

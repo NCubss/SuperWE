@@ -32,7 +32,7 @@ with (instance_create((camera_x + 233), (camera_y + 111), obj_card_circle))
     obj = obj_ground
     image_index = 171
     mask_index = spr_circle_mask7_3
-    disabled = 0
+    disabled = 1
     value = 2
 }
 with (instance_create((camera_x + 205), (camera_y + 150), obj_card_circle))
@@ -58,7 +58,7 @@ with (instance_create((camera_x + 129), (camera_y + 111), obj_card_circle))
         image_index = 40
     mask_index = spr_circle_mask7_6
     value = 5
-	disabled = 0
+	disabled = 1
 }
 with (instance_create((camera_x + 144), (camera_y + 74), obj_card_circle))
 {
@@ -66,5 +66,5 @@ with (instance_create((camera_x + 144), (camera_y + 74), obj_card_circle))
     image_index = 173
     mask_index = spr_circle_mask7_7
     value = 6
-	disabled = 0
+	disabled = 1
 }

@@ -15,7 +15,7 @@ with (instance_create((camera_x + 181), (camera_y + 58), obj_card_circle))
 with (instance_create((camera_x + 218), (camera_y + 74), obj_card_circle))
 {
 	obj = obj_burnet_box_res
-	image_index = 0
+	image_index = 235
     mask_index = spr_circle_mask7_2
     value = 1
 }

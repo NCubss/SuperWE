@@ -11,6 +11,8 @@ if (edit) {
 	with (obj_world_editor) {
 		can_interact = true;
 	}
+	layer_background_speed(bg, 0);
+	layer_background_index(bg, 0);
 } else {
 	audio_stop_sound(get_world_editor_music(style, theme));
 	audio_play_sound(music, 0, true);
@@ -23,4 +25,5 @@ if (edit) {
 	with (obj_world_editor) {
 		can_interact = false;
 	}
+	layer_background_speed(bg, 4);
 }

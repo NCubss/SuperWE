@@ -41,7 +41,7 @@ with (instance_create((camera_x + 233), (camera_y + 111), obj_card_circle))
     image_index = 170
     mask_index = spr_circle_mask7_3
     value = 2
-	disabled = 0
+	disabled = 1
 }
 with (instance_create((camera_x + 205), (camera_y + 150), obj_card_circle))
 {

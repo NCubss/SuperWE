@@ -39,7 +39,7 @@ if (!pause) {
 }
 if (can_interact && mouse_down && global.cursor != 2) {
 	if (
-		point_in_rectangle(mouse_x, mouse_y, camera_x + 36, camera_y + 36, camera_x + 350, camera_y + 216)
+		!position_meeting(mouse_x, mouse_y, [obj_panel_world_left, obj_panel_world_top, obj_panel_world_right, obj_world_clapperboard])
 		&& !position_meeting(mouse_x, mouse_y, obj_parent_world_res)
 		&& selected_variant != -1
 	) {

@@ -16,4 +16,5 @@ hud_offsetx = 0;
 if (edit) {
 	alarm[0] = first_play ? 60 : 1;
 }
-edit_prev = edit;	
+edit_prev = edit;
+bg = layer_background_get_id("bg");	
