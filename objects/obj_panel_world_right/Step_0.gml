@@ -1,0 +1,1 @@
+obj_cursor.anim_right = xoffset;

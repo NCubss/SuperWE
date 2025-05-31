@@ -1,8 +1,8 @@
-for (var i = camera_x div 48; i <= (camera_right) div 48; i++) {
-	for (var j = camera_y div 48; j <= (camera_bottom) div 48; j++) {
-		draw_sprite(spr_world_tile, 0, i * 48, j * 48);
-	}
-}
+//for (var i = camera_x div 48; i <= (camera_right) div 48; i++) {
+	//for (var j = camera_y div 48; j <= (camera_bottom) div 48; j++) {
+		//draw_sprite(spr_world_tile, 0, i * 48, j * 48);
+	//}
+//}
 
 /*	prepare drawing edges:
 	unlike other tilesets in this game, this one has its edges on water tiles

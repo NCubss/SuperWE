@@ -1,6 +1,7 @@
 with (obj_worldmanager) {
 	edit = true;
 }
+global.in_world_editor = true;
 // get music
 music = get_world_editor_music(obj_worldmanager.style, obj_worldmanager.theme);
 // Should the user be able to place or delete tiles right now?

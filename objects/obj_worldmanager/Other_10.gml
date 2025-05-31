@@ -8,6 +8,9 @@ if (edit) {
 			event_user(4);
 		}
 	}
+	with (obj_world_editor) {
+		can_interact = true;
+	}
 } else {
 	audio_stop_sound(get_world_editor_music(style, theme));
 	audio_play_sound(music, 0, true);
@@ -16,5 +19,8 @@ if (edit) {
 		with (obj_coordinator) {
 			event_user(2);
 		}
+	}
+	with (obj_world_editor) {
+		can_interact = false;
 	}
 }

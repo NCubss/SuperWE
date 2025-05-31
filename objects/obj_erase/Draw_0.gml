@@ -2,7 +2,8 @@ draw_sprite_ext(sprite_index, image_index, (((camera_right) - 26) + obj_cursor.a
 if (effect_hover == 1)
 {
     anim += 0.3
-    scr_anim_hover((((camera_right) - 26) + obj_cursor.anim_right), (camera_y + 129), anim, 2)
+    //scr_anim_hover((((camera_right) - 26) + obj_cursor.anim_right), (camera_y + 129), anim, 2)
+	draw_hover_anim(camera_right - 26 + obj_cursor.anim_right, camera_y + 132, 21, 21, anim);
 }
 
 

@@ -1,4 +1,5 @@
 if (instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1)
+	|| global.in_world_editor
 {
     if (global.cursor == 2 && global.editor_activity == 1)
     {

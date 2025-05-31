@@ -6956,6 +6956,7 @@
     {"id":{"name":"spr_wings","path":"sprites/spr_wings/spr_wings.yy",},},
     {"id":{"name":"spr_wings2","path":"sprites/spr_wings2/spr_wings2.yy",},},
     {"id":{"name":"spr_woodblock","path":"sprites/spr_woodblock/spr_woodblock.yy",},},
+    {"id":{"name":"spr_world_bg_overworld","path":"sprites/spr_world_bg_overworld/spr_world_bg_overworld.yy",},},
     {"id":{"name":"spr_world_card","path":"sprites/spr_world_card/spr_world_card.yy",},},
     {"id":{"name":"spr_world_end","path":"sprites/spr_world_end/spr_world_end.yy",},},
     {"id":{"name":"spr_world_ground","path":"sprites/spr_world_ground/spr_world_ground.yy",},},

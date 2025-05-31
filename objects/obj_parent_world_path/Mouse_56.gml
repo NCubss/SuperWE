@@ -21,6 +21,8 @@ if (holds_start || holds_end) {
 		with (obj) {
 			gridx = other.gridx;
 			gridy = other.gridy;
+			maskx = other.maskx;
+			masky = other.masky;
 			x = other.x;
 			y = other.y;
 		}

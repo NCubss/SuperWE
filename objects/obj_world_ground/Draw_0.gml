@@ -1,5 +1,9 @@
+var spr = sprite_index;
+var idx = image_index;
+sprite_index = spr_empty;
 event_inherited();
-
+sprite_index = spr;
+image_index = idx;
 // draw sides when it is being dragged
 if (dragging) {
 	// top left corner
@@ -19,3 +23,4 @@ if (dragging) {
 	// left side
 	draw_sprite(spr_world_tile, 15, x - 48, y);
 }
+draw_self();

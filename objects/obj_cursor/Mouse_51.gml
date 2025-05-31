@@ -1,4 +1,5 @@
 if (instance_exists(obj_levelmanager) && obj_levelmanager.editor == 1 && instance_exists(obj_editormanager) && obj_editormanager.zoom == 0 && os_type != os_android && (obj_editormanager.expand_open == 0 || obj_levelmanager.editor_sonidos == 1))
+	|| (global.in_world_editor && obj_worldmanager.edit) && !obj_coordinator.modo_android
 {
     if (global.cursor == 0 && global.editor_activity == 1)
     {

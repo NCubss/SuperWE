@@ -1,3 +1,8 @@
+normal_depth = ((room_height - y) div 48) + 601;
+if (object_index == obj_world_start || object_index == obj_world_end) {
+	normal_depth--;
+	grabbed_depth--;
+}
 if (grabbing || dragging) {
 	depth = grabbed_depth;
 } else {

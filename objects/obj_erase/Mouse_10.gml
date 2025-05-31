@@ -1,5 +1,7 @@
-if (obj_editormanager.expand_open == 0)
-{
+if (
+	(instance_exists(obj_editormanager) && obj_editormanager.expand_open == 0)
+	|| global.in_world_editor
+) {
     if (effect_hover == 0)
     {
         audio_stop_sound(snd_panel_right_move)

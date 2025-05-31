@@ -7,7 +7,7 @@ var spd = 3;
 if (!pause) {
 	if (obj_worldmanager.edit) {
 		// mobile camera movement
-		if (mouse_button == mb_left && obj_coordinator.modo_android) {
+		if (mouse_button = mb_left && obj_coordinator.modo_android) {
 			if (point_in_rectangle(mouse_x, mouse_y, camera_left + 35, camera_top + 36, camera_left + 70, camera_bottom)) {
 				axis_x = -1;
 			}
@@ -37,7 +37,7 @@ if (!pause) {
 } else {
 	audio_pause_sound(snd_world_editor_overworld);
 }
-if (can_interact && mouse_down) {
+if (can_interact && mouse_down && global.cursor != 2) {
 	if (
 		point_in_rectangle(mouse_x, mouse_y, camera_x + 36, camera_y + 36, camera_x + 350, camera_y + 216)
 		&& !position_meeting(mouse_x, mouse_y, obj_parent_world_res)
@@ -46,4 +46,7 @@ if (can_interact && mouse_down) {
 		spawn_variant(mouse_x div 48, mouse_y div 48, selected_variant);
 		audio_play_sound(snd_mario_add, 0, false);
 	}
+}
+if (global.cursor == 2 && (obj_cursor.fast_clean || mouse_button == mb_left)) {
+	event_user(3);
 }

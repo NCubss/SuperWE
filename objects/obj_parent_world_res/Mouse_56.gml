@@ -12,10 +12,10 @@ if (dragging || grabbing) {
 			? (
 				inst != noone
 				&& object_is_ancestor(inst.object_index, obj_parent_world_path)
-				&& mouse_x div 48 != obj_world_editor.start_x
-				&& mouse_y div 48 != obj_world_editor.start_y
-				&& mouse_x div 48 != obj_world_editor.end_x
-				&& mouse_y div 48 != obj_world_editor.end_y
+				&& !(mouse_x div 48 == obj_world_editor.start_x
+				&& mouse_y div 48 == obj_world_editor.start_y)
+				&& !(mouse_x div 48 == obj_world_editor.end_x
+				&& mouse_y div 48 == obj_world_editor.end_y)
 			)
 			: inst == noone
 		) {

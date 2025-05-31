@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sprites/UI/Editor.yy",
+    "name":"World Maker",
+    "path":"folders/Sprites/UI/World Maker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

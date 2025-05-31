@@ -1,6 +1,8 @@
 if (
 	obj_world_editor.pause
 	|| !obj_worldmanager.edit
+	|| !obj_world_editor.can_interact
+	|| global.cursor == 2
 	|| (
 		object_index != obj_world_start
 		&& object_index != obj_world_end

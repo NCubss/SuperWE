@@ -1,5 +1,7 @@
 /// @description	Rotate path
-
+if (!obj_worldmanager.edit || obj_world_editor.pause || !obj_world_editor.can_interact) {
+	exit;
+}
 audio_play_sound(snd_change_arrow, 0, false);
 // play out rotation animation
 switch (rotation) {
