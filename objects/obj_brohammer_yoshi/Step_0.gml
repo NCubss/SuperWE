@@ -7,6 +7,6 @@ if (vspeed > 4)
     vspeed = 4
     gravity = 0
 }
-if (x < (camera_x - 32) || x > ((camera_x + camera_width) + 32) || y > ((camera_y + camera_height) + 32))
+if (x < (camera_x - 32) || x > ((camera_right) + 32) || y > ((camera_bottom) + 32))
     instance_destroy()
 

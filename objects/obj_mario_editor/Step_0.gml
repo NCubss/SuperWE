@@ -89,7 +89,7 @@ else
     clean = 0
 if (obj_cursor.move_view == 1)
 {
-    if (mouse_x > ((camera_x + camera_width) - 80))
+    if (mouse_x > ((camera_right) - 80))
         hspeed = 4
     else if (mouse_x < (camera_x + 80))
         hspeed = -4
@@ -97,7 +97,7 @@ if (obj_cursor.move_view == 1)
         hspeed = 0
     if (mouse_y < (camera_y + 48))
         vspeed = -4
-    else if (mouse_y > ((camera_y + camera_height) - 48))
+    else if (mouse_y > ((camera_bottom) - 48))
         vspeed = 4
     else
         vspeed = 0

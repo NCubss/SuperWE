@@ -1,4 +1,4 @@
-if (x > (camera_x - 32) && x < ((camera_x + camera_width) + 32))
+if (x > (camera_x - 32) && x < ((camera_right) + 32))
 {
     if instance_exists(obj_lava_water)
     {

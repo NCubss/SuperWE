@@ -1,4 +1,4 @@
-x = (((camera_x + camera_width) - 38) + obj_cursor.anim_right)
+x = (((camera_right) - 38) + obj_cursor.anim_right)
 if (instance_exists(obj_editormanager) && obj_editormanager.zoom == 2)
 {
     sprite_index = spr_expand_panels_big

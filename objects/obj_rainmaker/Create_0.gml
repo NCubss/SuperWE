@@ -9,7 +9,7 @@ part_type_direction(rain, 240, 240, 0, 0)
 part_type_colour1(rain, 16777215)
 emitter = part_emitter_create(rain_sys)
 part_emitter_stream(rain_sys, emitter, rain, 5)
-part_emitter_region(rain_sys, emitter, (camera_x - 600), ((camera_x + camera_width) + 600), 0, 0, 3, 0)
+part_emitter_region(rain_sys, emitter, (camera_x - 600), ((camera_right) + 600), 0, 0, 3, 0)
 repeat (5)
     part_system_update(rain_sys)
 

@@ -17,7 +17,7 @@ if (inmario == 1)
         if (hspeed < 0)
             hspeed = 0
     }
-    else if (x > ((camera_x + camera_width - 16)))
+    else if (x > ((camera_right - 16)))
     {
         x = ((camera_x +camera_width - 16))
         if (hspeed > 0)

@@ -1,5 +1,5 @@
-for (var i = camera_x div 48; i <= (camera_x + camera_width) div 48; i++) {
-	for (var j = camera_y div 48; j <= (camera_y + camera_height) div 48; j++) {
+for (var i = camera_x div 48; i <= (camera_right) div 48; i++) {
+	for (var j = camera_y div 48; j <= (camera_bottom) div 48; j++) {
 		draw_sprite(spr_world_tile, 0, i * 48, j * 48);
 	}
 }

@@ -193,13 +193,13 @@ if (barrier == 0 && instance_exists(obj_mario))
 		if instance_exists(obj_slider)
 			obj_slider.x = (camera_x + 5)
 	}
-	else if (obj_mario.x > ((camera_x + camera_width) - 5))
+	else if (obj_mario.x > ((camera_right) - 5))
 	{
-		obj_mario.x = ((camera_x + camera_width) - 5)
+		obj_mario.x = ((camera_right) - 5)
 		if (obj_mario.hspeed > 0)
 			obj_mario.hspeed = 0
 		if instance_exists(obj_slider)
-			obj_slider.x = ((camera_x + camera_width) - 5)
+			obj_slider.x = ((camera_right) - 5)
 	}
 }
 if (barrier == 0 && instance_exists(obj_mario_pballon))
@@ -210,9 +210,9 @@ if (barrier == 0 && instance_exists(obj_mario_pballon))
 		if (obj_mario_pballon.hspeed < 0)
 			obj_mario_pballon.hspeed = 0
 	}
-	else if (obj_mario_pballon.x > ((camera_x + camera_width) - 5))
+	else if (obj_mario_pballon.x > ((camera_right) - 5))
 	{
-		obj_mario_pballon.x = ((camera_x + camera_width) - 5)
+		obj_mario_pballon.x = ((camera_right) - 5)
 		if (obj_mario_pballon.hspeed > 0)
 			obj_mario_pballon.hspeed = 0
 	}

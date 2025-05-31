@@ -3,5 +3,5 @@ if (instance_exists(obj_editormanager) && obj_editormanager.zoom == 2)
     zoom = 200
 else
     zoom = 100
-draw_sprite_ext(sprite_index, image_index, (((camera_x + camera_width) - 38) + obj_cursor.anim_right), (camera_y + zoom), 1, 1, 0, c_white, 1)
+draw_sprite_ext(sprite_index, image_index, (((camera_right) - 38) + obj_cursor.anim_right), (camera_y + zoom), 1, 1, 0, c_white, 1)
 

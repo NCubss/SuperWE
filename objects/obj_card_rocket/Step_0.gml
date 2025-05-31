@@ -1,4 +1,4 @@
-x = (((camera_x + camera_width) - 26) + obj_cursor.anim_right)
+x = (((camera_right) - 26) + obj_cursor.anim_right)
 y = (camera_y + 184)
 if (counter_draw == 1)
     counter_anim += 0.15

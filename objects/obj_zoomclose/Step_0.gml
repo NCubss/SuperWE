@@ -1,3 +1,3 @@
-x = ((camera_x + camera_width) - 40)
+x = ((camera_right) - 40)
 y = (camera_y + 8)
 

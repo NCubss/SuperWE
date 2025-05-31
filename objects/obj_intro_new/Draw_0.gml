@@ -21,8 +21,8 @@ draw_set_color(c_black);
 draw_rectangle(
 	camera_x,
 	camera_y,
-	camera_x + camera_width,
-	camera_y + camera_height,
+	camera_right,
+	camera_bottom,
 	false
 );
 draw_set_alpha(1);
