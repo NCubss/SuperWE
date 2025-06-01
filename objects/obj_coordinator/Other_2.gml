@@ -86,17 +86,16 @@ else
 	global.language = 1
 }
 alarm[5] = 1
-audio_play_sound(snd_coin, 0, false)
+audio_play_sound(snd_changeleaf, 0, false)
 alarm[4] = 260
 alarm[11] = 1
 
 if (os_type == os_android)
 {
-	os_request_permission("android.permission.WRITE_EXTERNAL_STORAGE");
-    //if (os_check_permission("android.permission.WRITE_EXTERNAL_STORAGE") == os_permission_denied)
-    //{
-        //os_request_permission("android.permission.WRITE_EXTERNAL_STORAGE");
-    //}
+    if (os_check_permission("android.permission.WRITE_EXTERNAL_STORAGE") == os_permission_denied)
+    {
+        os_request_permission("android.permission.WRITE_EXTERNAL_STORAGE");
+    }
 }
 
 instance_create_depth(0, 0, 0, obj_cheat_mode);

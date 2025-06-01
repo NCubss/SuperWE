@@ -193,3 +193,16 @@ function get_world_editor_music(style, theme) {
 			throw "Script get_world_editor_music: Invalid world style!";
 	}
 }
+
+/**
+	@description	Checks if the mouse is currently on a UI object (e.g. panel or clapperboard).
+	@returns		{bool}
+*/
+function world_mouse_on_ui() {
+	return position_meeting(mouse_x, mouse_y, [
+		obj_panel_world_left,
+		obj_panel_world_top,
+		obj_panel_world_right,
+		obj_world_clapperboard
+	]);
+}

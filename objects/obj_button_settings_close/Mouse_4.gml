@@ -26,5 +26,9 @@ if (visible == true)
     }
     with (obj_coordinator)
         event_user(7)
+	with (obj_world_editor) {
+		pause = false;
+		can_interact = true;
+	}
 }
 

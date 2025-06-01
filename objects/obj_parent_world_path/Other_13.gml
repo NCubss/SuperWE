@@ -1,5 +1,5 @@
 /// @description	Rotate path
-if (!obj_worldmanager.edit || obj_world_editor.pause || !obj_world_editor.can_interact) {
+if (!obj_worldmanager.edit || obj_world_editor.pause || !obj_world_editor.can_interact || world_mouse_on_ui()) {
 	exit;
 }
 audio_play_sound(snd_change_arrow, 0, false);

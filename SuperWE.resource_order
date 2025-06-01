@@ -54,6 +54,7 @@
     {"name":"compatibility","order":2,"path":"folders/Scripts/compatibility.yy",},
     {"name":"Drawing","order":65,"path":"folders/Scripts/Drawing.yy",},
     {"name":"Editor","order":3,"path":"folders/Scripts/Editor.yy",},
+    {"name":"World Maker","order":66,"path":"folders/Scripts/World Maker.yy",},
     {"name":"Mario","order":4,"path":"folders/Scripts/Mario.yy",},
     {"name":"marioU","order":5,"path":"folders/Scripts/marioU.yy",},
     {"name":"Misc","order":6,"path":"folders/Scripts/Misc.yy",},

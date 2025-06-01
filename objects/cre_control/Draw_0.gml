@@ -2,9 +2,11 @@ draw_set_font(global.font_google)
 draw_set_color(c_letter)
 draw_set_alpha(alpha)
 var offset = 26
-draw_set_halign(fa_center)
+draw_set_halign(fa_right);
 // no string here has hashes, plus it doesn't support newlines anyway, so :)
-draw_text(x_pos, ((y + offset) - yy), "SUPER MARIO MAKER WORLD ENGINE | 2019 - 2023");
+draw_text(x_pos, ((y + offset) - yy), "SUPER MARIO MAKER: WORLD ENGINE");
+offset += 12;
+draw_text_color(x_pos, ((y + offset) - yy), "2019 - 2024", c_title, c_title, c_title, c_title, alpha);
 offset += 24;
 draw_text_color(x_pos, ((y + offset) - yy), lang().credits.programmers, c_title, c_title, c_title, c_title, alpha);
 offset += 12;
@@ -215,31 +217,51 @@ offset += 12;
 draw_text(x_pos, ((y + offset) - yy), "Les");
 offset += 12;
 draw_text(x_pos, ((y + offset) - yy), "Polartic");
-offset += 24;
-draw_text(x_pos, ((y + offset) - yy), "SuperWE Dev Team");
-offset += 24;
-draw_text_color(x_pos, ((y + offset) - yy), lang().credits.programmers, c_title, c_title, c_title, c_title, alpha);
-offset += 12;
-draw_text(x_pos, ((y + offset) - yy), "NCubs");
-offset += 24;
-draw_text_color(x_pos, ((y + offset) - yy), lang().credits.sfx, c_title, c_title, c_title, c_title, alpha);
-offset += 12;
-draw_text(x_pos, ((y + offset) - yy), "Yoshi");
-offset += 24;
-draw_text_color(x_pos, ((y + offset) - yy), lang().credits.spriters, c_title, c_title, c_title, c_title, alpha);
-offset += 12;
-draw_text(x_pos, ((y + offset) - yy), "NCubs");
-offset += 24;
-draw_text(x_pos, ((y + offset) - yy), string(lang().credits.and_you, global.name_user ?? ""));
-offset += 24;
-
+offset = 26;
 draw_set_halign(fa_left);
-draw_sprite(spr_NSMBU_mario_small_walk, index, 240, ((y + offset) - yy));
-draw_sprite(spr_NSMBU_luigi_walk, index, 208, ((y + offset) - yy));
-draw_sprite(spr_NSMBU_toad_small_walk, index, 176, ((y + offset) - yy));
-draw_sprite(spr_NSMBU_toadette_walk, index, 144, ((y + offset) - yy));
-offset += 48;
-draw_set_halign(fa_center);
-draw_sprite(spr_emilio, index, 176, ((y + offset) - yy));
+x_pos += 32;
+draw_text_color(x_pos, y + offset, "SuperWE Dev Team", c_title, c_title, c_title, c_title, alpha);
+switch (right_credits_part) {
+	case 0:
+		offset += 24;
+		draw_text_color(x_pos, y + offset, lang().credits.programmers, c_title, c_title, c_title, c_title, alpha);
+		offset += 12;
+		draw_text(x_pos, y + offset, "NCubs");
+		offset += 24;
+		draw_text_color(x_pos, y + offset, lang().credits.sfx, c_title, c_title, c_title, c_title, alpha);
+		offset += 12;
+		draw_text(x_pos, y + offset, "NCubs");
+		offset += 12;
+		draw_text(x_pos, y + offset, "Yoshi");
+		offset += 24;
+		draw_text_color(x_pos, y + offset, lang().credits.spriters, c_title, c_title, c_title, c_title, alpha);
+		offset += 12;
+		draw_text(x_pos, y + offset, "NCubs");
+		offset += 12;
+		draw_text(x_pos, y + offset, "Yoshi");
+		break;
+	case 1:
+		offset += 24;
+		draw_text_color(x_pos, y + offset, lang().credits.animations_fx, c_title, c_title, c_title, c_title, alpha);
+		offset += 12;
+		draw_text(x_pos, y + offset, "NCubs");
+		offset += 12;
+		draw_text(x_pos, y + offset, "Yoshi");
+		offset += 24;
+		draw_text(x_pos, y + offset, string(lang().credits.and_you, global.my1 ?? ""));
+		break;
+}
+offset += 24;
+x_pos -= 32;
+
+//draw_set_halign(fa_left);
+//draw_sprite(spr_NSMBU_mario_small_walk, index, 240, ((y + offset) - yy));
+//draw_sprite(spr_NSMBU_luigi_walk, index, 208, ((y + offset) - yy));
+//draw_sprite(spr_NSMBU_toad_small_walk, index, 176, ((y + offset) - yy));
+//draw_sprite(spr_NSMBU_toadette_walk, index, 144, ((y + offset) - yy));
+//offset += 48;
+//draw_set_halign(fa_center);
+//draw_sprite(spr_emilio, index, 176, ((y + offset) - yy));
+
 
 

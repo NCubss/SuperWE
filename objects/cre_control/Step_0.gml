@@ -12,6 +12,9 @@ switch ready
         yy += 0.4
         if (yy > 1400)
             ready = 3
+		if (alarm[0] == -1) {
+			alarm[0] = 300;
+		}
         break
     case 3:
         alpha -= 0.015

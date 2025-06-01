@@ -112,6 +112,7 @@
     {"$GMFolder":"","%Name":"view","folderPath":"folders/Scripts/compatibility/view.yy","name":"view","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Drawing","folderPath":"folders/Scripts/Drawing.yy","name":"Drawing","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Editor","folderPath":"folders/Scripts/Editor.yy","name":"Editor","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"World Maker","folderPath":"folders/Scripts/World Maker.yy","name":"World Maker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Mario","folderPath":"folders/Scripts/Mario.yy","name":"Mario","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"marioU","folderPath":"folders/Scripts/marioU.yy","name":"marioU","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Misc","folderPath":"folders/Scripts/Misc.yy","name":"Misc","resourceType":"GMFolder","resourceVersion":"2.0",},

@@ -2,7 +2,7 @@
   "$GMAndroidOptions":"v1",
   "%Name":"Android",
   "name":"Android",
-  "option_android_application_tag_inject":"android:usesCleartextTraffic=\"true\"\r\nandroid:requestLegacyExternalStorage=\"true\"\r\nandroid:hasFragileUserData=\"true\"",
+  "option_android_application_tag_inject":"android:usesCleartextTraffic=\"true\"",
   "option_android_arch_arm64":true,
   "option_android_arch_armv7":true,
   "option_android_arch_x86_64":true,

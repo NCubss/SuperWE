@@ -10,13 +10,13 @@ randomise();
 global.game = {
 	name: "SuperWE",
 	// This value is changed if this is a playtest in GameMaker
-	version: "Public Demo 2 B1",
+	version: "Public Demo 2",
 	author: "NCubs"
 }
 
-//if (GM_build_type == "run") {
-	//global.game.version = $"Dev {GM_build_date}"
-//}
+if (GM_build_type == "run") {
+	global.game.version += $" (Dev {GM_build_date})"
+}
 
 // Set the window's title
 window_set_caption(global.game.name);
