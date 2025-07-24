@@ -12,8 +12,8 @@
   "duration":0.6440136,
   "name":"snd_rotten",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Shared",
+    "path":"folders/Sounds/Sound Effects/Shared.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

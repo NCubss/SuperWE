@@ -12,8 +12,8 @@
   "duration":2.0066667,
   "name":"snd_seleccion_entorno1",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Game Theme",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/External/Game Theme.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

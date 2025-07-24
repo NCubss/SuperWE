@@ -1,4 +1,4 @@
-if (drag == 1 || (mouse_up == 1 && global.cursor == 0))
+if (drag == 1 || (mouse_up == 1 && global.cursor == 0) && surface_get_target() == application_surface)
     draw_sprite_ext(mask_index, 0, x, y, 1, 1, 0, c_white, 1)
 if (global.powerup == 3)
     draw_sprite_ext(spr_cap_stay_start, 0, ((x_draw + 8) + round(hspeed)), ((y_draw - 15) + round(vspeed)), direct, 1, 0, c_white, image_alpha)

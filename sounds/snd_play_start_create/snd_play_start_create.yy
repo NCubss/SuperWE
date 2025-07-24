@@ -12,8 +12,8 @@
   "duration":0.31006804,
   "name":"snd_play_start_create",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Editor",
+    "path":"folders/Sounds/Sound Effects/UI/Editor.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

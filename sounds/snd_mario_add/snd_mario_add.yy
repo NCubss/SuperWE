@@ -12,8 +12,8 @@
   "duration":0.05079365,
   "name":"snd_mario_add",
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "name":"Object",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Object.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

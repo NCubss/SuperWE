@@ -52,7 +52,7 @@ if (global.condiciones == 1 && global.condiciones_clear == 1)
 		sprite_cond = spr_condicion_obtenida
 	else
 		sprite_cond = spr_SMB3_condicion_obtenida
-	draw_sprite(sprite_cond, global.jugador, (x - 19), (y - posyy))
+	draw_sprite(sprite_cond, global.player, (x - 19), (y - posyy))
 }
 /*
 draw_text(x, y, string(hspeed));
@@ -61,3 +61,11 @@ draw_text(x+20, y, string(vspeed));
 draw_set_color(c_white);
 draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true);
 */
+
+draw_set_color(c_red);
+draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true);
+draw_set_color(c_orange);
+draw_rectangle(bbox_left + hspeed, bbox_top + vspeed, bbox_right + hspeed, bbox_bottom + vspeed, true);
+draw_set_color(c_yellow);
+draw_point(x, y);
+draw_set_color(c_white);

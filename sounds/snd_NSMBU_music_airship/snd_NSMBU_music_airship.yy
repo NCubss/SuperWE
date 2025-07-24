@@ -12,8 +12,8 @@
   "duration":29.218912,
   "name":"snd_NSMBU_music_airship",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/NSMBU/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

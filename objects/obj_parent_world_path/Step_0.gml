@@ -1,18 +1,15 @@
 event_inherited();
-if (holds_start || holds_end) {
-	var obj = holds_start ? obj_world_start.id : (holds_end ? obj_world_end.id : noone);
-	if (dragging || grabbing) {
-		obj.depth = grabbed_depth - 1;
-	}
+if (accessory != noone) {
+	accessory.depth = depth - 1;
 	if (dragging) {
-		if (holds_start) {
+		if (accessory.object_index == obj_world_start) {
 			obj_world_editor.start_x = gridx;
 			obj_world_editor.start_y = gridy;
-		} else if (holds_end) {
+		} else if (accessory.object_index == obj_world_end) {
 			obj_world_editor.end_x = gridx;
 			obj_world_editor.end_y = gridy;
 		}
-		with (obj) {
+		with (accessory) {
 			gridx = -1;
 			gridy = -1;
 			maskx = other.maskx;

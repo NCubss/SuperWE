@@ -1,5 +1,5 @@
 function scr_marioswim_hold_idle() {
-switch global.jugador
+switch global.player
 {
     case 0:
         return spr_SMB3_mario_frog_swim_hold_idle;

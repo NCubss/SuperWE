@@ -12,8 +12,8 @@
   "duration":38.42467,
   "name":"snd_SMB_music_ground",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/SMB/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

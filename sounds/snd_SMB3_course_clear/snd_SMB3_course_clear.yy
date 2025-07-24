@@ -12,8 +12,8 @@
   "duration":3.36,
   "name":"snd_SMB3_course_clear",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB3",
+    "path":"folders/Sounds/Music/Fanfares/SMB3.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

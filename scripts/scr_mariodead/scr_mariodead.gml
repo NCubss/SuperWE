@@ -1,7 +1,7 @@
 function scr_mariodead() {
     if (global.style == 0)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 return spr_SMB_mario_dead;
@@ -16,7 +16,7 @@ function scr_mariodead() {
     }
     else if (global.style == 1)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 return spr_SMB3_mario_dead;
@@ -31,7 +31,7 @@ function scr_mariodead() {
     }
     else if (global.style == 2)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 return spr_mario_dead;
@@ -65,7 +65,7 @@ function scr_mariodead() {
     }
 	if (global.style == 4)
 	{
-	    switch global.jugador
+	    switch global.player
 	    {
 	        case 0:
 	            return spr_SMB2_mario_dead;

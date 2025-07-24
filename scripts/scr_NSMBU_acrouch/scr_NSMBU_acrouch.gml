@@ -1,6 +1,6 @@
 ///Sets the acrouch animations
 function scr_NSMBU_acrouch() {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
 	switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_acrouch;
 	        case Powerup.SUPER: return spr_NSMBU_mario_big_acrouch;

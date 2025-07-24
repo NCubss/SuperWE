@@ -12,8 +12,8 @@
   "duration":0.61734694,
   "name":"snd_yoshi",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Yoshi",
+    "path":"folders/Sounds/Sound Effects/SMW/Yoshi.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

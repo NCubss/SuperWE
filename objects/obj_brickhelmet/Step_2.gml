@@ -6,11 +6,11 @@ if instance_exists(obj_mario)
         event_user(5)
         return;
     }
-    if (global.jugador == 0)
+    if (global.player == 0)
         event_user(8)
-    else if (global.jugador == 1)
+    else if (global.player == 1)
         event_user(9)
-    else if (global.jugador > 1)
+    else if (global.player > 1)
         event_user(10)
     if (global.style == 0 && obj_mario.state == 3)
     {

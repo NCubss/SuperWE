@@ -12,8 +12,8 @@
   "duration":0.886712,
   "name":"snd_open_windows",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Window",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

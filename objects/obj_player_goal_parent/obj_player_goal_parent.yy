@@ -15,7 +15,10 @@
     "name":"Player _ NPC Parents",
     "path":"folders/Objects/Main/Parents/Player _ NPC Parents.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_has_shadow",
+    "path":"objects/obj_has_shadow/obj_has_shadow.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

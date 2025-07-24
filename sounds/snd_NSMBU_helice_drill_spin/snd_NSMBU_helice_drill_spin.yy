@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_helice_drill_spin",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Propeller",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Propeller.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

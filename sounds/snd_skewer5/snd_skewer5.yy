@@ -12,8 +12,8 @@
   "duration":0.734062,
   "name":"snd_skewer5",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Skewer",
+    "path":"folders/Sounds/Sound Effects/SMW/Skewer.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

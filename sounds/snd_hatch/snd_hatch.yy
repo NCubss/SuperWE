@@ -12,8 +12,8 @@
   "duration":0.5293197,
   "name":"snd_hatch",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Yoshi",
+    "path":"folders/Sounds/Sound Effects/SMW/Yoshi.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_door_open",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Door",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Door.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_clawin",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Claw",
+    "path":"folders/Sounds/Sound Effects/SMB3/Claw.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_kick_5",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Kick",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Kick.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

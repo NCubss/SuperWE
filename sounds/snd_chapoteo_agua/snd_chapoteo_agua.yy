@@ -12,8 +12,8 @@
   "duration":0.7453515,
   "name":"snd_chapoteo_agua",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Splash",
+    "path":"folders/Sounds/Sound Effects/SMW/Splash.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

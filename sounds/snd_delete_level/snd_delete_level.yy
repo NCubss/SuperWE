@@ -13,7 +13,7 @@
   "name":"snd_delete_level",
   "parent":{
     "name":"Coursebot",
-    "path":"folders/Sounds/Sound Effects/Coursebot.yy",
+    "path":"folders/Sounds/Sound Effects/UI/Coursebot.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

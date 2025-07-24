@@ -12,8 +12,8 @@
   "duration":1.342653,
   "name":"snd_cambio_objecto",
   "parent":{
-    "name":"Object Options",
-    "path":"folders/Sounds/Sound Effects/Editor/Object Options.yy",
+    "name":"Result",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window/Result.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

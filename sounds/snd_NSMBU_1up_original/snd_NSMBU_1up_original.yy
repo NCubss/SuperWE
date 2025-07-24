@@ -12,8 +12,8 @@
   "duration":1.3159864,
   "name":"snd_NSMBU_1up_original",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"1-UP",
+    "path":"folders/Sounds/Sound Effects/NSMBU/1-UP.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

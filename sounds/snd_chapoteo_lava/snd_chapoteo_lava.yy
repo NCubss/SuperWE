@@ -12,8 +12,8 @@
   "duration":1.1613379,
   "name":"snd_chapoteo_lava",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Splash",
+    "path":"folders/Sounds/Sound Effects/SMW/Splash.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

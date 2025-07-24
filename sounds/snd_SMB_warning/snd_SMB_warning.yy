@@ -12,8 +12,8 @@
   "duration":0.23219955,
   "name":"snd_SMB_warning",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Sound Effects/SMB.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

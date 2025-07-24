@@ -12,8 +12,8 @@
   "duration":0.9559864,
   "name":"snd_remove_hongo",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Result",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window/Result.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

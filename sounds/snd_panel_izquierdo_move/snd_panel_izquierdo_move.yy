@@ -12,8 +12,8 @@
   "duration":0.5640136,
   "name":"snd_panel_izquierdo_move",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Left",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/Left.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

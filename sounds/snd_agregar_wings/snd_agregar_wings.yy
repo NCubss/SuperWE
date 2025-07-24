@@ -12,8 +12,8 @@
   "duration":1.1173469,
   "name":"snd_agregar_wings",
   "parent":{
-    "name":"Object Options",
-    "path":"folders/Sounds/Sound Effects/Editor/Object Options.yy",
+    "name":"Result",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window/Result.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

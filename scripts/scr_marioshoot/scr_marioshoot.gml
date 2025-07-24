@@ -1,7 +1,7 @@
 function scr_marioshoot() {
 if (global.style == 0)
 {
-    switch global.jugador
+    switch global.player
     {
         case 0:
             if (global.powerup == -50)
@@ -32,7 +32,7 @@ if (global.style == 0)
 }
 else if (global.style == 1)
 {
-    switch global.jugador
+    switch global.player
     {
         case 0:
             if (global.powerup == -46)
@@ -63,7 +63,7 @@ else if (global.style == 1)
 }
 else if (global.style == 2)
 {
-    switch global.jugador
+    switch global.player
     {
         case 0:
             return spr_mario_fire_shoot;

@@ -12,8 +12,8 @@
   "duration":1.4146712,
   "name":"snd_luigi_voice",
   "parent":{
-    "name":"Settings",
-    "path":"folders/Sounds/Sound Effects/Settings.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Sound Effects/UI/Settings/Voices.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

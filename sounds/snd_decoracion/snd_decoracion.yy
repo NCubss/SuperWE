@@ -13,7 +13,7 @@
   "name":"snd_decoracion",
   "parent":{
     "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "path":"folders/Sounds/Sound Effects/UI/Editor.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

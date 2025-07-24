@@ -12,8 +12,8 @@
   "duration":0.31600907,
   "name":"snd_jump",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMW/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

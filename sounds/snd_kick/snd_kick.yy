@@ -12,8 +12,8 @@
   "duration":0.61968255,
   "name":"snd_kick",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Kick",
+    "path":"folders/Sounds/Sound Effects/SMW/Mario/Kick.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

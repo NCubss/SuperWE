@@ -12,8 +12,8 @@
   "duration":1.2866666,
   "name":"snd_volver_a_empezar",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Pause Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Pause Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_music_sky_night",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Night",
+    "path":"folders/Sounds/Music/SMB3/Night.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

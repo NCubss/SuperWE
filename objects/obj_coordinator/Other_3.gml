@@ -5,5 +5,5 @@ if (os_type != os_android)
 }
 keyboard_key_release(vk_control)
 keyboard_key_release(global.lanzar_agarrar)
-event_user(7)
+save_config();
 

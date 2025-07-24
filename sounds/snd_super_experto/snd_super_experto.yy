@@ -12,8 +12,8 @@
   "duration":100.60898,
   "name":"snd_super_experto",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Course World",
+    "path":"folders/Sounds/Music/Course World.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

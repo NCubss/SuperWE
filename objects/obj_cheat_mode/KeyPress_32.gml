@@ -1,0 +1,1 @@
+//screenshot(obj_cheat_mode);

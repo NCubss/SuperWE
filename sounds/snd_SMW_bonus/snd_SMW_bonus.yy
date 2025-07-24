@@ -13,7 +13,7 @@
   "name":"snd_SMW_bonus",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "path":"folders/Sounds/Music/SMW/Sounds.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

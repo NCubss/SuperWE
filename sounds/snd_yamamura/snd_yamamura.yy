@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_yamamura",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.6743764,
+  "name":"snd_yamamura",
+  "parent":{
+    "name":"Press",
+    "path":"folders/Sounds/Sound Effects/UI/Button/Press.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_yamamura.wav",
+  "type":0,
+  "volume":1.0,
+}

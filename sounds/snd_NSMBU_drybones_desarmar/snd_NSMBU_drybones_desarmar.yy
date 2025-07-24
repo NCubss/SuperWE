@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_drybones_desarmar",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Dry Bones",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Dry Bones.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

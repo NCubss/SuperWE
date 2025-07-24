@@ -12,8 +12,8 @@
   "duration":1.4573469,
   "name":"snd_estalactita_fall",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Icicle",
+    "path":"folders/Sounds/Sound Effects/SMW/Icicle.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

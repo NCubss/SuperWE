@@ -1,6 +1,6 @@
 ///Sets the crouch_jump animations
 function scr_NSMBU_crouch_jump() {
-	/* global.jugador = 0{*/
+	/* global.player = 0{*/
 	switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_crouch_jump;
 	        case Powerup.SUPER: return spr_NSMBU_mario_big_crouch_jump;

@@ -12,8 +12,8 @@
   "duration":0.89977324,
   "name":"snd_door",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Door",
+    "path":"folders/Sounds/Sound Effects/SMW/Door.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.18285714,
   "name":"snd_clawin",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Claw",
+    "path":"folders/Sounds/Sound Effects/SMW/Claw.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -13,7 +13,7 @@
   "name":"snd_jump_erase_reverse",
   "parent":{
     "name":"Eraser",
-    "path":"folders/Sounds/Sound Effects/Editor/Eraser.yy",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Eraser.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

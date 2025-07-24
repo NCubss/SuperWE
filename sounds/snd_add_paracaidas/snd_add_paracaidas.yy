@@ -12,8 +12,8 @@
   "duration":0.79868484,
   "name":"snd_add_paracaidas",
   "parent":{
-    "name":"Object Options",
-    "path":"folders/Sounds/Sound Effects/Editor/Object Options.yy",
+    "name":"Result",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window/Result.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

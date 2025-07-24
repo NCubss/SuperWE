@@ -1,6 +1,6 @@
 ///Sets the skid_right animations
 function scr_NSMBU_skid_right() {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
 	switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_skid_right;
 	        case Powerup.SUPER: return spr_NSMBU_mario_big_skid_right;

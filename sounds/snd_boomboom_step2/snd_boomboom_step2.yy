@@ -12,8 +12,8 @@
   "duration":0.39038548,
   "name":"snd_boomboom_step2",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Boom Boom",
+    "path":"folders/Sounds/Sound Effects/SMW/Boom Boom.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

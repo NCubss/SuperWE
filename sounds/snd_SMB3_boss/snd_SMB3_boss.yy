@@ -13,7 +13,7 @@
   "name":"snd_SMB3_boss",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "path":"folders/Sounds/Music/SMB3/Sounds.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

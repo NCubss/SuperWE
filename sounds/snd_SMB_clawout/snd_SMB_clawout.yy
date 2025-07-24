@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB_clawout",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Claw",
+    "path":"folders/Sounds/Sound Effects/SMB/Claw.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

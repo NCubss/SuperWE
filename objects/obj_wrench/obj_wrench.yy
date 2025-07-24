@@ -18,7 +18,10 @@
     "name":"Collectables",
     "path":"folders/Objects/Interactive/Collectables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_has_shadow",
+    "path":"objects/obj_has_shadow/obj_has_shadow.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

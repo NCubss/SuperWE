@@ -1,81 +1,65 @@
 /// @description Handles Mario's physics and movements
 
-// exit if global.pp is not zero
+// dont do anything if frozen
 if (global.pp != 0) exit;
-// if torso touching obj_enabledsolid (precise):
+
+// duck and freeze if mario is in a block
 if (collision_rectangle(bbox_right - 3, bbox_top + 3, bbox_left + 3, bbox_bottom - 3, obj_enabledsolid, true, false)) {
-	// set all speed to zero
 	speed = 0;
-	// set gravity to zero
 	gravity = 0;
-	// set state to standing
 	state = ms_standing;
-	// start ducking
 	isduck = 1;
-	// stop jumping
 	jumpnow = 0;
-	// disable jumping
 	canjump = 0;
-// if torso NOT touching obj_enabledsolid (precise)
 } else {
-	// enable jumping
 	canjump = 1;
 }
 // check slipperiness
 snow = real(
-	// theme is snow night?
 	(global.night == 1 && global.theme == "snow")
-	// OR feet touching...
 	|| collision_rectangle(bbox_left, bbox_bottom + 1, bbox_right, bbox_bottom + 1, [
-		// ...ice block?
 		obj_block_ice,
-		// ...frozen coin?
 		obj_icecoin
 	], false, false)
 );
-// check if standing on moving platform
+
+// check if mario is on a moving platform
 platform_m = real((
-		// feet touching...
 		collision_rectangle(bbox_left, bbox_bottom - 5, bbox_right, bbox_bottom + 5, [
-			// ...moving platform?
 			obj_platform_parent,
-			// ...POW block?
 			obj_block_pow_hold
 		], false, false)
 	) && state < ms_jumping
 );
-// if boostme is greater than zero:
 if (boostme > 0) {
-	// decrement it
 	boostme--;
-	// if absolute hspeed is smaller than the maximum:
 	if (abs(hspeed) < hspeedmax) {
-		// set boostme to zero
 		boostme = 0;
 	}
 }
-// if vspeed is greater or equal to zero:
+// handle floor logic
 if (vspeed >= 0) {
-	// find any obj_solidtop collider
+	// check for semisolid below mario
 	var solidtop = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + vspeed, obj_solidtop, false, false);
-	// find any obj_physicssolid collider
+	// check for phy solid below mario
 	var solidphy = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + vspeed, obj_physicssolid, false, false);
-	/// find any obj_lava_water_drybones collider
+	// check for drybones thing idk below mario
 	var b_drybones = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + vspeed, obj_lava_water_drybones, false, false);
+	
+	// if we are about to hit floor (not counting phy solid)
 	if (
 		solidtop
-		&& bbox_bottom < (solidtop.yprevious + 5)
-		&& !collision_rectangle(bbox_left, bbox_top + 4, bbox_right, solidtop.y - 1, obj_solid, true, false)
+		&& bbox_bottom < solidtop.yprevious + 5
+		&& collision_rectangle(bbox_left, bbox_top + 4, bbox_right, solidtop.y - 1, obj_solid, true, false) == noone
 	) {
-		// if slowly dropping down with cape
+		// slam onto ground if we are doing that with cape
 		if (sprite_index == scr_mario_cap_fly_decender() && image_index == 2) {
 			event_user(8);
 		}
-		if (
-			collision_rectangle(bbox_left, (bbox_bottom + 2), bbox_right, ((bbox_bottom + vspeed) + 2), obj_rockparent, false, false)
-			|| collision_rectangle(bbox_left, (bbox_bottom + 2), bbox_right, ((bbox_bottom + vspeed) + 2), obj_blockparent, false, false)
-			|| collision_rectangle(bbox_left, (bbox_bottom + 2), bbox_right, ((bbox_bottom + vspeed) + 2), obj_block_pow_hold, false, false)
-		) {
+		// do spinjump onto block logic?
+		if (collision_rectangle(bbox_left, bbox_bottom + 2, bbox_right, bbox_bottom + vspeed + 2, [
+			obj_rockparent, obj_blockparent, obj_block_pow_hold
+		], false, false) != noone) {
 			if (jumpnow != 0 && can_break_block == 0 && vspeed > 0) {
 				can_break_block = 1;
 			}
@@ -85,6 +69,7 @@ if (vspeed >= 0) {
 		} else if (can_break_block == 2) {
 			can_break_block = 0;
 		}
+		// snap to floor and reset values
 		y = (solidtop.y - 32);
 		vspeed = 0;
 		gravity = 0;
@@ -92,24 +77,27 @@ if (vspeed >= 0) {
 	}
 	if (
 		solidphy
-		&& bbox_bottom < (solidphy.yprevious + 5)
-		&& !collision_rectangle(bbox_left, bbox_top + 4, bbox_right, solidphy.y - 1, obj_solid, true, false)
+		&& bbox_bottom < solidphy.yprevious + 5
+		&& collision_rectangle(bbox_left, bbox_top + 4, bbox_right, solidphy.y - 1, obj_solid, true, false) == noone
 	) {
+		// slam onto ground if we are doing that with cape
 		if (sprite_index == scr_mario_cap_fly_decender() && image_index == 2) {
 			event_user(8);
 		}
+		// snap to floor and reset values
 		y = solidphy.y - 32;
 		vspeed = 0;
 		gravity = 0;
 		event_user(15);
 	}
+	// snap to drybones thingy idk
 	if (
 		b_drybones
-		&& bbox_bottom < (b_drybones.yprevious + 5)
-		&& !collision_rectangle(bbox_left, bbox_top + 4, bbox_right, b_drybones.y - 1, obj_solid, true, false)
+		&& bbox_bottom < b_drybones.yprevious + 5
+		&& collision_rectangle(bbox_left, bbox_top + 4, bbox_right, b_drybones.y - 1, obj_solid, true, false) == noone
 		&& (
 			instance_exists(obj_kuribo_drybones)
-			|| (global.powerup == -29 && obj_mario.pmeter > 5 && obj_mario.holding == 2)
+			|| (global.powerup == cs_frog && obj_mario.pmeter > 5 && obj_mario.holding == 2)
 		)
 	) {
 		y = b_drybones.y - 32;
@@ -117,10 +105,11 @@ if (vspeed >= 0) {
 		gravity = 0;
 		event_user(15);
 	}
+	// stand on enemies if SMB2 mushroom
 	var enemigos_solid = collision_rectangle(bbox_left, bbox_bottom, bbox_right, bbox_bottom + vspeed, obj_enemyparent, 0, 0);
 	if (
 		enemigos_solid
-		&& global.powerup == -80 // idk this powerup
+		&& global.powerup == cs_smb2
 		&& bbox_bottom < (enemigos_solid.yprevious + 5)
 		&& enemigos_solid.stomp != 1
 		&& enemigos_solid.stomp != 2 
@@ -133,6 +122,7 @@ if (vspeed >= 0) {
 		hitpoint = 0;
 	}
 }
+// stun logic
 if (stuntime > 0) {
 	stuntime--;
 	if (stuntime == 0) {
@@ -143,6 +133,8 @@ if (stuntime > 0) {
 		}
 	}
 }
+// state logic (not swimming)
+// check user event descriptions
 if (isswim == 0) {
 	switch (state) {
 		case ms_climbing:
@@ -155,6 +147,7 @@ if (isswim == 0) {
 			event_user(2);
 			break;
 	}
+// state logic (swimming)
 } else {
 	switch (state) {
 		case ms_climbing:
@@ -165,172 +158,192 @@ if (isswim == 0) {
 			break;
 	}
 }
-if (collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_solid, true, false)) {
-	if (hspeed > 0) hspeed = 0;
+
+// right wall collisions
+if (collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_solid, true, false) != noone) {
+	hspeed = min(hspeed, 0);
 	while (
-		collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_solid, true, false)
-		&& !collision_point(x, bbox_top + 4, obj_solid, false, false)
+		collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_solid, true, false) != noone
+		&& collision_point(x, bbox_top + 4, obj_solid, false, false) == noone
 		&& inclown != 2
 	) {
 		x--;
 	}
-	if collision_rectangle(bbox_left + 4, bbox_top + 4, bbox_right + 1, bbox_bottom, obj_pinchos, false, false) {
+	// damage mario if touching spike block
+	if (collision_rectangle(bbox_left + 4, bbox_top + 4, bbox_right + 1, bbox_bottom, obj_pinchos, false, false) != noone) {
 		event_user(0);
 	}
-} else if collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_solid, true, false) {
-	if (hspeed < 0) hspeed = 0;
+// left wall collisions
+} else if (collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_solid, true, false) != noone) {
+	hspeed = max(hspeed, 0);
 	while (
-		collision_rectangle(bbox_left, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_solid, true, false)
-		&& !collision_point(x, bbox_top + 4, obj_solid, false, false)
+		collision_rectangle(bbox_left, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_solid, true, false) != noone
+		&& collision_point(x, bbox_top + 4, obj_solid, false, false) == noone
 		&& inclown != 2
 	) {
 		x++;
 	}
+	// damage mario if touching spike block
 	if collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_right - 4, bbox_bottom, obj_pinchos, false, false) {
 		event_user(0);
 	}
 }
-if collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_physicssolid, true, false) {
-	if (hspeed > 0) hspeed = 0;
+// right phy solid collisions
+if (collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_physicssolid, true, false) != noone) {
+	hspeed = min(hspeed, 0);
 	if (
-		!collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, [
+		collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, [
 			obj_physicssolid,
 			obj_solid,
 			obj_bullebill_base
-		], true, false)
+		], true, false) == noone
 		&& inclown != 2
 	) {
 		while (
-			collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_physicssolid, true, false)
-			&& !collision_point(x, bbox_top + 4, obj_physicssolid, false, false)
+			collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_physicssolid, true, false) != noone
+			&& collision_point(x, bbox_top + 4, obj_physicssolid, false, false) == noone
 		) {
 			x--;
 		}
 	}
+	// damage mario if touching muncher
 	if (collision_rectangle(bbox_left + 4, bbox_top + 4, bbox_right + 1, bbox_bottom, obj_muncher, false, false)) {
 		event_user(0);
 	}
-} else if (collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_physicssolid, true, false)) {
-	if (hspeed < 0) hspeed = 0;
+// left phy solid collisions
+} else if (collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_physicssolid, true, false) != noone) {
+	hspeed = max(hspeed, 0);
 	if (
-		!collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, [
+		collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, [
 			obj_physicssolid,
 			obj_solid,
 			obj_bullebill_base
-		], true, false)
+		], true, false) == noone
 		&& inclown != 2
 	) {
 		while (
-			collision_rectangle(bbox_left, bbox_top + 4, bbox_left + 1, bbox_bottom - 1, obj_physicssolid, true, false)
-			&& !collision_point(x, bbox_top + 4, obj_physicssolid, false, false)
+			collision_rectangle(bbox_left, bbox_top + 4, bbox_left + 1, bbox_bottom - 1, obj_physicssolid, true, false) != noone
+			&& collision_point(x, bbox_top + 4, obj_physicssolid, false, false) == noone
 		) {
 			x++;
 		}
 	}
+	// damage mario if touching muncher
 	if (collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_right - 4, bbox_bottom, obj_muncher, false, false)) {
 		event_user(0);
 	}
 }
-if (collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_bullebill_base, true, false)) {
-	if (hspeed > 0) hspeed = 0; 
+// right bullet bill base collisions
+if (collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_bullebill_base, true, false) != noone) {
+	hspeed = min(hspeed, 0);
 	if (
-		!collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, [
+		collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, [
 			obj_physicssolid,
 			obj_solid,
 			obj_bullebill_base
-		], true, false)
+		], true, false) == noone
 		&& inclown != 2
 	) {
 		while (
-			collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_bullebill_base, true, false)
-			&& !collision_point(x, bbox_top + 4, obj_bullebill_base, false, false)
+			collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_bullebill_base, true, false) != noone
+			&& collision_point(x, bbox_top + 4, obj_bullebill_base, false, false) == noone
 		) {
 			x--;
 		}
 	}
-} else if (collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_bullebill_base, true, false)) {
-	if (hspeed < 0) hspeed = 0;
+// left bullet bill base collisions
+} else if (collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_bullebill_base, true, false) != noone) {
+	hspeed = max(hspeed, 0);
 	if (
-		!collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, [
+		collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, [
 			obj_physicssolid,
 			obj_solid,
 			obj_bullebill_base
-		], true, false)
+		], true, false) == noone
 		&& inclown != 2
 	) {
 		while (
-			collision_rectangle(bbox_left, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_bullebill_base, true, false)
-			&& !collision_point(x, bbox_top + 4, obj_solidphy, false, false)
+			collision_rectangle(bbox_left, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_bullebill_base, true, false) != noone
+			&& collision_point(x, bbox_top + 4, obj_solidphy, false, false) == noone
 		) {
 			x++;
 		}
 	}
 }
+// horizontal one way collisions
 var col_one_right = collision_rectangle(bbox_left - 1, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_onewaygate_right, true, false);
 var col_one_left = collision_rectangle(bbox_right, bbox_top + 4, bbox_right + 1, bbox_bottom - 1, obj_onewaygate_left, true, false);
-if (col_one_right) {
+// right one way collisions
+if (col_one_right != noone) {
 	if (hspeed < 0) {
 		hspeed = 0;
+		// activate one way
 		with (col_one_right) {
 			rot = 1;
 			event_user(0);
 		}
 	}
 	while (
-		collision_rectangle(bbox_left, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_onewaygate_right, true, false)
-		&& !collision_point(x, bbox_top + 4, obj_onewaygate_right, false, false)
+		collision_rectangle(bbox_left, bbox_top + 4, bbox_left, bbox_bottom - 1, obj_onewaygate_right, true, false) != noone
+		&& collision_point(x, bbox_top + 4, obj_onewaygate_right, false, false) == noone
 	) {
 		x++;
 	}
 }
-if (col_one_left) {
+// left one way collisions
+if (col_one_left != noone) {
 	if (hspeed > 0) {
 		hspeed = 0;
+		// activate one way
 		with (col_one_left) {
 			rot = 1;
 			event_user(0);
 		}
 	}
 	while (
-		collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_onewaygate_left, true, false)
-		&& !collision_point(x, bbox_top + 4, obj_onewaygate_left, false, false)
+		collision_rectangle(bbox_right, bbox_top + 4, bbox_right, bbox_bottom - 1, obj_onewaygate_left, true, false) != noone
+		&& collision_point(x, bbox_top + 4, obj_onewaygate_left, false, false) == noone
 	) {
 		x--;
 	}
 }
-pow = collision_rectangle(bbox_left + 1, bbox_top - 2, bbox_right - 1, bbox_top, obj_block_pow_hold, true, false);
-if (vspeed < 0 && pow && pow.held == 0 && pow.inmune == 0 && pow.y + 8 < bbox_top) {
+// handle hitting pow from above
+var pow = collision_rectangle(bbox_left + 1, bbox_top - 2, bbox_right - 1, bbox_top, obj_block_pow_hold, true, false);
+if (vspeed < 0 && pow != noone && pow.held == 0 && pow.inmune == 0 && pow.y + 8 < bbox_top) {
 	vspeed = 0;
 	with (pow) {
 		explode = 1;
 		event_user(6);
 	}
 }
-pswitch = collision_rectangle(bbox_left, bbox_top - 2, bbox_right, bbox_top, obj_pswitch, true, false);
+// activate upside down p switches
+var pswitch = collision_rectangle(bbox_left, bbox_top - 2, bbox_right, bbox_top, obj_pswitch, true, false);
 if (pswitch && pswitch.inmune == 0 && pswitch.inup == 1) {
 	with (pswitch) {
 		event_user(6);
 	}
 }
+// bottom one way collisions
 var one_2 = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_onewaygate_bottom, true, false);
 if (
 	vspeed < 0
 	&& (
-		collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top, obj_solid, true, false)
-		|| collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top, obj_physicssolid, true, false)
-		|| collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top, obj_bullebill_base, true, false)
-		|| (pswitch && pswitch.held == 0 && pswitch.y + 16 < bbox_top)
-		|| (one_2 && bbox_top + 5 >= one_2.bbox_bottom)
+		collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top, [
+			obj_solid, obj_physicssolid, obj_bullebill_base
+		], true, false) != noone
+		|| (pswitch != noone && pswitch.held == 0 && pswitch.y + 16 < bbox_top)
+		|| (one_2 != noone && bbox_top + 5 >= one_2.bbox_bottom)
 	)
 ) {
 	var block_col = collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_top + 4, obj_blockparent, false, false);
 	var rock_parent = collision_rectangle(bbox_left, bbox_top - 2, bbox_right, bbox_top, obj_rockparent, true, false);
-	if (state > 1 && canjump == 1) {
-		while collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, true, false) {
+	if (state > ms_walking && canjump == 1) {
+		while (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_top, obj_solid, true, false) != noone) {
 			y++;
 		}
 	}
 	vspeed = 0;
+	// damage if a muncher or spike block is inside us and we dont have a helmet
 	if (
 		helmet == 0
 		&& collision_rectangle(bbox_left, bbox_top - 1, bbox_right, bbox_bottom - 2, [obj_pinchos, obj_muncher], false, false)
@@ -431,8 +444,8 @@ if (
 		audio_play_sound(scr_snd_bump(), 0, false);
 	}
 }
-if (state < 3) {
-	if (state != 2 && disablecontrols == 0) {
+if (state < ms_climbing) {
+	if (state != ms_jumping && disablecontrols == 0) {
 		if (
 			keyboard_check(global.abajo)
 			&& (holding == 0 || holding == 3) 

@@ -12,8 +12,8 @@
   "duration":0.955986,
   "name":"snd_SMB3_powerup",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMB3/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

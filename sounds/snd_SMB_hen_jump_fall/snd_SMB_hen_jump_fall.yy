@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB_hen_jump_fall",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Weird",
+    "path":"folders/Sounds/Sound Effects/SMB/Mario/Weird.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

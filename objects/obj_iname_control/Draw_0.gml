@@ -15,4 +15,3 @@ if instance_exists(obj_create_account)
 	draw_text_ext_transformed_colour(x+80, y+142.5, obj_create_account.textos, 32, 128, 1, 1, image_angle, c_color, c_color, c_color, c_color, obj_create_account.yes);
 draw_set_color(c_white)
 draw_set_halign(fa_left)
-

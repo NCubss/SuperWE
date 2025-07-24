@@ -12,8 +12,8 @@
   "duration":0.5666894,
   "name":"snd_button_pausa_move",
   "parent":{
-    "name":"Hover",
-    "path":"folders/Sounds/Sound Effects/UI/Button/Hover.yy",
+    "name":"Pause Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Pause Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

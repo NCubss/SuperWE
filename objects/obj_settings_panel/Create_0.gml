@@ -36,7 +36,7 @@ if instance_exists(obj_pausa_button)
 }
 
 
-switch global.jugador
+switch global.player
 {
     case 1:
         active1 = 0
@@ -64,7 +64,7 @@ switch global.jugador
         break
 }
 
-switch global.w_scale
+switch e
 {
     case 2:
         act1 = 0

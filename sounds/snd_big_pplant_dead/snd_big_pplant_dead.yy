@@ -12,8 +12,8 @@
   "duration":1.0582993,
   "name":"snd_big_pplant_dead",
   "parent":{
-    "name":"NSMBU",
-    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
+    "name":"Big Piranha Plant",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Big Piranha Plant.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

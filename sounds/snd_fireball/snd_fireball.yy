@@ -12,8 +12,8 @@
   "duration":0.50068027,
   "name":"snd_fireball",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMW/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

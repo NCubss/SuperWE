@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_bowser_jump1",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Bowser",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Bowser.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

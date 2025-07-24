@@ -29,5 +29,5 @@ if (global.condiciones == 1 && global.condiciones_clear == 1)
         sprite_cond = spr_condicion_obtenida
     else
         sprite_cond = spr_SMB3_condicion_obtenida
-    draw_sprite(sprite_cond, global.jugador, (x - 19), (y - posyy))
+    draw_sprite(sprite_cond, global.player, (x - 19), (y - posyy))
 }

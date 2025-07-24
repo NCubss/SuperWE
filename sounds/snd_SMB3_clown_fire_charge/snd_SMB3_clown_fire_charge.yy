@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_clown_fire_charge",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Clown Car",
+    "path":"folders/Sounds/Sound Effects/SMB3/Clown Car.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":2.2407029,
   "name":"snd_open_desafios",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Main Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Main Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

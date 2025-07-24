@@ -9,11 +9,11 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":67.32046,
+  "duration":67.32045,
   "name":"snd_NSMBU_boss",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "path":"folders/Sounds/Music/NSMBU/Sounds.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

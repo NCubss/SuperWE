@@ -12,8 +12,8 @@
   "duration":1.0840136,
   "name":"snd_pausa",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Pause Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Pause Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

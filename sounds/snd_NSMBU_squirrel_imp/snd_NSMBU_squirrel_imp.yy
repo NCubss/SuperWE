@@ -12,8 +12,8 @@
   "duration":1.162449,
   "name":"snd_NSMBU_squirrel_imp",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Acorn",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Acorn.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -7,13 +7,6 @@ audio_master_gain(0.25);
 var gamepad;
 randomise();
 
-global.game = {
-	name: "SuperWE",
-	// This value is changed if this is a playtest in GameMaker
-	version: "Public Demo 2",
-	author: "NCubs"
-}
-
 if (GM_build_type == "run") {
 	global.game.version += $" (Dev {GM_build_date})"
 }

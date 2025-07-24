@@ -1,4 +1,4 @@
-switch global.jugador
+switch global.player
 {
     case 0:
         sprite_index = spr_mario_pballon

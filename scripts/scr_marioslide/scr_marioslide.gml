@@ -1,7 +1,7 @@
 function scr_marioslide() {
 	if (global.style == 1)
 	{
-	    if (global.jugador == 0)
+	    if (global.player == 0)
 	    {
 	        switch global.powerup
 	        {
@@ -16,7 +16,7 @@ function scr_marioslide() {
 	        }
 
 	    }
-	    else if (global.jugador == 1)
+	    else if (global.player == 1)
 	    {
 	        switch global.powerup
 	        {
@@ -31,7 +31,7 @@ function scr_marioslide() {
 	        }
 
 	    }
-	    else if (global.jugador == 2)
+	    else if (global.player == 2)
 	    {
 	        switch global.powerup
 	        {
@@ -46,7 +46,7 @@ function scr_marioslide() {
 	        }
 
 	    }
-	    else if (global.jugador == 3)
+	    else if (global.player == 3)
 	    {
 	        switch global.powerup
 	        {
@@ -64,7 +64,7 @@ function scr_marioslide() {
 	}
 	else if (global.style == 2)
 	{
-	    if (global.jugador == 0)
+	    if (global.player == 0)
 	    {
 	        switch global.powerup
 	        {
@@ -79,7 +79,7 @@ function scr_marioslide() {
 	        }
 
 	    }
-	    else if (global.jugador == 1)
+	    else if (global.player == 1)
 	    {
 	        switch global.powerup
 	        {
@@ -94,7 +94,7 @@ function scr_marioslide() {
 	        }
 
 	    }
-	    else if (global.jugador == 2)
+	    else if (global.player == 2)
 	    {
 	        switch global.powerup
 	        {
@@ -109,7 +109,7 @@ function scr_marioslide() {
 	        }
 
 	    }
-	    else if (global.jugador == 3)
+	    else if (global.player == 3)
 	    {
 	        switch global.powerup
 	        {

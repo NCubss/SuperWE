@@ -1,6 +1,6 @@
 function scr_NSMBU_spinjump() //gml_Script_scr_NSMBU_spinjump
 {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
     switch global.powerup
     {
         case 0:

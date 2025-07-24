@@ -1,6 +1,6 @@
 ///Sets the Walk animations
 function scr_NSMBU_walk(argument0) {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
 	if (argument0 == 1) {
 	    switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_swim_walk;

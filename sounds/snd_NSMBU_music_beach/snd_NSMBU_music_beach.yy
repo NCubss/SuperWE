@@ -12,8 +12,8 @@
   "duration":42.692787,
   "name":"snd_NSMBU_music_beach",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/NSMBU/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

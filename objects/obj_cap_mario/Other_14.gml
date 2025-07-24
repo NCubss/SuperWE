@@ -4,7 +4,7 @@ if instance_exists(obj_mario)
         pos_x = (-((4 * obj_yoshi2.direct)))
     else if instance_exists(obj_kuribo_drybones)
     {
-        if (global.jugador == 0)
+        if (global.player == 0)
             pos_x = (-((2 * obj_mario.direct)))
         else
             pos_x = 0
@@ -18,7 +18,7 @@ else if instance_exists(obj_player_goal_smw)
         pos_x = (-((4 * obj_player_goal_smw.direct)))
     else if instance_exists(obj_kuribo_drybones)
     {
-        if (global.jugador == 0)
+        if (global.player == 0)
             pos_x = (-((2 * obj_player_goal_smw.direct)))
         else
             pos_x = 0

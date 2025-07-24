@@ -13,7 +13,7 @@
   "name":"snd_niveles_mundiales",
   "parent":{
     "name":"Course World",
-    "path":"folders/Sounds/Sound Effects/Course World.yy",
+    "path":"folders/Sounds/Sound Effects/UI/Course World.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

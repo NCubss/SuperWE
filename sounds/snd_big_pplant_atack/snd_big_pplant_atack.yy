@@ -12,8 +12,8 @@
   "duration":0.20462584,
   "name":"snd_big_pplant_atack",
   "parent":{
-    "name":"NSMBU",
-    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
+    "name":"Big Piranha Plant",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Big Piranha Plant.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

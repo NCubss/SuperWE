@@ -12,8 +12,8 @@
   "duration":26.234694,
   "name":"snd_NSMBU_lava",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"NSMBU",
+    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

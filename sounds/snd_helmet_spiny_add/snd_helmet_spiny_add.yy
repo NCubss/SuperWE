@@ -12,8 +12,8 @@
   "duration":2.5732653,
   "name":"snd_helmet_spiny_add",
   "parent":{
-    "name":"Shared",
-    "path":"folders/Sounds/Sound Effects/Shared.yy",
+    "name":"Helmet",
+    "path":"folders/Sounds/Sound Effects/Shared/Helmet.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

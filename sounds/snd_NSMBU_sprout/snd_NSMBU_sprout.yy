@@ -12,8 +12,8 @@
   "duration":0.51,
   "name":"snd_NSMBU_sprout",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"NSMBU",
+    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

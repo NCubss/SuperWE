@@ -12,8 +12,8 @@
   "duration":1.0413378,
   "name":"snd_coin10",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Coin",
+    "path":"folders/Sounds/Sound Effects/SMW/Coin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

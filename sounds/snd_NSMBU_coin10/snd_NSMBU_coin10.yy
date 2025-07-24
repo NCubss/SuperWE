@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_coin10",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Coin",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Coin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_music_ghost",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Music/SMW.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/SMW/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":5.437823,
   "name":"snd_NSMBU_clear_castle",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"NSMBU",
+    "path":"folders/Sounds/Music/Fanfares/NSMBU.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

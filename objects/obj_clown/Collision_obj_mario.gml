@@ -9,6 +9,10 @@ if (inenemy == 1)
 }
 else if ((inmario == 0 && (!instance_exists(obj_kuribo_drybones))) || (inmario == 0 && instance_exists(obj_kuribo_drybones) && obj_kuribo_drybones.gran_golpe == 0))
 {
+	// dont enter many at once
+	with (obj_clown) {
+		if (inmario) exit;
+	}
     if (other.bbox_bottom < ((bbox_top - vspeed) + 5) && other.vspeed > 0 && other.state == 2 && global.powerup != -82)
     {
         other.inclown = 1
@@ -23,6 +27,7 @@ else if ((inmario == 0 && (!instance_exists(obj_kuribo_drybones))) || (inmario =
         alarm[0] = 30
         with (other.id)
         {
+			sprite_index = spr_mario_idle();
             gravity = 0
             stompstyle = 0
             isduck = 0

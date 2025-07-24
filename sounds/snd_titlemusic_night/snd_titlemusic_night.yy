@@ -12,8 +12,8 @@
   "duration":119.11299,
   "name":"snd_titlemusic_night",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Title",
+    "path":"folders/Sounds/Music/Title.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

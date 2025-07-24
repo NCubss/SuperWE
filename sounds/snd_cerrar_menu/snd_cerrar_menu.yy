@@ -12,8 +12,8 @@
   "duration":0.8013379,
   "name":"snd_cerrar_menu",
   "parent":{
-    "name":"Menu",
-    "path":"folders/Sounds/Sound Effects/Menu.yy",
+    "name":"Main Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Main Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

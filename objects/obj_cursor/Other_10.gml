@@ -8,7 +8,7 @@ if (global.cursor == 2)
 }
 else
 {
-    switch global.jugador
+    switch global.player
 	{
 	case 0:
 		cursor = spr_cursor_mario

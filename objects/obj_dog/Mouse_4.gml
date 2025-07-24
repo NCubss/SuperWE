@@ -1,4 +1,4 @@
-if (instance_exists(obj_editormanager) && obj_editormanager.zoom == 0 && obj_levelmanager.editor_water == 0 && obj_levelmanager.editor == 1 && obj_editormanager.expand_open == 0 && (!instance_exists(obj_panelparent)) && (!instance_exists(obj_ventana)) && room_width >= 768 && (!place_meeting(mouse_x, mouse_y, obj_creator_jugar_editar)))
+if (instance_exists(obj_editormanager) && obj_editormanager.zoom == 0 && obj_levelmanager.editor_water == 0 && obj_levelmanager.editor == 1 && obj_editormanager.expand_open == 0 && (!instance_exists(obj_panelparent)) && (!instance_exists(obj_ventana)) && room_width >= 768 && (!place_meeting(mouse_x, mouse_y, obj_creator_jugar_editar)) && !global.copy_mode)
 {
     global.play_lock = 1
     obj_editormanager.zoom = 1

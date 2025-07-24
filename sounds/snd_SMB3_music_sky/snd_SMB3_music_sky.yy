@@ -12,8 +12,8 @@
   "duration":80.393196,
   "name":"snd_SMB3_music_sky",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/SMB3/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

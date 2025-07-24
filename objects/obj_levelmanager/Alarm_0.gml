@@ -7,6 +7,7 @@ if (!audio_is_playing(levelmusic)) {
 		&& !instance_exists(obj_deadmario)
 	) {
         audio_play_sound(levelmusic, 1, true);
+		
 	}
 }
 

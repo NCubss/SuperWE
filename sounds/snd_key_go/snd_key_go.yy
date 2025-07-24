@@ -12,8 +12,8 @@
   "duration":0.80387753,
   "name":"snd_key_go",
   "parent":{
-    "name":"Shared",
-    "path":"folders/Sounds/Sound Effects/Shared.yy",
+    "name":"Key",
+    "path":"folders/Sounds/Sound Effects/Shared/Key.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

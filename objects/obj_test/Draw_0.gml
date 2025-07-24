@@ -1,0 +1,1 @@
+//draw_text_ext(camera_x, camera_y, result, 0, camera_width);

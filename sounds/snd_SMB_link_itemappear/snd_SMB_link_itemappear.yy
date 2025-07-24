@@ -12,8 +12,8 @@
   "duration":1.034354,
   "name":"snd_SMB_link_itemappear",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Link",
+    "path":"folders/Sounds/Sound Effects/SMB/Mario/Link.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

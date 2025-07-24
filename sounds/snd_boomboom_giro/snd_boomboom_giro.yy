@@ -12,8 +12,8 @@
   "duration":1.0782766,
   "name":"snd_boomboom_giro",
   "parent":{
-    "name":"NSMBU",
-    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
+    "name":"Boom Boom",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Boom Boom.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

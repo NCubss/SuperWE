@@ -12,8 +12,8 @@
   "duration":0.85734695,
   "name":"snd_NSMBU_explosion",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"NSMBU",
+    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

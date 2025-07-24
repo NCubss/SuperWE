@@ -1,9 +1,9 @@
 /**
-	@description		Spawns an instance that is related to the specified variant ID.
- 	@param {real} x		X position on the tile grid
- 	@param {real} y		Y position on the tile grid
-	@param {real} id	Variant ID to search
- 	@returns {Id.Instance}
+	@description	Spawns an instance that is related to the specified variant ID.
+ 	@param			{real} x	X position on the tile grid
+ 	@param			{real} y	Y position on the tile grid
+	@param			{real} id	Variant ID to search
+ 	@returns		{Id.Instance}
 */
 function spawn_variant(x, y, id) {
 	var instance = noone;
@@ -39,9 +39,12 @@ function spawn_variant(x, y, id) {
 			break;
 		case Variant.PATH_ROUND_TURN:
 			instance = instance_create_layer(x * 48, y * 48, "map", obj_world_path_round_turn).id;
+			break;
 		case Variant.PIPE:
 		case Variant.BONUS:
 		case Variant.LEVEL:
+			instance = instance_create_layer(x * 48, y * 48, "map", obj_world_level).id;
+			break;
 		default:
 			// TODO
 			break;
@@ -54,10 +57,9 @@ function spawn_variant(x, y, id) {
 }
 
 /**
-	@description				Creates a struct with a boolean for each direction from the
-								given world path instance.
-	@param {Id.Instance} obj	The instance to grab the data from.
-	@returns {struct}
+	@description	Creates a struct with a boolean for each direction from the given world path instance.
+	@param			{Id.Instance} obj	The instance to grab the data from.
+	@returns		{struct}
 */
 function world_path_to_data(obj) {
 	if (obj == noone) {
@@ -87,7 +89,6 @@ function world_path_to_data(obj) {
 			};
 		case obj_world_path_sharp_turn:
 		case obj_world_path_round_turn:
-			show_debug_message("skffwlfekfewl");
 			return {
 				up: obj.rotation == Direction.UP || obj.rotation == Direction.RIGHT,
 				right: obj.rotation == Direction.RIGHT || obj.rotation == Direction.DOWN,
@@ -108,10 +109,8 @@ function world_path_to_data(obj) {
 
 /**
 	@description	Returns whether if the player/pathfinder can move to this tile.
-	@param			{Id.Instance} current	The ID for the tile that the player/pathfinder is
- * 											currently on.
-	@param			{Id.Instance} next		The ID for the tile that the player/pathfinder is
-											moving to.
+	@param			{Id.Instance} current	The ID for the tile that the player/pathfinder is currently on.
+	@param			{Id.Instance} next		The ID for the tile that the player/pathfinder is moving to.
 	@param			{real} direction		The direction the player/pathfiner is moving in.
 	@returns		{bool}
 */
@@ -164,7 +163,7 @@ function get_world_music(style, theme) {
 	switch (style) {
 		case WorldStyle.SMW:
 			switch (theme) {
-				case WorldTheme.Overworld:
+				case WorldTheme.OVERWORLD:
 					return snd_world_overworld;
 				default:
 					throw "Function get_world_music: Invalid world theme!"
@@ -184,7 +183,7 @@ function get_world_editor_music(style, theme) {
 	switch (style) {
 		case WorldStyle.SMW:
 			switch (theme) {
-				case WorldTheme.Overworld:
+				case WorldTheme.OVERWORLD:
 					return snd_world_editor_overworld;
 				default:
 					throw "Script get_world_editor_music: Invalid world theme!";

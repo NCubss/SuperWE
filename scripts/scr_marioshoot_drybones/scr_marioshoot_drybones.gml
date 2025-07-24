@@ -2,7 +2,7 @@ function scr_marioshoot_drybones()
 {
     if (global.style == 0)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 if (global.powerup == -50)
@@ -33,7 +33,7 @@ function scr_marioshoot_drybones()
     }
     else if (global.style == 1)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 if (global.powerup == -46)
@@ -64,7 +64,7 @@ function scr_marioshoot_drybones()
     }
     else if (global.style == 2)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 return spr_mario_fire_drybones_shoot;

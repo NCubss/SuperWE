@@ -12,8 +12,8 @@
   "duration":77.04381,
   "name":"snd_SMB3_music_volcano",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Night",
+    "path":"folders/Sounds/Music/SMB3/Night.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

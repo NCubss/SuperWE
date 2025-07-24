@@ -12,8 +12,8 @@
   "duration":0.998458,
   "name":"snd_NSMBU_warp",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

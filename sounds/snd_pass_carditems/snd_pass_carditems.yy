@@ -12,8 +12,8 @@
   "duration":0.43335602,
   "name":"snd_pass_carditems",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Top",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/Top.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

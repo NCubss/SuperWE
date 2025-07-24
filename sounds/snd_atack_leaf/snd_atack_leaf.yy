@@ -12,8 +12,8 @@
   "duration":0.29895693,
   "name":"snd_atack_leaf",
   "parent":{
-    "name":"SMB3",
-    "path":"folders/Sounds/Sound Effects/SMB3.yy",
+    "name":"Super Leaf",
+    "path":"folders/Sounds/Sound Effects/SMB3/Mario/Super Leaf.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

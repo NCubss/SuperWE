@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_bowserjr_shell",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Bowser Jr.",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Bowser Jr..yy",
   },
   "preload":true,
   "resourceType":"GMSound",

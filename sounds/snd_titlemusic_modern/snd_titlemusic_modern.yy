@@ -12,8 +12,8 @@
   "duration":118.993,
   "name":"snd_titlemusic_modern",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Title",
+    "path":"folders/Sounds/Music/Title.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":1.3737189,
   "name":"snd_add_trayectory",
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "name":"Left",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/Left.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

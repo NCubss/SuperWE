@@ -18,23 +18,11 @@ end_y = 16;
 mouse_down = false;
 // The selected variant ID. To get the object you can use get_variant_obj().
 selected_variant = -1;
+// Whether the user can move the camera right now.
+camera_move = true;
 
-with (instance_create_layer(15 * 48, 16 * 48, "map", obj_world_path_end)) {
-	gridx = 15;
-	gridy = 16;
-}
-with (instance_create_layer(17 * 48, 16 * 48, "map", obj_world_path_end)) {
-	gridx = 17;
-	gridy = 16;
-}
-with (instance_create_layer(15 * 48, 16 * 48, "map", obj_world_start)) {
-	gridx = 15;
-	gridy = 16;
-}
-with (instance_create_layer(17 * 48, 16 * 48, "map", obj_world_end)) {
-	gridx = 17;
-	gridy = 16;
-}
+// Load the world if there is one
+event_user(5);
 
 camera_set_view_pos(
 	view_camera[0],

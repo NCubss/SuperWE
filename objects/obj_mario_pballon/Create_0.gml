@@ -1,6 +1,6 @@
 if instance_exists(obj_mario)
     obj_mario.visible = false
-switch global.jugador
+switch global.player
 {
     case 0:
         sprite_index = spr_mario_pballon

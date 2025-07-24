@@ -73,7 +73,7 @@ else
     }
     else
     {
-        sprite = scr_marioidle()
+        sprite = spr_mario_idle()
         index = 0
     }
     x_draw = x

@@ -12,8 +12,8 @@
   "duration":0.2493424,
   "name":"snd_podoboo",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Sound Effects/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

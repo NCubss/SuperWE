@@ -12,8 +12,8 @@
   "duration":1.273424,
   "name":"snd_rocket_go",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Rocket",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Rocket.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

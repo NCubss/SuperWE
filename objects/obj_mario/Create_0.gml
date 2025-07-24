@@ -1,42 +1,50 @@
 /// @description It's a me, Mario!
+
+// State macros
 #macro ms_standing 0
 #macro ms_walking 1
 #macro ms_jumping 2
 #macro ms_climbing 3
 #macro ms_wallclimb 4
 
-sprite_index = scr_marioidle()
-pmeter = 0
-canjump = 1
-switch global.powerup
-{
+// Set to idle sprite
+sprite_index = spr_mario_idle();
+pmeter = 0;
+canjump = 1;
+
+// Pick the appropriate mask
+switch (global.powerup) {
 	case cs_small:
-		mask_index = spr_smallmask
-		break
+		mask_index = spr_smallmask;
+		break;
 	case cs_link:
-		mask_index = spr_smallmask
-		break
+		mask_index = spr_smallmask;
+		break;
 	case cs_mega:
-		mask_index = spr_megamask
-		break
+		mask_index = spr_megamask;
+		break;
 	case cs_pballoon:
-		mask_index = spr_smallmask
-		break
+		mask_index = spr_smallmask;
+		break;
 	default:
-		mask_index = spr_bigmask
+		mask_index = spr_bigmask;
 }
 
+// create cape object if we are cape mario
 if (global.powerup == cs_hero && !instance_exists(obj_cap_mario)) {
 	with (instance_create(x, y, obj_cap_mario)) {
 		cap_invisible = 0;
 		visible = true;
 	}
 }
+
+// cerate pballoon object if we are pballoon mario
 if (global.powerup == cs_pballoon && (!instance_exists(obj_mario_pballon))) {
 	with (instance_create(x, y + 20, obj_mario_pballon)) {
 		visible = true;
 	}
 }
+
 if (
 	instance_exists(obj_levelmanager)
 	&& obj_levelmanager.fallow_mario == 0
@@ -82,22 +90,23 @@ keys = 0;
 shake = 0;
 stuntime = 0;
 
-//Is Mario on a slippery surface?
+// Is Mario on a slippery surface?
 snow = 0;
 
-//Mario's current state (macros ms_*)
+// Mario's current state (macros ms_*)
 state = 0;
 
-//Mario's direction
-//-1: Left, 1: Right
+// Mario's direction
+// -1: Left, 1: Right
 direct = 1;
 
-//Whether Mario is holding something
-//0: Nothing, 1: Overhead, 2: On Front 3: Can't Hold Stuff
+// Whether Mario is holding something
+// 0: Nothing, 1: Overhead, 2: On Front 3: Can't Hold Stuff
 holding = 0;
 
 turning = 0;
 fly_cap = 0;
+// fly mode
 modo_vuelo = 0;
 canfly = 0;
 fly_high = 3;

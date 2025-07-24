@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_coin10",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Coin",
+    "path":"folders/Sounds/Sound Effects/SMB3/Coin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

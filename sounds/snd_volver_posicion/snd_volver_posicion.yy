@@ -12,8 +12,8 @@
   "duration":0.7586848,
   "name":"snd_volver_posicion",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

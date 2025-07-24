@@ -12,8 +12,8 @@
   "duration":0.27600908,
   "name":"snd_pow",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Sound Effects/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

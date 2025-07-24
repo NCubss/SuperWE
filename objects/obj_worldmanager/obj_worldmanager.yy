@@ -31,7 +31,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"style","filters":[],"listItems":[],"multiselect":false,"name":"style","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"WorldStyle.SMW","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"theme","filters":[],"listItems":[],"multiselect":false,"name":"theme","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"WorldTheme.Overworld","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"theme","filters":[],"listItems":[],"multiselect":false,"name":"theme","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"WorldTheme.OVERWORLD","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"first_play","filters":[],"listItems":[],"multiselect":false,"name":"first_play","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"edit","filters":[],"listItems":[],"multiselect":false,"name":"edit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],

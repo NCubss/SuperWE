@@ -119,7 +119,14 @@ enum WorldStyle {
 
 /// @description	The world's theme.
 enum WorldTheme {
-	Overworld
+	OVERWORLD
+}
+
+/// @description	World Maker Worldbot panel buttons
+enum WorldbotButton {
+	SAVE_AS,
+	SAVE,
+	LOAD
 }
 
 #endregion
@@ -170,3 +177,45 @@ enum NMSort {
 }
 
 #endregion
+
+#region New Main Menu
+
+/// @description	A selectable page on the New Main Menu
+enum NMMPage {
+	COURSE_MAKER = 0,
+	ENDLESS = 1,
+	COURSE_WORLD = 2,
+	COURSEBOT = 3,
+	WORLD_MAKER = 4,
+	WORLDBOT = 5
+}
+
+/// @description	The size of a page button
+enum NMMPageButtonSize {
+	FULL,
+	MEDIUM,
+	SMALL
+}
+
+#endregion
+
+#region New Settings
+
+/// @description	A page in the New Settings modal
+enum NSPage {
+	HOME,
+	VIDEO,
+	CONTROLS,
+	MISCELLANEOUS,
+	ABOUT,
+	DISCLAIMER
+}
+
+/// @description	A selectable window scale
+enum NSWindowScale {
+	X1,
+	X2,
+	X3,
+	X4,
+	FULLSCREEN
+}

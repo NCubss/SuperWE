@@ -41,7 +41,7 @@ if held
             visible = true
             direct = obj_mario.direct
             x = obj_mario.x
-            if (global.jugador == 1)
+            if (global.player == 1)
             {
                 if (obj_mario.isduck == 1)
                 {

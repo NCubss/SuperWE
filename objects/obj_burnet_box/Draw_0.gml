@@ -4,25 +4,21 @@ switch (global.style) {
 	case GameStyle.SMB:
 		sprite_index = spr_SMB_burnet_box;
 		fire_sprite = spr_SMB_soplete;
-		fire_index += 0.25;
 		fire_height = 43;
 		break;
 	case GameStyle.SMB3:
 		sprite_index = spr_SMB3_burnet_box;
 		fire_sprite = spr_SMB3_soplete;
-		fire_index += 0.25;
 		fire_height = 43;
 		break;
 	case GameStyle.SMW:
 		sprite_index = spr_SMW_burnet_box;
 		fire_sprite = spr_soplete;
-		fire_index += 0.25;
 		fire_height = 43;
 		break;
 	case GameStyle.NSMBU:
 		sprite_index = spr_NSMBU_burnet_box;
 		fire_sprite = spr_NSMBU_soplete;
-		fire_index += 0.5;
 		fire_height = fire_rotation == Direction.DOWN ? 45 : 44;
 		break;
 }

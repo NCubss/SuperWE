@@ -2,7 +2,7 @@ if (global.style == 3)
     audio_play_sound(snd_letsgo, 0, false)
 else
 {
-    switch global.jugador
+    switch global.player
     {
         case 0:
             audio_play_sound(snd_letsgo, 0, false)

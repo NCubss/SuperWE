@@ -21,7 +21,7 @@ else if (gravity == 0)
 {
     if (hspeed == 0)
     {
-        sprite_index = scr_marioidle()
+        sprite_index = spr_mario_idle()
         image_speed = 0
         image_index = 0
     }

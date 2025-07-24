@@ -12,8 +12,8 @@
   "duration":1.2020408,
   "name":"snd_NSMBU_count",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Timer",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Timer.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

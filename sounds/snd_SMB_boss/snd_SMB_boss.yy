@@ -9,11 +9,11 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":25.563719,
   "name":"snd_SMB_boss",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "path":"folders/Sounds/Music/SMB/Sounds.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

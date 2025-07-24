@@ -1,6 +1,6 @@
 function scr_mario_shoe_fall()
 {
-    switch global.jugador
+    switch global.player
     {
         case 0:
             return spr_SMB3_mario_raccoon_shoe_fall;

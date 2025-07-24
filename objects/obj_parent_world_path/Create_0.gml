@@ -7,9 +7,8 @@ rotation = Direction.UP;
 display_rotation = 0;
 // whether this tile should have a dot or not
 has_dot = true;
-
-holds_start = false;
-holds_end = false;
+// the accessory this path holds, if any
+accessory = noone;
 valid_path = {
 	up: false,
 	right: false,
@@ -18,16 +17,22 @@ valid_path = {
 }
 // disable variants
 variants = [];
-// modify save function
-function save() {
-	return {
-		obj: object_index,
-		gx: gridx,
-		gy: gridy,
-		rot: rotation
-	}
+// modify save and load function
+save = function(buffer) {
+	buffer_write(buffer, buffer_u8, gridx);
+	buffer_write(buffer, buffer_u8, gridy);
+	buffer_write(buffer, buffer_u8, rotation);
 }
-function draw_dot() {
+load = function(buffer) {
+	gridx = buffer_read(buffer, buffer_u8);
+	gridy = buffer_read(buffer, buffer_u8);
+	x = gridx * 48;
+	y = gridy * 48;
+	rotation = buffer_read(buffer, buffer_u8);
+	display_rotation = rotation * -90;
+}
+
+draw_dot = function() {
 	if (has_dot) draw_sprite_ext(
 		(valid_path.up || valid_path.right || valid_path.down || valid_path.left)
 		? spr_world_path_on
@@ -37,7 +42,7 @@ function draw_dot() {
 		display_rotation, image_blend, image_alpha
 	);
 }
-function on_or_off(dir) {
+on_or_off = function(dir) {
 	var result = false;
 	switch ((rotation + dir) % 4) {
 		case Direction.UP:

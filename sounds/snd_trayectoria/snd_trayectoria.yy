@@ -12,8 +12,8 @@
   "duration":0.6386848,
   "name":"snd_trayectoria",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Editor",
+    "path":"folders/Sounds/Sound Effects/UI/Editor.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

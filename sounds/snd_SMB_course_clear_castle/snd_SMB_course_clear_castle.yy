@@ -12,8 +12,8 @@
   "duration":6.193333,
   "name":"snd_SMB_course_clear_castle",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Fanfares/SMB.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

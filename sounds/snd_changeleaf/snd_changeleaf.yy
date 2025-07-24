@@ -12,8 +12,8 @@
   "duration":0.78535146,
   "name":"snd_changeleaf",
   "parent":{
-    "name":"SMB3",
-    "path":"folders/Sounds/Sound Effects/SMB3.yy",
+    "name":"Super Leaf",
+    "path":"folders/Sounds/Sound Effects/SMB3/Mario/Super Leaf.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

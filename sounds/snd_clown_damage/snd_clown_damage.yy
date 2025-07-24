@@ -12,8 +12,8 @@
   "duration":16.273333,
   "name":"snd_clown_damage",
   "parent":{
-    "name":"Shared",
-    "path":"folders/Sounds/Sound Effects/Shared.yy",
+    "name":"Clown Car",
+    "path":"folders/Sounds/Sound Effects/Shared/Clown Car.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

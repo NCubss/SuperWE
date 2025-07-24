@@ -1,4 +1,4 @@
-if (global.cursor == 2) {
+if (global.cursor == 2 || !obj_world_editor.can_interact) {
 	exit;
 }
 var xx = camera_right - 37;

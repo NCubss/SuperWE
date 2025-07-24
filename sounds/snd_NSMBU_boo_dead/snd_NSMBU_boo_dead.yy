@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_boo_dead",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Boo",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Boo.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

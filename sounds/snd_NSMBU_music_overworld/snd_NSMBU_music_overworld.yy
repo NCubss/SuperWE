@@ -12,8 +12,8 @@
   "duration":41.462654,
   "name":"snd_NSMBU_music_overworld",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/NSMBU/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

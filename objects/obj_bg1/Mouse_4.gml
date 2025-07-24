@@ -9,7 +9,7 @@ if (obj_levelmanager.editor == 1)
     global.theme = bg_s
     event_user(0)
     audio_stop_sound(obj_creator_jugar_editar.music_editor)
-    audio_play_sound(s_music_editor, 99, true)
+    alarm[0] = 90;
     obj_creator_jugar_editar.music_editor = s_music_editor
     if (bg_s == "castle")
     {

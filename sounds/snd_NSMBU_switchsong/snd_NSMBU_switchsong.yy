@@ -12,8 +12,8 @@
   "duration":12.591995,
   "name":"snd_NSMBU_switchsong",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"NSMBU",
+    "path":"folders/Sounds/Music/Fanfares/NSMBU.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

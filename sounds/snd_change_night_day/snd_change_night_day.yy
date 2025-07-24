@@ -12,8 +12,8 @@
   "duration":1.0759864,
   "name":"snd_change_night_day",
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "name":"Game Theme",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/External/Game Theme.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

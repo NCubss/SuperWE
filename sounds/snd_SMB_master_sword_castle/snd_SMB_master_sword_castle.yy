@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB_master_sword_castle",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Link",
+    "path":"folders/Sounds/Music/SMB/Link.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

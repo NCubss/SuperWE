@@ -8,8 +8,9 @@
 #macro cs_superball -50
 #macro cs_mega -77
 #macro cs_hen -78
+#macro cs_smb2 -80
 #macro cs_link -85
-#macro cs_racoon -39
+#macro cs_raccoon -39
 #macro cs_frog -29
 #macro cs_hammer -46
 #macro cs_pballoon -82

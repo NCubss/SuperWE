@@ -12,8 +12,8 @@
   "duration":0.51068026,
   "name":"snd_rieles",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Slider",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Object/Slider.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

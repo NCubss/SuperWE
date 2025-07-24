@@ -12,8 +12,8 @@
   "duration":0.5213605,
   "name":"snd_pase_bloque_sonido",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Top",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/Top.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

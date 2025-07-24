@@ -52,7 +52,7 @@ if instance_exists(obj_mario)
     else if (obj_mario.state == 1)
         m_sprite = scr_mariowalk()
     else if (obj_mario.state == 0)
-        m_sprite = scr_marioidle()
+        m_sprite = spr_mario_idle()
     else
         m_sprite = obj_mario.sprite_index
     m_index = obj_mario.image_index

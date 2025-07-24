@@ -2,7 +2,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
 {
     if (global.style == 0)
     {
-        if (global.jugador == 0)
+        if (global.player == 0)
         {
             switch global.powerup
             {
@@ -25,7 +25,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
             }
 
         }
-        else if (global.jugador == 1)
+        else if (global.player == 1)
         {
             switch global.powerup
             {
@@ -48,7 +48,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
             }
 
         }
-        else if (global.jugador == 2)
+        else if (global.player == 2)
         {
             switch global.powerup
             {
@@ -71,7 +71,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
             }
 
         }
-        else if (global.jugador == 3)
+        else if (global.player == 3)
         {
             switch global.powerup
             {
@@ -97,7 +97,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
     }
     else if (global.style == 1)
     {
-        if (global.jugador == 0)
+        if (global.player == 0)
         {
             switch global.powerup
             {
@@ -116,7 +116,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
             }
 
         }
-        else if (global.jugador == 1)
+        else if (global.player == 1)
         {
             switch global.powerup
             {
@@ -135,7 +135,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
             }
 
         }
-        else if (global.jugador == 2)
+        else if (global.player == 2)
         {
             switch global.powerup
             {
@@ -154,7 +154,7 @@ function scr_mario_shoe() //gml_Script_scr_mario_shoe
             }
 
         }
-        else if (global.jugador == 3)
+        else if (global.player == 3)
         {
             switch global.powerup
             {

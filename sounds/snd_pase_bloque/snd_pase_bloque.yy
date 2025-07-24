@@ -12,8 +12,8 @@
   "duration":0.6253515,
   "name":"snd_pase_bloque",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

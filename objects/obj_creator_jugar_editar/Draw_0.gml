@@ -5,5 +5,5 @@ if instance_exists(obj_cursor)
 }
 if (effect_hover == 1){
 	anim2 += 0.3
-	scr_anim_hover2(((camera_x + 4) - obj_cursor.anim_creator), (camera_y + 186), anim2, 2)
+	scr_anim_hover(((camera_x + 4) - obj_cursor.anim_creator), (camera_y + 186), anim2, 2)
 }

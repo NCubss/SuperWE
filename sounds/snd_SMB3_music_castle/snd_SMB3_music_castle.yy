@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_music_castle",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/SMB3/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

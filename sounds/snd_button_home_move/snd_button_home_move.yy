@@ -12,8 +12,8 @@
   "duration":0.593356,
   "name":"snd_button_home_move",
   "parent":{
-    "name":"Hover",
-    "path":"folders/Sounds/Sound Effects/UI/Button/Hover.yy",
+    "name":"Main Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Main Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

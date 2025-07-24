@@ -12,8 +12,8 @@
   "duration":41.466484,
   "name":"snd_NSMBU_music_overworld_night",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Night",
+    "path":"folders/Sounds/Music/NSMBU/Night.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

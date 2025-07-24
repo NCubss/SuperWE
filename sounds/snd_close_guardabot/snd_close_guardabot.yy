@@ -13,7 +13,7 @@
   "name":"snd_close_guardabot",
   "parent":{
     "name":"Coursebot",
-    "path":"folders/Sounds/Sound Effects/Editor/Coursebot.yy",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Coursebot.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.34002268,
   "name":"snd_lick",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Yoshi",
+    "path":"folders/Sounds/Sound Effects/SMW/Yoshi.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

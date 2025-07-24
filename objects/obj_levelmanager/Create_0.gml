@@ -65,3 +65,5 @@ alarm[7] = 15
 
 global.starcoins = 0;
 global.starcoin = [];
+
+shadow_surf = surface_create(camera_width * 2, camera_height * 2);

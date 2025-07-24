@@ -2,7 +2,7 @@ if (inmario == 1)
 {
     if instance_exists(obj_mario)
     {
-        switch global.jugador
+        switch global.player
         {
             case 0:
                 v_duck_small = (obj_mario.y + 12)

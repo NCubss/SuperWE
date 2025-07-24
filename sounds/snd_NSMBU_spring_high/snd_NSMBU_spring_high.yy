@@ -12,8 +12,8 @@
   "duration":1.023129,
   "name":"snd_NSMBU_spring_high",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Spring",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Spring.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

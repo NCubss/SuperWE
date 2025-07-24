@@ -6,17 +6,17 @@ if (room == global.checkpointroom)
         {
             sprite_index = spr_SMB_checkpoint
             image_speed = 0
-            image_index = global.jugador
+            image_index = global.player
         }
         else if (global.style == 1)
         {
             sprite_index = spr_SMB3_checkpoint
             image_speed = 0
-            image_index = global.jugador
+            image_index = global.player
         }
         else if (global.style == 2)
         {
-            switch global.jugador
+            switch global.player
             {
                 case 0:
                     sprite_index = spr_flag_mario

@@ -97,7 +97,7 @@ if (global.pp == 0) {
 					} else if (obj_mario_transform2.m_hspeed != 0) {
 						sprite_index = scr_mariowalk();
 					} else {
-						sprite_index = scr_marioidle();
+						sprite_index = spr_mario_idle();
 					}
 				} else if (arrow > 0) {
 					sprite_index = spr_SMB_link_arrow_idle;
@@ -107,7 +107,7 @@ if (global.pp == 0) {
 					sprite_index = scr_marioswim_idle();
 					image_speed = 0.15;
 				} else {
-					sprite_index = scr_marioidle();
+					sprite_index = spr_mario_idle();
 					image_speed = 0;
 					if (isup == 1) {
 						sprite_index = scr_marioup();

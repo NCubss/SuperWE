@@ -1,7 +1,7 @@
 function scr_mariojumphold() {
 	if (global.style == 0)
 	{
-	switch global.jugador
+	switch global.player
 	{
 	    case 0:
 	        return spr_SMB2_mario_big_jumphold;
@@ -15,7 +15,7 @@ function scr_mariojumphold() {
 	}
 	else if (global.style == 1)
 	{
-	switch global.jugador
+	switch global.player
     {
         case 0:
             return spr_SMB3_mario_raccoon_hold_jump;

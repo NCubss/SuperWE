@@ -293,7 +293,7 @@ else if (isduck == 0)
                 }
                 else if (sprite_index == scr_NSMBU_walkhome())
                 {
-					if global.jugador = 0
+					if global.player = 0
 						var wkhm = 9
 					else
 						var wkhm = 6
@@ -309,7 +309,7 @@ else if (isduck == 0)
                 }
                 else if (sprite_index == scr_NSMBU_acrouch())
                 {
-					if global.jugador = 0
+					if global.player = 0
 						var acrh = 10
 					else
 						var acrh = 6
@@ -343,7 +343,7 @@ else if (isduck == 0)
                     }
                     sprite_index = scr_NSMBU_ground_idle()
                 }
-                if (isswim == 0 && inclown == 0 && global.powerup != -38 && global.jugador == 0 && flip < 7)
+                if (isswim == 0 && inclown == 0 && global.powerup != -38 && global.player == 0 && flip < 7)
                 {
                     if (flip < 6)
                         flip += 0.01
@@ -1373,7 +1373,7 @@ else if (isduck == 1)
         }
         else if (sprite_index == scr_NSMBU_crouch_fall())
         {
-				if global.jugador = 0
+				if global.player = 0
 					var crh_f = 7
 				else
 					var crh_f = 9

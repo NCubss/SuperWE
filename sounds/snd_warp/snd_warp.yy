@@ -12,8 +12,8 @@
   "duration":0.7320181,
   "name":"snd_warp",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMW/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

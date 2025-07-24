@@ -67,7 +67,7 @@ else if instance_exists(obj_player_goal_smw)
     else
         pos_y = 0
 }
-if (global.jugador == 1)
+if (global.player == 1)
     pos_y -= 1
 
 

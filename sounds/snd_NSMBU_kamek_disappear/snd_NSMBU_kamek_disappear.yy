@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_kamek_disappear",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Kamek",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Kamek.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

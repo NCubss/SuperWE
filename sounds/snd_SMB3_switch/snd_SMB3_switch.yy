@@ -12,8 +12,8 @@
   "duration":0.28879818,
   "name":"snd_SMB3_switch",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB3",
+    "path":"folders/Sounds/Sound Effects/SMB3.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

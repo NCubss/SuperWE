@@ -12,8 +12,8 @@
   "duration":0.5819501,
   "name":"snd_miniwindow_seleccionar",
   "parent":{
-    "name":"Press",
-    "path":"folders/Sounds/Sound Effects/UI/Button/Press.yy",
+    "name":"Window",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

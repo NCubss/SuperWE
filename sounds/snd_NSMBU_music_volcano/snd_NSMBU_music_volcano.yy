@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_music_volcano",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Night",
+    "path":"folders/Sounds/Music/NSMBU/Night.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

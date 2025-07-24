@@ -98,7 +98,7 @@ else
         image_index = 5
     }
     else
-        sprite_index = scr_marioidle()
+        sprite_index = spr_mario_idle()
     if (global.powerup == 3)
         draw_sprite_ext(spr_cap_stay_start, 0, round(x), (y + 1), direct, 1, 0, c_white, image_alpha)
     if (holding == 2)

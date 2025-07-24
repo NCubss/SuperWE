@@ -1,6 +1,6 @@
 ///Sets the Run animations
 function scr_NSMBU_run() {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
 	switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_run;
 	        case Powerup.SUPER: return spr_NSMBU_mario_big_run;

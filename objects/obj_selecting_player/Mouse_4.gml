@@ -31,6 +31,6 @@ if (active != 2)
             break
     }
 
-    global.jugador = value
+    global.player = value
 }
 

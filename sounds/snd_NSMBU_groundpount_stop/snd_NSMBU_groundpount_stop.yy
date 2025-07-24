@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_groundpount_stop",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Ground Pound",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Ground Pound.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

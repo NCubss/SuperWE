@@ -17,7 +17,7 @@ if ((sprite_index == spr_flag_bowser || sprite_index == spr_SMB3_checkpoint_bows
         case 2:
             with (obj_checkpoint)
                 sprite_index = spr_flag_bowser
-            switch global.jugador
+            switch global.player
             {
                 case 0:
                     sprite_index = spr_flag_move

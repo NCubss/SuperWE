@@ -12,8 +12,8 @@
   "duration":0.93024945,
   "name":"snd_switchalert",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Music/Fanfares/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

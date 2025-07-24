@@ -12,8 +12,8 @@
   "duration":0.59598637,
   "name":"snd_colocar_item_bloque",
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "name":"Object",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Object.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

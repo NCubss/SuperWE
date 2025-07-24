@@ -12,8 +12,8 @@
   "duration":3.265351,
   "name":"snd_SMB3_dead",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB3",
+    "path":"folders/Sounds/Music/Fanfares/SMB3.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

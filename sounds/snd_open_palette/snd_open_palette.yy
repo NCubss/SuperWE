@@ -12,8 +12,8 @@
   "duration":0.8893197,
   "name":"snd_open_palette",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Palette",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Palette.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

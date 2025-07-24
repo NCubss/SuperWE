@@ -12,8 +12,8 @@
   "duration":5.48932,
   "name":"snd_SMB_clear_link",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Fanfares/SMB.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

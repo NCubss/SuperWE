@@ -8,7 +8,7 @@ if (dragging || grabbing) {
 		var inst = instance_position(mouse_x, mouse_y, obj_parent_world_res);
 		instance_activate_object(id);
 		if (
-			(object_index == obj_world_start || object_index == obj_world_end)
+			(object_is_ancestor(object_index, obj_parent_world_accessory))
 			? (
 				inst != noone
 				&& object_is_ancestor(inst.object_index, obj_parent_world_path)
@@ -48,4 +48,5 @@ if (dragging || grabbing) {
 	// stop variant window alarm
 	alarm[0] = -1;
 	if !(instance_exists(obj_world_window)) obj_world_editor.can_interact = true;
+	depth = normal_depth;
 }

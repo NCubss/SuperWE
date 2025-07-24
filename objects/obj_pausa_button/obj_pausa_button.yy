@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Menu Pausa",
-    "path":"folders/Objects/UI/Title/Menu Pausa.yy",
+    "path":"folders/Objects/UI/Settings/Title/Menu Pausa.yy",
   },
   "parentObjectId":{
     "name":"obj_button_parent",

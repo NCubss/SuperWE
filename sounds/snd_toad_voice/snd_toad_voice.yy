@@ -12,8 +12,8 @@
   "duration":1.0920181,
   "name":"snd_toad_voice",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voices",
+    "path":"folders/Sounds/Sound Effects/UI/Settings/Voices.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_bumper2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Bumper",
+    "path":"folders/Sounds/Sound Effects/SMB3/Bumper.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

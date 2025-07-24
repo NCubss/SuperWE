@@ -4,6 +4,9 @@ if instance_exists(obj_erase)
 	if (obj_erase.active == 1 && zoom == 0)
 		draw_sprite(spr_bg_goma_de_borrar, anim_goma, camera_x, camera_y)
 }
+if (global.copy_mode) {
+	draw_sprite(spr_bg_copy_mode, 0, camera_x, camera_y);
+}
 draw_sprite_ext(spr_panel_right, 0, (((camera_right) - 35) + obj_cursor.anim_right), camera_y, 1, 1, 0, c_white, 1)
 draw_sprite_ext(spr_banner, 0, camera_x, (camera_y - obj_cursor.anim_top), 1, 1, 0, c_white, 1)
 

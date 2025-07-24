@@ -12,8 +12,8 @@
   "duration":0.576145,
   "name":"snd_NSMBU_snowball_break",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Snowball",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Snowball.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

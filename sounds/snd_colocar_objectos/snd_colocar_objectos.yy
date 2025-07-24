@@ -12,8 +12,8 @@
   "duration":0.51068026,
   "name":"snd_colocar_objectos",
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "name":"Slider",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Object/Slider.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

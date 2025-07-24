@@ -12,8 +12,8 @@
   "duration":41.595303,
   "name":"snd_SMB_music_mountain",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/SMB/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

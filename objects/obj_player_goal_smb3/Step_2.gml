@@ -25,7 +25,7 @@ if (vspeed != 0)
 }
 else if (hspeed == 0)
 {
-    sprite_index = scr_marioidle()
+    sprite_index = spr_mario_idle()
     image_speed = 0
 }
 else

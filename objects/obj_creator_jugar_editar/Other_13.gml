@@ -128,7 +128,7 @@ if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_level
 		
         else
         {
-            switch global.jugador
+            switch global.player
             {
                 case 0:
                     audio_play_sound(snd_letsgo, 0, false)

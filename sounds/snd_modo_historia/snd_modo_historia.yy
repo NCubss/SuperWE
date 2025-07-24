@@ -12,8 +12,8 @@
   "duration":1.7383447,
   "name":"snd_modo_historia",
   "parent":{
-    "name":"Press",
-    "path":"folders/Sounds/Sound Effects/UI/Button/Press.yy",
+    "name":"Main Menu",
+    "path":"folders/Sounds/Sound Effects/UI/Main Menu.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

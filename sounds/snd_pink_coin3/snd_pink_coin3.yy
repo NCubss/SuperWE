@@ -12,8 +12,8 @@
   "duration":0.604014,
   "name":"snd_pink_coin3",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Pink Coin",
+    "path":"folders/Sounds/Sound Effects/SMW/Pink Coin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

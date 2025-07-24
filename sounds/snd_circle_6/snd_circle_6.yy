@@ -12,8 +12,8 @@
   "duration":0.090022676,
   "name":"snd_circle_6",
   "parent":{
-    "name":"Palette",
-    "path":"folders/Sounds/Sound Effects/Editor/Palette.yy",
+    "name":"Circle",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Palette/Circle.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

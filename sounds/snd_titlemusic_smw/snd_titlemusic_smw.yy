@@ -12,8 +12,8 @@
   "duration":106.84569,
   "name":"snd_titlemusic_smw",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Title",
+    "path":"folders/Sounds/Music/Title.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

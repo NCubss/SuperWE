@@ -1,5 +1,5 @@
 function scr_marioswim2() {
-switch global.jugador
+switch global.player
 {
     case 0:
         return spr_SMB3_mario_frog_swim_up;

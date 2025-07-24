@@ -12,8 +12,8 @@
   "duration":0.5506803,
   "name":"snd_settings_move",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Settings",
+    "path":"folders/Sounds/Sound Effects/UI/Settings.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

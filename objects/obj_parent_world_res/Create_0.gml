@@ -25,18 +25,40 @@ show_edges = true;
 variants = [];
 // Variant ID of this object
 variant_id = undefined;
-// Returns a struct to include in the world's save file
-function save() {
-	return {
-		obj: object_index,
-		gx: gridx,
-		gy: gridy
-	};
+/**
+	@description	Saves object data to a world save file
+	@param			{Id.Buffer} buffer	The buffer to save to
+	@returns		{undefined}
+*/
+save = function(buffer) {
+	buffer_write(buffer, buffer_u8, gridx);
+	buffer_write(buffer, buffer_u8, gridy);
+	if (array_length(variants) != 0) {
+		buffer_write(buffer, buffer_u32, variant_id);
+	}
 }
-
+/**
+	@description	Loads object data from a world save file
+	@param			{Id.Buffer} buffer	The buffer to load from
+	@returns		{undefined}
+*/
+load = function(buffer) {
+	gridx = buffer_read(buffer, buffer_u8);
+	gridy = buffer_read(buffer, buffer_u8);
+	x = gridx * 48;
+	y = gridy * 48;
+	if (array_length(variants) != 0) {
+		variant_id = buffer_read(buffer, buffer_u32);
+	}
+}
+/**
+	@description	Checks if this object can be put here
+	@pure
+	@param			{real} x	The X position of the space in the room
+	@param			{real} y	The Y position of the space in the room
+	@returns		{bool}
+*/
+can_put_here = function(xx, yy) {
+	return collision_rectangle((xx * 48) + 1, (yy * 48) + 1, (xx * 48) + 47, (yy * 48) + 47, obj_parent_world_res, true, true) == noone;
+}
 normal_depth = depth;
-if (instance_exists(obj_grid)) {
-	grabbed_depth = obj_grid.depth - 1;
-} else {
-	grabbed_depth = depth - 1;
-}

@@ -1,4 +1,4 @@
-if (instance_exists(obj_levelmanager) && instance_exists(obj_erase) && obj_erase.active == 0 && disabled == 0)
+if (instance_exists(obj_levelmanager) && instance_exists(obj_erase) && obj_erase.active == 0 && disabled == 0 && !global.copy_mode)
 {
     if (obj_levelmanager.editor == 1 && (obj_editormanager.expand_open == 0 || obj_levelmanager.editor_sonidos == 1) && obj_draw == obj_soplete_invert_global && instance_number(obj_pink_coin) == 5)
     {

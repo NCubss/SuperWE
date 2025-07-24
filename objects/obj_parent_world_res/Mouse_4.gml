@@ -15,10 +15,15 @@ if (
 ) exit;
 // tap sound effect
 audio_play_sound(snd_ground_bomb, 1, false);
+with (obj_parent_world_res) {
+	if (id == other.id) continue;
+	other.depth = min(depth, other.depth);
+}
+depth--;
 // spawn the ripple effect
 with (instance_create(mouse_x, mouse_y, obj_effect_touch)) {
 	// place it higher in depth order
-	depth = other.grabbed_depth - 1;
+	depth = other.depth - 1;
 }
 // start window spawn alarm (0.5s) if there are any variants
 if (array_length(variants) != 0) {

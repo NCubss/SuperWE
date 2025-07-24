@@ -12,8 +12,8 @@
   "duration":0.8460771,
   "name":"snd_boomboom_grito1",
   "parent":{
-    "name":"NSMBU",
-    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
+    "name":"Boom Boom",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Boom Boom.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

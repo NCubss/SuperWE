@@ -19,6 +19,8 @@ to = 0;
 acc = Accessor.INSTANCE;
 // Index (struct and array accessor)
 idx = undefined;
+// Callback once the animation is finished
+callback = function() {};
 
 // Amount of steps processed
 steps_in = 0;

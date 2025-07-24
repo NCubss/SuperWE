@@ -12,8 +12,8 @@
   "duration":1.270907,
   "name":"snd_select_guardabot",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Coursebot",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Coursebot.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

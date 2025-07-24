@@ -12,8 +12,8 @@
   "duration":1.2893198,
   "name":"snd_remove_hongo_enemigos",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Result",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window/Result.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

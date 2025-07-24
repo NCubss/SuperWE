@@ -312,7 +312,7 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_card_logo))
     }
     scr_create_bg_anim()
     audio_stop_sound(obj_creator_jugar_editar.music_editor)
-    audio_play_sound(s_music_editor, 99, true)
+	alarm[0] = 90;
     obj_creator_jugar_editar.music_editor = s_music_editor
     instance_activate_object(obj_player_trail)
     if instance_exists(obj_player_trail)

@@ -29,7 +29,7 @@ draw_set_font(global.font_google)
 draw_set_color(c_white)
 if (global.nm_play != 0)
 {
-	title = scr_language(14)
+	title = lang().pages.online
     var texto = global.level_name
     if (string_width(string_hash_to_newline(texto)) > 205)
     {

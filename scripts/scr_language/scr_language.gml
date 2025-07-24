@@ -107,7 +107,7 @@ function scr_language(id) {
 			case 96: return "No se puede cargar el nivel"
 			case 97: return "Sesión iniciada"
 			case 98: return "No se puede conectar / Actualiza SMM:WE"
-			case 99: return " No hay conexión a Internet"
+			case 99: return "No hay conexión a Internet"
 			case 100: return "Usuario"
 			case 101: return "Contraseña"
 			case 102: return "Se ha producido un error"
@@ -213,208 +213,208 @@ function scr_language(id) {
 		}
 	} else if (global.language == Language.ENGLISH) {
 		switch (id) {
-			case 0: return "DISCLAIMER"
-			case 1: return "This is a fan game (by fans for fans)#which is not endorsed Nintendo.#All images, music and resources used #in this are the owned by Nintendo."
-			case 2: return "Monday"
-			case 3: return "Tuesday"
-			case 4: return "Wednesday"
-			case 5: return "Thursday"
-			case 6: return "Friday"
-			case 7: return "Saturday"
-			case 8: return "Happy Sunday, let's get making!"
-			case 9: return "Merry Christmas"
-			case 10: return "Happy New Year!"
-			case 11: return "Play"
-			case 12: return "Course Maker"
-			case 13: return "Endless Challenge"
-			case 14: return "Course World"
-			case 15: return "Coursebot"
-			case 16: return "English"
-			case 17: return "USERNAME"
-			case 18: return "LOG IN"
-			case 19: return "SETTINGS"
-			case 20: return "Controls"
-			case 21: return "Language"
-			case 22: return "Character"
-			case 23: return "Sounds"
-			case 24: return "Window Size"
-			case 25: return "Special Effects"
-			case 26: return "Touch Controls"
-			case 27: return "SM4J Controls"
-			case 28: return "Ok"
-			case 29: return "Configure"
-			case 30: return "Activated"
-			case 31: return "Deactivated"
-			case 32: return "Programmers"
-			case 33: return "Sounds/Music"
-			case 34: return "Animation and Effects"
-			case 35: return "Typography"
-			case 36: return "Additional Contributions"
-			case 37: return "Special Thanks"
-			case 38: return "Powered by/Resources"
-			case 39: return "None"
-			case 40: return "Slow"
-			case 41: return "Normal"
-			case 42: return "Fast"
-			case 43: return "Actions"
-			case 44: return "Parts"
-			case 45: return "Status"
-			case 46: return "Reach the goal without taking damage"
-			case 47: return "Reach the goal without landing#after leaving the ground"
-			case 48: return "Reach the goal without getting out of the water"
-			case 49: return "Reach the goal without collecting any coin"
-			case 50: return "Edit"
-			case 51: return "Upload"
-			case 52: return "Standard"
-			case 53: return "Puzzle-solving"
-			case 54: return "Speedrun"
-			case 55: return "Autoscroll"
-			case 56: return "Auto-Mario"
-			case 57: return "Short and Sweet"
-			case 58: return "Multiplayer Versus"
-			case 59: return "Themed"
-			case 60: return "Music"
-			case 61: return "Art"
-			case 62: return "Technical"
-			case 63: return "Shooter"
-			case 64: return "Boss battle"
-			case 65: return "Single player"
-			case 66: return "Terrain"
-			case 67: return "Items"
-			case 68: return "Enemies"
-			case 69: return "Gizmos"
-			case 70: return "Translation"
-			case 71: return "You need to clear your course before uploading it.#Ready to do a clear check?"
-			case 72: return "Yes"
-			case 73: return "No"
-			case 74: return "Clear from the start."
-			case 75: return "Clear from checkpoint."
-			case 76: return "Please wait..."
-			case 77: return "Uploading..."
-			case 78: return "I like it!"
-			case 79: return "Boo!"
-			case 80: return "Game Style"
-			case 81: return "Game Theme"
-			case 82: return "Autoscroll"
-			case 83: return "Timer"
-			case 84: return "Clear Condition"
-			case 85: return "Save | Load"
-			case 86: return "Save Course"
-			case 87: return "Link"
+			case 0: return "DISCLAIMER" // marked
+			case 1: return "This is a fan game (by fans for fans)#which is not endorsed Nintendo.#All images, music and resources used #in this are the owned by Nintendo." // marked
+			case 2: return "Monday" // marked
+			case 3: return "Tuesday" // marked
+			case 4: return "Wednesday" // marked
+			case 5: return "Thursday" // marked
+			case 6: return "Friday" // marked
+			case 7: return "Saturday" // marked
+			case 8: return "Happy Sunday, let's get making!" // marked
+			case 9: return "Merry Christmas" // marked
+			case 10: return "Happy New Year!" // marked
+			case 11: return "Play" // marked
+			case 12: return "Course Maker" // marked
+			case 13: return "Endless Challenge" // marked
+			case 14: return "Course World" // marked
+			case 15: return "Coursebot" // marked
+			case 16: return "English" // marked
+			case 17: return "USERNAME" // marked
+			case 18: return "LOG IN" // marked
+			case 19: return "SETTINGS" // marked
+			case 20: return "Controls" // marked
+			case 21: return "Language" // marked
+			case 22: return "Character" // marked
+			case 23: return "Sounds" // marked
+			case 24: return "Window Size" // marked
+			case 25: return "Special Effects" // marked
+			case 26: return "Touch Controls" // marked
+			case 27: return "SM4J Controls" // marked
+			case 28: return "Ok" // marked
+			case 29: return "Configure" // marked
+			case 30: return "Activated" // marked
+			case 31: return "Deactivated" // marked
+			case 32: return "Programmers" // marked
+			case 33: return "Sounds/Music" // marked
+			case 34: return "Animation and Effects" // marked
+			case 35: return "Typography" // marked
+			case 36: return "Additional Contributions" // marked
+			case 37: return "Special Thanks" // marked
+			case 38: return "Powered by/Resources" // marked
+			case 39: return "None" // marked
+			case 40: return "Slow" // marked
+			case 41: return "Normal" // marked
+			case 42: return "Fast" // marked
+			case 43: return "Actions" // marked
+			case 44: return "Parts" // marked
+			case 45: return "Status" // marked
+			case 46: return "Reach the goal without taking damage" // marked
+			case 47: return "Reach the goal without landing#after leaving the ground" // marked
+			case 48: return "Reach the goal without getting out of the water" // marked
+			case 49: return "Reach the goal without collecting any coin" // marked
+			case 50: return "Edit" // marked
+			case 51: return "Upload" // marked
+			case 52: return "Standard" // marked
+			case 53: return "Puzzle-solving" // marked
+			case 54: return "Speedrun" // marked
+			case 55: return "Autoscroll" // marked
+			case 56: return "Auto-Mario" // marked
+			case 57: return "Short and Sweet" // marked
+			case 58: return "Multiplayer Versus" // marked
+			case 59: return "Themed" // marked
+			case 60: return "Music" // marked
+			case 61: return "Art" // marked
+			case 62: return "Technical" // marked
+			case 63: return "Shooter" // marked
+			case 64: return "Boss battle" // marked
+			case 65: return "Single player" // marked
+			case 66: return "Terrain" // marked
+			case 67: return "Items" // marked
+			case 68: return "Enemies" // marked
+			case 69: return "Gizmos" // marked
+			case 70: return "Translation" // UNUSED
+			case 71: return "You need to clear your course before uploading it.#Ready to do a clear check?" // marked
+			case 72: return "Yes" // marked
+			case 73: return "No" // marked
+			case 74: return "Clear from the start." // marked
+			case 75: return "Clear from checkpoint." // marked
+			case 76: return "Please wait..." // marked
+			case 77: return "Uploading..." // marked
+			case 78: return "I like it!" // marked
+			case 79: return "Boo!" // marked
+			case 80: return "Game Style" // marked
+			case 81: return "Game Theme" // marked
+			case 82: return "Autoscroll" // marked
+			case 83: return "Timer" // marked
+			case 84: return "Clear Condition" // marked
+			case 85: return "Save | Load" // marked
+			case 86: return "Save Course"  // UNUSED
+			case 87: return "Link" // UNUSED
 			case 88: return "Course Name"
-			case 89: return "The course you're currently making will be#lost. Continue?"
-			case 90: return "Course saved"
-			case 91: return "You have an object that obstructs the start"
-			case 92: return "There are no items to save"
-			case 93: return "This course already exists"
-			case 94: return "Enter course name"
-			case 95: return "Changes saved"
-			case 96: return "Unable to load course"
-			case 97: return "Logged in"
-			case 98: return "Can't connect / Update SMM:WE"
-			case 99: return "There's no internet connection"
-			case 100: return "Username"
-			case 101: return "Password"
-			case 102: return "An error occured"
-			case 103: return "Unable to read course"
-			case 104: return "Save As"
-			case 105: return "Save"
-			case 106: return "Load"
-			case 107: return "Loading..."
-			case 108: return "Courses"
-			case 109: return "Leaderboards"
-			case 110: return "Network Play"
-			case 111: return "Endless Challenge"
-			case 112: return "Featured"
-			case 113: return "Popular"
-			case 114: return "New"
-			case 115: return "Search"
-			case 116: return "COURSE ID"
-			case 117: return "GAME STYLE"
-			case 118: return "GAME THEME"
-			case 119: return "DIFFICULTY"
-			case 120: return "DATE UPLOADED"
-			case 121: return "CLEAR STATUS"
-			case 122: return "RATING"
-			case 123: return "ORDER BY"
-			case 124: return "SEARCH"
-			case 125: return "Easy"
-			case 126: return "Normal"
-			case 127: return "Expert"
-			case 128: return "Super Expert"
-			case 129: return "Today"
-			case 130: return "Last 2 days"
-			case 131: return "Last 3 days"
-			case 132: return "Last 4 days"
-			case 133: return "Last 5 days"
-			case 134: return "Last 6 days"
-			case 135: return "Last week"
-			case 136: return "Last month"
-			case 137: return "Cleared"
-			case 138: return "Not cleared"
-			case 139: return "Liked"
-			case 140: return "Boo'ed"
-			case 141: return "Newest"
-			case 142: return "Oldest"
-			case 143: return "Download"
-			case 144: return "Course ID"
-			case 145: return "No Record"
-			case 146: return "Clear Rate"
-			case 147: return "Any"
-			case 148: return "COURSE NAME"
-			case 149: return "MAKER NAME"
-			case 150: return "Start over"
-			case 151: return "Quit"
-			case 152: return "Continue"
-			case 153: return "Report"
-			case 154: return "Water Level"
-			case 155: return "Lava Level"
-			case 156: return "Erase"
-			case 157: return "Select a course"
-			case 158: return "Copy"
-			case 159: return "New Game"
-			case 160: return "Next"
-			case 161: return "Exit Course"
-			case 162: return "Save"
-			case 163: return "Details"
-			case 164: return "Remove"
-			case 165: return "No Clear Condition"
-			case 166: return "Theme"
-			case 167: return "FPS"
-			case 168: return "Press"
-			case 169: return "Here"
-			case 170: return "Translations"
-			case 171: return "Clear Condition Failed"
-			case 172: return "Courses"
-			case 173: return "Connection timed out"
-			case 174: return "Error retrieving data"
-			case 175: return "Couldn't upload the level"
-			case 176: return "Copy and exit" 
-			case 177: return "Unable to upload this course because#it uses inappropriate language"
-			case 178: return "Level downloaded"
-			case 179: return "Couldn't download the level"
-			case 180: return "An error occurred" // This is the same as #102, but it doesn't have a spelling mistake?
-			case 181: return "Added to featured"
-			case 182: return "Deleted from featured"
-			case 183: return "The course has been reported"
-			case 184: return "You already reported the course"
-			case 185: return "You can't report your courses"
-			case 186: return "Retry"
-			case 187: return "Configure Controls"
-			case 188: return "Create an account"
-			case 189: return "Description"
-			case 190: return "No Description"
-			case 191: return "Tags"
-			case 192: return "Most Popular" 
-			case 193: return "POPULARITY" 
-			case 194: return "LANGUAGE" 
-			case 195: return "Least Popular"
-			case 196: return "Not Featured"
-			case 197: return "Featured"
-			case 198: return "FEATURED"
-			case 199: return "TAGS LANGUAGE"
-			case 200: return "Enter course description"
-			case 201: return "Are you sure to start a new game?#You will lose all the progress you made#in the rest of the difficulties."
+			case 89: return "The course you're currently making will be#lost. Continue?" // marked
+			case 90: return "Course saved" // marked
+			case 91: return "You have an object that obstructs the start" // marked
+			case 92: return "There are no items to save" // marked
+			case 93: return "This course already exists" // marked
+			case 94: return "Enter course name" // marked
+			case 95: return "Changes saved" // marked
+			case 96: return "Unable to load course" // marked
+			case 97: return "Logged in" // marked
+			case 98: return "Can't connect / Update SMM:WE" // marked
+			case 99: return "There's no internet connection" // marked
+			case 100: return "Username" // marked
+			case 101: return "Password" // marked
+			case 102: return "An error occured" // UNUSED
+			case 103: return "Unable to read course" // marked
+			case 104: return "Save As" // marked
+			case 105: return "Save" // marked
+			case 106: return "Load" // marked
+			case 107: return "Loading..." // marked
+			case 108: return "Courses" // marked
+			case 109: return "Leaderboards" // marked
+			case 110: return "Network Play" // marked
+			case 111: return "Endless Challenge" // marked
+			case 112: return "Featured" // marked
+			case 113: return "Popular" // marked
+			case 114: return "New" // marked
+			case 115: return "Search" // marked
+			case 116: return "COURSE ID" // marked
+			case 117: return "GAME STYLE" // marked
+			case 118: return "GAME THEME" // marked
+			case 119: return "DIFFICULTY" // marked
+			case 120: return "DATE UPLOADED" // marked
+			case 121: return "CLEAR STATUS" // marked
+			case 122: return "RATING" // marked
+			case 123: return "ORDER BY" // marked
+			case 124: return "SEARCH" // marked
+			case 125: return "Easy" // marked
+			case 126: return "Normal" // marked
+			case 127: return "Expert" // marked
+			case 128: return "Super Expert" // marked
+			case 129: return "Today" // marked
+			case 130: return "Last 2 days" // marked
+			case 131: return "Last 3 days" // marked
+			case 132: return "Last 4 days" // marked
+			case 133: return "Last 5 days" // marked
+			case 134: return "Last 6 days" // marked
+			case 135: return "Last week" // marked
+			case 136: return "Last month" // marked
+			case 137: return "Cleared" // marked
+			case 138: return "Not cleared" // marked
+			case 139: return "Liked" // marked
+			case 140: return "Boo'ed" // marked
+			case 141: return "Newest" // marked
+			case 142: return "Oldest" // marked
+			case 143: return "Download" // marked
+			case 144: return "Course ID" // UNUSED
+			case 145: return "No Record" // marked
+			case 146: return "Clear Rate" // marked
+			case 147: return "Any" // UNUSED
+			case 148: return "COURSE NAME" // marked
+			case 149: return "MAKER NAME" // marked
+			case 150: return "Start over" // marked
+			case 151: return "Quit" // UNUSED
+			case 152: return "Continue" // marked
+			case 153: return "Report" // marked
+			case 154: return "Water Level" // marked
+			case 155: return "Lava Level" // marked
+			case 156: return "Erase" // marked
+			case 157: return "Select a course" // UNUSED
+			case 158: return "Copy" // UNUSED
+			case 159: return "New Game" // marked
+			case 160: return "Next" // marked
+			case 161: return "Exit Course" // marked
+			case 162: return "Save" // UNUSED
+			case 163: return "Details" // UNUSED
+			case 164: return "Remove" // UNUSED
+			case 165: return "No Clear Condition" // UNUSED
+			case 166: return "Theme" // UNUSED
+			case 167: return "FPS" // UNUSED
+			case 168: return "Press" // UNUSED
+			case 169: return "Here" // UNUSED
+			case 170: return "Translations" // marked
+			case 171: return "Clear Condition Failed" // marked
+			case 172: return "Courses" // marked
+			case 173: return "Connection timed out" // marked
+			case 174: return "Error retrieving data" // marked
+			case 175: return "Couldn't upload the level" // marked
+			case 176: return "Copy and exit" // UNUSED
+			case 177: return "Unable to upload this course because#it uses inappropriate language" // marked
+			case 178: return "Level downloaded" // marked
+			case 179: return "Couldn't download the level" // marked
+			case 180: return "An error occurred" // This is the same as #102, but it doesn't have a spelling mistake? Also, UNUSED
+			case 181: return "Added to featured" // marked
+			case 182: return "Deleted from featured" // marked
+			case 183: return "The course has been reported" // marked
+			case 184: return "You already reported the course" // marked
+			case 185: return "You can't report your courses" // marked
+			case 186: return "Retry" // marked
+			case 187: return "Configure Controls" // marked
+			case 188: return "Create an account" // marked
+			case 189: return "Description" // marked
+			case 190: return "No Description" // marked
+			case 191: return "Tags" // UNUSED
+			case 192: return "Most Popular" // marked
+			case 193: return "POPULARITY" // marked
+			case 194: return "LANGUAGE"  // UNUSED
+			case 195: return "Least Popular" // marked
+			case 196: return "Not Featured" // marked
+			case 197: return "Featured" // marked
+			case 198: return "FEATURED" // marked
+			case 199: return "TAGS LANGUAGE" // UNUSED
+			case 200: return "Enter course description" // marked
+			case 201: return "Are you sure to start a new game?#You will lose all the progress you made#in the rest of the difficulties." // marked
 		}
 	} else if (global.language == Language.PORTUGUESE) {
 		switch (id) {
@@ -1042,8 +1042,7 @@ function scr_language(id) {
 										current language if unspecified.
 	@returns		{struct}
 */
-function lang(language) {
-	language ??= global.language;
+function lang(language = global.language) {
 	switch (language) {
 		case Language.SPANISH:
 			return global.languages.es;

@@ -1,6 +1,6 @@
 ///Sets Ground Idle Animations
 function scr_NSMBU_ground_idle() {
-	/*if global.jugador = 0{
+	/*if global.player = 0{
 	*/
 	if (instance_exists(obj_mario) && obj_mario.isswim == 1) {
 	    switch global.powerup {

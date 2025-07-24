@@ -12,8 +12,8 @@
   "duration":1.1073016,
   "name":"snd_NSMBU_magic",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Kamek",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Kamek.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

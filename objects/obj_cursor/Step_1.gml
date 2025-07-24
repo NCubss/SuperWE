@@ -1,5 +1,5 @@
 x = mouse_x
-y = mouse_y
+y = device_mouse_y(0)
 if place_meeting(x, y, obj_parent_layout)
     dont_move = 1
 else if place_meeting(x, y, obj_mario_editor)

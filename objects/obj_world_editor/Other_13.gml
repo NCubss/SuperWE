@@ -1,3 +1,4 @@
+/// @description Erase
 var inst = instance_position(mouse_x, mouse_y, obj_parent_world_res);
 if (
 	point_in_rectangle(mouse_x, mouse_y, camera_x + 36, camera_y + 36, camera_x + 350, camera_y + 216)

@@ -12,8 +12,8 @@
   "duration":0.72126985,
   "name":"snd_NSMBU_helice_planear",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Propeller",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Propeller.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

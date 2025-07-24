@@ -12,8 +12,8 @@
   "duration":1.301769,
   "name":"snd_NSMBU_triplejump_1",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Voicelines",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Voicelines.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

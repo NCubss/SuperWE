@@ -12,8 +12,8 @@
   "duration":0.6759864,
   "name":"snd_page_enemies2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Palette",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Palette.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

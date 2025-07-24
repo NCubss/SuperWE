@@ -12,8 +12,8 @@
   "duration":1.3338776,
   "name":"snd_rocket_count",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Rocket",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Rocket.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

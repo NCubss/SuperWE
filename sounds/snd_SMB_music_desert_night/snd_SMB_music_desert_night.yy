@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB_music_desert_night",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Night",
+    "path":"folders/Sounds/Music/SMB/Night.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

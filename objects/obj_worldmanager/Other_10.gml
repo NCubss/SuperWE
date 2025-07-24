@@ -17,6 +17,8 @@ if (edit) {
 	audio_stop_sound(get_world_editor_music(style, theme));
 	audio_play_sound(music, 0, true);
 	instance_create_layer(obj_world_start.x, obj_world_start.y, "mario", obj_world_mario);
+	animator(ac_world_hud, 0, id, "hud_alpha", 0, 1, 30);
+	animator(ac_world_hud, 0, id, "hud_xoffset", -10, 0, 30);
 	if (obj_coordinator.modo_android) {
 		with (obj_coordinator) {
 			event_user(2);

@@ -12,8 +12,8 @@
   "duration":12.755986,
   "name":"snd_SMB3_switchsong",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB3",
+    "path":"folders/Sounds/Music/SMB3.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -11,10 +11,27 @@ function init_globals() {
 	global.world_lives = -1;
 	global.world_mario_x = 0;
 	global.world_mario_y = 0;
+	// Path to the loaded world file (undefined if none)
+	global.world_path = undefined;
+	global.world_settings = {
+		name: "Fart idk",
+		description: "i like farting tbh"
+	};
+	// Header used when saving a world file
+	global.world_header = 
+		"          SuperWE Super World File          \n"
+	  +	"============================================\n"
+	  +	"This file SHOULD NOT be modified externally!\n"
+	  +	"Otherwise, unintended behavior can arise >:(\n"
+	  + "--------------------------------------------\n"
+	;
 	#endregion
 	
 	// Used for animating the hover effect in some scenarios
 	global.anim = 0;
+	
+	// Whether copy mode is enabled in the editor
+	global.copy_mode = false;
 	
 	global.ms = 0
 	global.cull_previous_x = x

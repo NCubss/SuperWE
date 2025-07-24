@@ -12,8 +12,8 @@
   "duration":1.723356,
   "name":"snd_NSMBU_pink_coin5",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Pink Coin",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Pink Coin.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

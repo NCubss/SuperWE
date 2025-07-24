@@ -12,8 +12,8 @@
   "duration":52.806667,
   "name":"snd_NSMBU_music_ghost",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/NSMBU/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

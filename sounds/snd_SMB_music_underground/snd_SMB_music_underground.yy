@@ -12,8 +12,8 @@
   "duration":12.734694,
   "name":"snd_SMB_music_underground",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Day",
+    "path":"folders/Sounds/Music/SMB/Day.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

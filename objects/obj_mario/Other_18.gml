@@ -1,3 +1,5 @@
+/// @description	Slam to ground with cape
+
 audio_play_sound(snd_thwomp_original, 0, false)
 if instance_exists(obj_levelmanager)
 {

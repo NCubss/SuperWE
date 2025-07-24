@@ -12,8 +12,8 @@
   "duration":0.5133333,
   "name":"snd_panel_open",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"External",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/External.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":41.103672,
+  "duration":170.2284,
   "name":"snd_NSMBU_editor_overworld",
   "parent":{
     "name":"NSMBU",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_NSMBU_editor_overworld",
   "type":1,
-  "volume":0.73,
+  "volume":1.0,
 }

@@ -1,6 +1,6 @@
 if (os_type == os_android)
     visible = false	
-switch global.jugador
+switch global.player
 {
 	case 0:
 		cursor = spr_cursor_mario

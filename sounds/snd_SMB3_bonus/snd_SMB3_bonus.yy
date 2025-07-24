@@ -9,11 +9,11 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":8.530431,
   "name":"snd_SMB3_bonus",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "path":"folders/Sounds/Music/SMB3/Sounds.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

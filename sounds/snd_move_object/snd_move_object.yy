@@ -12,8 +12,8 @@
   "duration":0.43068027,
   "name":"snd_move_object",
   "parent":{
-    "name":"Editor",
-    "path":"folders/Sounds/Sound Effects/Editor.yy",
+    "name":"Movement",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Object/Movement.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

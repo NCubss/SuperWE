@@ -2,11 +2,11 @@ if instance_exists(obj_mario)
 {
     if (global.powerup != -82)
     {
-        if (global.jugador == 0)
+        if (global.player == 0)
             event_user(8)
-        else if (global.jugador == 1)
+        else if (global.player == 1)
             event_user(9)
-        else if (global.jugador > 1)
+        else if (global.player > 1)
             event_user(10)
         if (global.style == 0 && obj_mario.state == 3)
         {

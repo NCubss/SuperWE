@@ -12,8 +12,8 @@
   "duration":0.401995,
   "name":"snd_NSMBU_minirebote_4",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Stomp",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Stomp.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

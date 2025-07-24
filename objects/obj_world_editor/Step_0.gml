@@ -5,7 +5,7 @@ var axis_y = real(keyboard_check(ord("S"))) - real(keyboard_check(ord("W")));
 var spd = 3;
 // increment camera position
 if (!pause) {
-	if (obj_worldmanager.edit) {
+	if (obj_worldmanager.edit && camera_move) {
 		// mobile camera movement
 		if (mouse_button = mb_left && obj_coordinator.modo_android) {
 			if (point_in_rectangle(mouse_x, mouse_y, camera_left + 35, camera_top + 36, camera_left + 70, camera_bottom)) {

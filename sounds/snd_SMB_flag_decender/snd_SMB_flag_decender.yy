@@ -12,8 +12,8 @@
   "duration":1.06,
   "name":"snd_SMB_flag_decender",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMB/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

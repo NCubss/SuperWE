@@ -12,8 +12,8 @@
   "duration":0.7894785,
   "name":"snd_whistle",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMW",
+    "path":"folders/Sounds/Sound Effects/SMW.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

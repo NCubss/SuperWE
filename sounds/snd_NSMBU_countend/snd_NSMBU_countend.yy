@@ -12,8 +12,8 @@
   "duration":0.255,
   "name":"snd_NSMBU_countend",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Timer",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Timer.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

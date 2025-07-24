@@ -22,7 +22,7 @@ if (global.style == 3)
 else
 {
     if (direction == 90 || direction == 270)
-        sprite = scr_marioidle()
+        sprite = spr_mario_idle()
     else
         sprite = scr_mariowalk()
     if (holding == 0)

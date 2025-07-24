@@ -12,8 +12,8 @@
   "duration":1.385941,
   "name":"snd_NSMBU_powerup",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Power Up & Down",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Power Up & Down.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

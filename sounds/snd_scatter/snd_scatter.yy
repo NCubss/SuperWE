@@ -12,8 +12,8 @@
   "duration":1.46,
   "name":"snd_scatter",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Editor",
+    "path":"folders/Sounds/Sound Effects/UI/Editor.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":71.968414,
+  "duration":71.952995,
   "name":"snd_guardabot",
   "parent":{
     "name":"Coursebot",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_guardabot",
+  "soundFile":"snd_guardabot.mp3",
   "type":1,
   "volume":1.0,
 }

@@ -12,8 +12,8 @@
   "duration":0.1648526,
   "name":"snd_SMB_kick",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMB/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

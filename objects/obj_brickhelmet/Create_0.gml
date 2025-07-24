@@ -2,7 +2,7 @@ event_inherited()
 switch global.style
 {
     case 0:
-        if (global.jugador < 2)
+        if (global.player < 2)
         {
             s_brickhelmet_2 = spr_SMB_brickhelmet_mega
             s_brickhelmet = spr_SMB_brickhelmet
@@ -14,7 +14,7 @@ switch global.style
         }
         break
     case 1:
-        if (global.jugador < 2)
+        if (global.player < 2)
         {
             s_brickhelmet_2 = spr_SMB3_brickhelmet_round
             s_brickhelmet = spr_SMB3_brickhelmet
@@ -26,7 +26,7 @@ switch global.style
         }
         break
     case 2:
-        if (global.jugador < 2)
+        if (global.player < 2)
         {
             s_brickhelmet_3 = spr_brickhelmet_yoshi
             s_brickhelmet_2 = spr_brickhelmet_up

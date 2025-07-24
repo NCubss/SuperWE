@@ -12,8 +12,8 @@
   "duration":0.610975,
   "name":"snd_SMB2_jump",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMB2/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

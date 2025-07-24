@@ -12,8 +12,8 @@
   "duration":175.51237,
   "name":"snd_SMB_editor",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SMB",
+    "path":"folders/Sounds/Music/Editor/SMB.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

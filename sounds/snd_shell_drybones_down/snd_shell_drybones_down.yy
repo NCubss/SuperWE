@@ -12,8 +12,8 @@
   "duration":0.63335603,
   "name":"snd_shell_drybones_down",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Shared",
+    "path":"folders/Sounds/Sound Effects/Shared.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

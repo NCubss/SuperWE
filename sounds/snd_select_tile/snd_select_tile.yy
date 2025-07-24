@@ -12,8 +12,8 @@
   "duration":0.8520181,
   "name":"snd_select_tile",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Top",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Panel/Top.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

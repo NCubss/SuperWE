@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_doorlock_open",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Door",
+    "path":"folders/Sounds/Sound Effects/SMB3/Door.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

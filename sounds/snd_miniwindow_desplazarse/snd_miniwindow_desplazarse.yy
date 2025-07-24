@@ -12,8 +12,8 @@
   "duration":0.56136054,
   "name":"snd_miniwindow_desplazarse",
   "parent":{
-    "name":"Hover",
-    "path":"folders/Sounds/Sound Effects/UI/Button/Hover.yy",
+    "name":"Window",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Window.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

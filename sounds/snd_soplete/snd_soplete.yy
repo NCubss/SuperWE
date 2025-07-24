@@ -12,8 +12,8 @@
   "duration":2.3756917,
   "name":"snd_soplete",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Shared",
+    "path":"folders/Sounds/Sound Effects/Shared.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

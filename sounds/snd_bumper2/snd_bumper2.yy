@@ -12,8 +12,8 @@
   "duration":0.39600906,
   "name":"snd_bumper2",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Bumper",
+    "path":"folders/Sounds/Sound Effects/SMW/Bumper.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

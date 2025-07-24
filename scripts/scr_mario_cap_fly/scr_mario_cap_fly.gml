@@ -1,5 +1,5 @@
 function scr_mario_cap_fly() {
-switch global.jugador
+switch global.player
 {
     case 0:
         return spr_mario_cap_fly;

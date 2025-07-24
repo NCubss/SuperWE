@@ -210,7 +210,10 @@ ds_map_add_map(mundo, "SUB1", sub1)
 var _string = json_encode(mundo)
 _string = string_replace_all(_string, ".000000", "")
 var _string_code = base64_encode(_string)
-var _hash = sha1_string_utf8_hmac(global.drez, _string_code)
+var buffer = buffer_create(string_length(_string_code), buffer_grow, 1);
+buffer_write(buffer, buffer_text, _string_code);
+var _hash = sha1_buffer_utf8_hmac(global.drez, buffer);
+buffer_delete(buffer);
 _string_code += _hash
 save_to_file(((global.directorio + obj_input.new_texto) + ".swe"), _string_code)
 global.save_changes = (obj_input.new_texto + ".swe")

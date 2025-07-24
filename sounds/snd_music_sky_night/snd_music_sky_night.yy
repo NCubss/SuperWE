@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_music_sky_night",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Music/SMW.yy",
+    "name":"Night",
+    "path":"folders/Sounds/Music/SMW/Night.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

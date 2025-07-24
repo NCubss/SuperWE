@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":20.21152,
   "name":"snd_NSMBU_editor_airship",
   "parent":{
     "name":"NSMBU",

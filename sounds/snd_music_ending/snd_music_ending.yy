@@ -12,8 +12,8 @@
   "duration":17.776009,
   "name":"snd_music_ending",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Music/SMW.yy",
+    "name":"Fanfares",
+    "path":"folders/Sounds/Music/Fanfares.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

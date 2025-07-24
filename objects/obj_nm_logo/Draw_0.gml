@@ -1,3 +1,4 @@
+/*
 gpu_set_blendmode(bm_add);
 draw_set_color(c_white);
 draw_set_font(global.fnt_big);
@@ -29,3 +30,5 @@ for (var i = 0; i < string_length("Course World"); i++) {
 gpu_set_blendmode(bm_normal);
 matrix_set(matrix_world, _matrix);
 draw_set_font(global.font_google);
+*/
+draw_big_text(x, y, text, fa_center, fa_middle, 2, 1, c_white, sep, bm_add);

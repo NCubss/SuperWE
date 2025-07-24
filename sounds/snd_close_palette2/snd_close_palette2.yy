@@ -13,7 +13,7 @@
   "name":"snd_close_palette2",
   "parent":{
     "name":"Palette",
-    "path":"folders/Sounds/Sound Effects/Editor/Palette.yy",
+    "path":"folders/Sounds/Sound Effects/UI/Editor/Palette.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

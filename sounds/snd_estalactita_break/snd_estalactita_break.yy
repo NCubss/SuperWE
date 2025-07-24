@@ -12,8 +12,8 @@
   "duration":1.0413378,
   "name":"snd_estalactita_break",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Icicle",
+    "path":"folders/Sounds/Sound Effects/SMW/Icicle.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

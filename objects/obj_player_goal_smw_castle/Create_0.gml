@@ -4,7 +4,7 @@ if (global.style == 3)
     sprite_index = scr_NSMBU_idle(0)
 else
 {
-    sprite_index = scr_marioidle()
+    sprite_index = spr_mario_idle()
     image_index = 0
 }
 image_speed = 0

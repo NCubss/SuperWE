@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_SMB3_bowser_fire",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Bowser",
+    "path":"folders/Sounds/Sound Effects/SMB3/Bowser.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

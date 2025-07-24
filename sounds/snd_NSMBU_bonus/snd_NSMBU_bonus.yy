@@ -9,11 +9,11 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":27.875557,
+  "duration":27.875555,
   "name":"snd_NSMBU_bonus",
   "parent":{
     "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "path":"folders/Sounds/Music/NSMBU/Sounds.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

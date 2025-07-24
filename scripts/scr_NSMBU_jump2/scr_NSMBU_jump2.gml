@@ -1,6 +1,6 @@
 ///Sets the jump2 animations
 function scr_NSMBU_jump2() {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
 	switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_jump2;
 	        case Powerup.SUPER: return spr_NSMBU_mario_big_jump2;

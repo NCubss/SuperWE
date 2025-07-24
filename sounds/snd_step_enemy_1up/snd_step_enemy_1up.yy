@@ -12,8 +12,8 @@
   "duration":1.2386848,
   "name":"snd_step_enemy_1up",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Mario",
+    "path":"folders/Sounds/Sound Effects/SMB/Mario.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

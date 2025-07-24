@@ -12,8 +12,8 @@
   "duration":0.5906576,
   "name":"snd_NSMBU_spinstomp_4",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Spin Stomp",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Mario/Spin Stomp.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

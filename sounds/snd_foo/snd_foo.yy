@@ -12,8 +12,8 @@
   "duration":3.6789114,
   "name":"snd_foo",
   "parent":{
-    "name":"NSMBU",
-    "path":"folders/Sounds/Sound Effects/NSMBU.yy",
+    "name":"Foo",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Foo.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

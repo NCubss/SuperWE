@@ -1,8 +1,8 @@
-if (global.jugador == 1)
+if (global.player == 1)
     sprite_index = spr_SMB3_luigi_raccoon_attack
-else if (global.jugador == 2)
+else if (global.player == 2)
     sprite_index = spr_SMB3_toad_raccoon_attack
-else if (global.jugador == 3)
+else if (global.player == 3)
     sprite_index = spr_SMB3_toadette_raccoon_attack
 audio_play_sound(snd_atack_leaf, 0, false)
 image_speed = 0.3

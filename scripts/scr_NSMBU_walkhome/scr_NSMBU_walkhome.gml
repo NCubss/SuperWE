@@ -1,6 +1,6 @@
 ///Sets the walkhome Animations
 function scr_NSMBU_walkhome() {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
 	 switch global.powerup {
 	        case Powerup.SMALL: return spr_NSMBU_mario_small_walkhome;
 	        case Powerup.SUPER: return spr_NSMBU_mario_big_walkhome;

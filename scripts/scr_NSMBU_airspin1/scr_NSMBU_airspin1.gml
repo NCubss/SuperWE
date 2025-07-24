@@ -1,6 +1,6 @@
 function scr_NSMBU_airspin1() //gml_Script_scr_NSMBU_airspin1
 {
-	/*if global.jugador = 0{*/
+	/*if global.player = 0{*/
     switch global.powerup
     {
         case 0:

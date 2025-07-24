@@ -12,8 +12,8 @@
   "duration":0.0,
   "name":"snd_NSMBU_estalactita_fall",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Icicle",
+    "path":"folders/Sounds/Sound Effects/NSMBU/Icicle.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -1,7 +1,7 @@
 function scr_NSMBU_idle(argument0) //gml_Script_scr_NSMBU_idle
 {
 	/*
-	if global.jugador = 0{
+	if global.player = 0{
 	*/
     if (argument0 == 1)
     {

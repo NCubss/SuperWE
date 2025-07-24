@@ -12,8 +12,8 @@
   "duration":0.47165534,
   "name":"snd_mariocap_rise",
   "parent":{
-    "name":"SMW",
-    "path":"folders/Sounds/Sound Effects/SMW.yy",
+    "name":"Cape",
+    "path":"folders/Sounds/Sound Effects/SMW/Mario/Cape.yy",
   },
   "preload":true,
   "resourceType":"GMSound",
